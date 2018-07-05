@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-AU"
 title                    : "Site Title"
 title_separator          : "-"
 name                     : "Tim Ballard"
