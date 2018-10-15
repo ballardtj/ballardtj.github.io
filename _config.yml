@@ -23,7 +23,7 @@ description              : "Timothy Ballard's personal website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : #"assets/images/code1.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Timothy Ballard"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/tim_twitter.jpg"
   bio              : "Computational Cognitive Scientist at the University of Queensland."
   location         : "Brisbane, Australia"
   email            :  "t.ballard@uq.edu.au"
@@ -269,3 +269,31 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Resive pictures
+#picture:
+#  source: "assets/images/_fullsize"
+#  output: "generated"
+#  markup: "picture"
+#  presets:
+#    default:
+#      ppi: [1, 1.5]
+#      source_large:
+#        media: "(min-width: 800px)"
+#        width: "800"
+#      source_medium:
+#        media: "(min-width: 600px)"
+#        width: "600"
+#      source_default: 
+#        width: "300"
+
+#TO DO:
+#Write home page
+#Store papers in repo and link to them from publication page
+#Build CV page (make it printable)
+#Start blog
+#Teaching page?
+
+
+
+
