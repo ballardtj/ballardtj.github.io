@@ -208,38 +208,3 @@ Total execution time: 95.9 seconds.
 Warning: 548 of 4000 (14.0%) transitions ended with a divergence.
 See https://mc-stan.org/misc/warnings for details.")
 ```
-
-
-
-
-## Example 1: Univariate Gaussians
-
-
-
-### Basic R Operations
-
-First, let's perform some simple calculations:
-
-```{r basic-math}
-2 + 2
-sqrt(16)
-pi
-```
-
-library(ggplot2)
-
-# Create some dummy data
-set.seed(123)
-data <- data.frame(
-  x = rnorm(100),
-  y = rnorm(100)
-)
-
-# Create the plot
-ggplot(data, aes(x = x, y = y)) +
-  geom_point(color = "blue", alpha = 0.7) +
-  geom_smooth(method = "lm", se = FALSE, color = "red") +
-  theme_minimal() +
-  labs(title = "Scatter Plot with Trend Line",
-       x = "X Axis",
-       y = "Y Axis")
