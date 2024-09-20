@@ -129,27 +129,27 @@ mcmc_dens_overlay(fit$draws(c("beta0_mean", "slope_mean", "beta0_sd", "slope_sd"
 # Define Stan model
 stan_model_nc <- "
 data {
-  int<lower=0> N;  // Number of observations
-  int<lower=0> J;  // Number of participants
-  vector[N] X1;     // Predictor variable
-  vector[N] X2;     // Predictor variable
-  vector[N] Y;     // Response variable
-  array[N] int<lower=1, upper=J> participant_id;  // Participant IDs
+  int<lower=0> N;               // Number of observations
+  int<lower=0> J;               // Number of participants
+  vector[N] X1;                 // Predictor 1
+  vector[N] X2;                 // Predictor 2
+  vector[N] Y;                  // Response variable
+  array[N] int participant_id;  // Participant IDs
 }
 
 parameters {
-  real beta0_mean;            // beta0 population mean
-  real beta1_mean;                // Slope population mean
-  real beta2_mean;                // Slope population mean
-  real<lower=0> beta0_sd;     // beta0 population SD
-  real<lower=0> beta1_sd;         // Slope population SD
-  real<lower=0> beta2_sd;         // Slope population SD
-  real<lower=0> sigma_mean;            // Residual SD
-  real<lower=0> sigma_sd;            // Residual SD
-  vector[J] beta0_z;            // Participant beta0s
-  vector[J] beta1_z;                // Participant slopes
-  vector[J] beta2_z;                // Participant slopes
-  vector<lower=0>[J] sigma;                // Participant slopes
+  real beta0_mean;            // Intercept population mean
+  real beta1_mean;            // Effect of X1 population mean
+  real beta2_mean;            // Effect of X2 population mean
+  real<lower=0> beta0_sd;     // Intercept population SD
+  real<lower=0> beta1_sd;     // Effect of X1 population SD
+  real<lower=0> beta2_sd;     // Effect of X2 population SD
+  real<lower=0> sigma_mean;   // Residual mean
+  real<lower=0> sigma_sd;     // Residual SD
+  vector[J] beta0_z;          // Participant intercepts (z-score)
+  vector[J] beta1_z;          // Participant X1 effects (z-score)
+  vector[J] beta2_z;          // Participant X2 effects (z-score)
+  vector<lower=0>[J] sigma;   // Participant residuals
 }
 
 transformed parameters {
@@ -169,11 +169,10 @@ model {
   sigma_mean ~ normal(0, 2.5);
   sigma_sd ~ normal(0, 2.5);
   
-  
   // Participant-level Priors
-  beta0_z ~ std_normal();
-  beta1_z ~ std_normal();
-  beta2_z ~ std_normal();
+  beta0 ~ std_normal();
+  beta1 ~ std_normal();
+  beta2 ~ std_normal();
   sigma ~ normal(sigma_mean,sigma_sd);
   
   // Likelihood

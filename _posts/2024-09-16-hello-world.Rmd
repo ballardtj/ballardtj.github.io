@@ -16,7 +16,7 @@ The usefulness of hierarchical Bayesian models is well documented elsewhere (REF
 
 To explain what a non-centered parameterisation is and why it's useful, let's start with a simple example. Let's simulate some multilevel data. In this example, we'll assume we have 500 participants who each produce 5 observations of three variables: X1, X2, and Y. In the code below, the parameters beta0, beta1, beta2, and sigma represent the intercept, linear effect of X1, linear effect of X2, and the residual error respectively. We first assign population-level distributions representing the variation in these parameters across participants. We then randomly sample the parameter values for each participant based on the population-level distributions we defined. Finally, we use the participant-level parameters and the covariates X1 and X2 to randomly generate response variable Y, before creating a list containing that data that can be read into stan.
 
-```{r basic-math}
+```{r simulate-data-1}
 # Set random seed for reproducibility
 set.seed(123)
 
@@ -65,7 +65,7 @@ stan_data <- list(
 
 Now let's define a hierarchical Bayesian model of this data in stan. What makes the model below hierarchical is that the priors on the participant-level parameters defined in the model section depend on the population-level parameters, which themselves are uncertain and therefore estimated by the model. Information from each participant's data flows "up the hierarchy" influencing the population-level parameters via the individual-specific parameters. But information about the population parameters in turn flows back down the hierarchy by constraining the individual parameters to values that are more plausible given the distribution of those parameters in the population.
 
-```{r basic-math}
+```{r model-1}
 stan_model <- "
 data {
   int<lower=0> N;               // Number of observations
@@ -116,7 +116,7 @@ model {
 
 We can fit the model using the code below.
 
-```{r basic-math}
+```{r fit-model-1}
 # Compile the model
 mod <- cmdstan_model(write_stan_file(stan_model))
 
@@ -125,86 +125,85 @@ fit <- mod$sample(
   data = stan_data,
   seed = 123,
   chains = 4,
-  parallel_chains = 4
+  parallel_chains = 4,
+  refresh = 1000
 )
-
-cat("Running MCMC with 4 parallel chains...
-
-Chain 1 Iteration:    1 / 2000 [  0%]  (Warmup) 
-Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: normal_lpdf: Location parameter is inf, but must be finite! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 41, column 2 to column 38)
-Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 1 
-Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: normal_lpdf: Location parameter is inf, but must be finite! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 41, column 2 to column 38)
-Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 1 
-Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: normal_lpdf: Location parameter is inf, but must be finite! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 41, column 2 to column 38)
-Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 1 
-Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: normal_lpdf: Location parameter is inf, but must be finite! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 41, column 2 to column 38)
-Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 1 
-Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: normal_lpdf: Location parameter is inf, but must be finite! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 41, column 2 to column 38)
-Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 1 
-Chain 2 Iteration:    1 / 2000 [  0%]  (Warmup) 
-Chain 2 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 2 Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 38, column 2 to column 38)
-Chain 2 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 2 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 2 
-Chain 3 Iteration:    1 / 2000 [  0%]  (Warmup) 
-Chain 3 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 3 Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 39, column 2 to column 38)
-Chain 3 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 3 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 3 
-Chain 3 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 3 Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 39, column 2 to column 38)
-Chain 3 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 3 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 3 
-Chain 4 Iteration:    1 / 2000 [  0%]  (Warmup) 
-Chain 4 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 4 Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 40, column 2 to column 38)
-Chain 4 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 4 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 4 
-Chain 4 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 4 Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/var/folders/mm/h2r4yt5x4q56nqjw5bsw1xyw0000gn/T/Rtmpmau5B6/model-fda21bd57f76.stan', line 41, column 2 to column 38)
-Chain 4 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 4 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 4 
-Chain 2 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-Chain 2 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-Chain 3 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-Chain 3 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-Chain 3 finished in 65.4 seconds.
-Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-Chain 4 finished in 74.1 seconds.
-Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-Chain 1 finished in 89.0 seconds.
-Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-Chain 2 finished in 95.9 seconds.
-
-All 4 chains finished successfully.
-Mean chain execution time: 81.1 seconds.
-Total execution time: 95.9 seconds.
-
-Warning: 548 of 4000 (14.0%) transitions ended with a divergence.
-See https://mc-stan.org/misc/warnings for details.")
 ```
+
+As you can see from the message after the model finished, there were a lot of divergent transitions. This means the sampler is having difficulty exploring the posterior distribution effectively. This is common when hierarchical models are specified this way, because the scale of each participant-level parameter depends on another parameter in the model. This dependency can create a posterior geometry that is tricky to sample from efficiently. 
+
+This is where the **non-centred parameterisation** can be helpful. It removes this dependency by reparameterising the participant-level parameters. In the model below, a non-centred parameterisation is applied to beta0, beta1, and beta2. (sigma is a little more complicated since it's bounded at 0. We'll get to that next). As you can see, we now estimate z-scores for these three parameters and then in the transformed parameters transform each one back to the appropriate 
+
+
+```{r model-2}
+stan_model_nc <- "
+data {
+  int<lower=0> N;               // Number of observations
+  int<lower=0> J;               // Number of participants
+  vector[N] X1;                 // Predictor 1
+  vector[N] X2;                 // Predictor 2
+  vector[N] Y;                  // Response variable
+  array[N] int participant_id;  // Participant IDs
+}
+
+parameters {
+  real beta0_mean;            // Intercept population mean
+  real beta1_mean;            // Effect of X1 population mean
+  real beta2_mean;            // Effect of X2 population mean
+  real<lower=0> beta0_sd;     // Intercept population SD
+  real<lower=0> beta1_sd;     // Effect of X1 population SD
+  real<lower=0> beta2_sd;     // Effect of X2 population SD
+  real<lower=0> sigma_mean;   // Residual mean
+  real<lower=0> sigma_sd;     // Residual SD
+  vector[J] beta0_z;          // Participant intercepts (z-score)
+  vector[J] beta1_z;          // Participant X1 effects (z-score)
+  vector[J] beta2_z;          // Participant X2 effects (z-score)
+  vector<lower=0>[J] sigma;   // Participant residuals
+}
+
+transformed parameters {
+  vector[J] beta0 = beta0_mean + beta0_sd * beta0_z;
+  vector[J] beta1 = beta1_mean + beta1_sd * beta1_z;
+  vector[J] beta2 = beta2_mean + beta2_sd * beta2_z;
+}
+
+model {
+  // Population-level Priors
+  beta0_mean ~ normal(0, 5);
+  beta1_mean ~ normal(0, 5);
+  beta2_mean ~ normal(0, 5);
+  beta0_sd ~ normal(0, 2.5);
+  beta1_sd ~ normal(0, 2.5);
+  beta2_sd ~ normal(0, 2.5);
+  sigma_mean ~ normal(0, 2.5);
+  sigma_sd ~ normal(0, 2.5);
+  
+  // Participant-level Priors
+  beta0 ~ std_normal();
+  beta1 ~ std_normal();
+  beta2 ~ std_normal();
+  sigma ~ normal(sigma_mean,sigma_sd);
+  
+  // Likelihood
+  Y ~ normal(beta0[participant_id] + beta1[participant_id] .* X1 + beta2[participant_id] .* X2, sigma[participant_id]);
+}
+"
+
+# Compile the model
+mod_nc <- cmdstan_model(write_stan_file(stan_model_nc))
+
+# Fit the model
+fit_nc <- mod_nc$sample(
+  data = stan_data,
+  seed = 123,
+  chains = 4,
+  parallel_chains = 4,
+  refresh = 1000
+)
+```
+```
+
+
+
+
+
