@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
-date: 2024-09-18
+date: 2024-10-01
 ---
 
 ```{r setup, include = FALSE}
@@ -70,7 +70,7 @@ stan_data <- list(
 )
 ```
 
-<!-- Now let's define a hierarchical Bayesian model of this data in stan. What makes the model below hierarchical is that the priors on the participant-level parameters defined in the model section depend on the population-level parameters, which themselves are uncertain and therefore estimated by the model. Information from each participant's data flows "up the hierarchy" influencing the population-level parameters via the individual-specific parameters. But information about the population parameters in turn flows back down the hierarchy by constraining the individual parameters to values that are more plausible given the distribution of those parameters in the population. -->
+Now let's define a hierarchical Bayesian model of this data in stan. What makes the model below hierarchical is that the <!-- priors on the participant-level parameters defined in the model section depend on the population-level parameters, which themselves are uncertain and therefore estimated by the model. Information from each participant's data flows "up the hierarchy" influencing the population-level parameters via the individual-specific parameters. But information about the population parameters in turn flows back down the hierarchy by constraining the individual parameters to values that are more plausible given the distribution of those parameters in the population. -->
 
 <!-- ```{r model-1,messages=FALSE,warnings=FALSE,results='hide'} -->
 <!-- stan_model <- " -->
