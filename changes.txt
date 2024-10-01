@@ -1,0 +1,7 @@
+commit 332d77c10a344f0e9bf01acd00087a541079990c
+Author: ballardtj <ballardtj@gmail.com>
+Date:   Tue Oct 1 15:38:28 2024 +1000
+
+    Uncommented first analysis
+
+M	_posts/2024-10-01-non-centered-params.Rmd
