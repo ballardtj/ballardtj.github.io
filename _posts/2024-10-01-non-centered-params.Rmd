@@ -70,75 +70,75 @@ stan_data <- list(
 )
 ```
 
-Now let's define a hierarchical Bayesian model of this data in stan. What makes the model below hierarchical is that the <!-- priors on the participant-level parameters defined in the model section depend on the population-level parameters, which themselves are uncertain and therefore estimated by the model. Information from each participant's data flows "up the hierarchy" influencing the population-level parameters via the individual-specific parameters. But information about the population parameters in turn flows back down the hierarchy by constraining the individual parameters to values that are more plausible given the distribution of those parameters in the population. -->
+Now let's define a hierarchical Bayesian model of this data in stan. What makes the model below hierarchical is that the priors on the participant-level parameters defined in the model section depend on the population-level parameters, which themselves are uncertain and therefore estimated by the model. Information from each participant's data flows "up the hierarchy" influencing the population-level parameters via the individual-specific parameters. But information about the population parameters in turn flows back down the hierarchy by constraining the individual parameters to values that are more plausible given the distribution of those parameters in the population.
 
-<!-- ```{r model-1,messages=FALSE,warnings=FALSE,results='hide'} -->
-<!-- stan_model <- " -->
-<!-- data { -->
-<!--   int<lower=0> N;               // Number of observations -->
-<!--   int<lower=0> J;               // Number of participants -->
-<!--   vector[N] X1;                 // Predictor 1 -->
-<!--   vector[N] X2;                 // Predictor 2 -->
-<!--   vector[N] Y;                  // Response variable -->
-<!--   array[N] int participant_id;  // Participant IDs -->
-<!-- } -->
+```{r model-1,messages=FALSE,warnings=FALSE,results='hide'}
+stan_model <- "
+data {
+  int<lower=0> N;               // Number of observations
+  int<lower=0> J;               // Number of participants
+  vector[N] X1;                 // Predictor 1
+  vector[N] X2;                 // Predictor 2
+  vector[N] Y;                  // Response variable
+  array[N] int participant_id;  // Participant IDs
+}
 
-<!-- parameters { -->
-<!--   real beta0_mean;            // Intercept population mean -->
-<!--   real beta1_mean;            // Effect of X1 population mean -->
-<!--   real beta2_mean;            // Effect of X2 population mean -->
-<!--   real<lower=0> beta0_sd;     // Intercept population SD -->
-<!--   real<lower=0> beta1_sd;     // Effect of X1 population SD -->
-<!--   real<lower=0> beta2_sd;     // Effect of X2 population SD -->
-<!--   real<lower=0> sigma_mean;   // Residual mean -->
-<!--   real<lower=0> sigma_sd;     // Residual SD -->
-<!--   vector[J] beta0;            // Participant intercepts -->
-<!--   vector[J] beta1;            // Participant X1 effects -->
-<!--   vector[J] beta2;            // Participant X2 effects -->
-<!--   vector<lower=0>[J] sigma;   // Participant residuals -->
-<!-- } -->
+parameters {
+  real beta0_mean;            // Intercept population mean
+  real beta1_mean;            // Effect of X1 population mean
+  real beta2_mean;            // Effect of X2 population mean
+  real<lower=0> beta0_sd;     // Intercept population SD
+  real<lower=0> beta1_sd;     // Effect of X1 population SD
+  real<lower=0> beta2_sd;     // Effect of X2 population SD
+  real<lower=0> sigma_mean;   // Residual mean
+  real<lower=0> sigma_sd;     // Residual SD
+  vector[J] beta0;            // Participant intercepts
+  vector[J] beta1;            // Participant X1 effects
+  vector[J] beta2;            // Participant X2 effects
+  vector<lower=0>[J] sigma;   // Participant residuals
+}
 
-<!-- model { -->
-<!--   // Population-level Priors -->
-<!--   beta0_mean ~ normal(0, 5); -->
-<!--   beta1_mean ~ normal(0, 5); -->
-<!--   beta2_mean ~ normal(0, 5); -->
-<!--   beta0_sd ~ normal(0, 2.5); -->
-<!--   beta1_sd ~ normal(0, 2.5); -->
-<!--   beta2_sd ~ normal(0, 2.5); -->
-<!--   sigma_mean ~ normal(0, 2.5); -->
-<!--   sigma_sd ~ normal(0, 2.5); -->
+model {
+  // Population-level Priors
+  beta0_mean ~ normal(0, 5);
+  beta1_mean ~ normal(0, 5);
+  beta2_mean ~ normal(0, 5);
+  beta0_sd ~ normal(0, 2.5);
+  beta1_sd ~ normal(0, 2.5);
+  beta2_sd ~ normal(0, 2.5);
+  sigma_mean ~ normal(0, 2.5);
+  sigma_sd ~ normal(0, 2.5);
 
-<!--   // Participant-level Priors -->
-<!--   beta0 ~ normal(beta0_mean,beta0_sd); -->
-<!--   beta1 ~ normal(beta1_mean,beta1_sd); -->
-<!--   beta2 ~ normal(beta2_mean,beta2_sd); -->
-<!--   sigma ~ normal(sigma_mean,sigma_sd); -->
+  // Participant-level Priors
+  beta0 ~ normal(beta0_mean,beta0_sd);
+  beta1 ~ normal(beta1_mean,beta1_sd);
+  beta2 ~ normal(beta2_mean,beta2_sd);
+  sigma ~ normal(sigma_mean,sigma_sd);
 
-<!--   // Likelihood -->
-<!--   Y ~ normal(beta0[participant_id] + beta1[participant_id] .* X1 + beta2[participant_id] .* X2, sigma[participant_id]); -->
-<!-- } -->
-<!-- " -->
-<!-- ``` -->
+  // Likelihood
+  Y ~ normal(beta0[participant_id] + beta1[participant_id] .* X1 + beta2[participant_id] .* X2, sigma[participant_id]);
+}
+"
+```
 
-<!-- We can fit the model using the code below. -->
+We can fit the model using the code below.
 
-<!-- ```{r fit-model-1} -->
-<!-- # Compile the model -->
-<!-- mod <- cmdstan_model(write_stan_file(stan_model)) -->
+```{r fit-model-1}
+# Compile the model
+mod <- cmdstan_model(write_stan_file(stan_model))
 
-<!-- # Fit the model -->
-<!-- fit <- mod$sample( -->
-<!--   data = stan_data, -->
-<!--   seed = 123, -->
-<!--   chains = 4, -->
-<!--   parallel_chains = 4, -->
-<!--   refresh = 0, -->
-<!--   show_exceptions = FALSE -->
-<!-- ) -->
-<!-- ``` -->
+# Fit the model
+fit <- mod$sample(
+  data = stan_data,
+  seed = 123,
+  chains = 4,
+  parallel_chains = 4,
+  refresh = 0,
+  show_exceptions = FALSE
+)
+```
 
-<!-- As you can see from the message after the model finished, there were a lot of divergent transitions. This means the sampler is having difficulty exploring the posterior distribution effectively. This is common when hierarchical models are specified this way, because the scale of each participant-level parameter depends on another parameter in the model. This dependency can create a posterior geometry that is tricky to sample from efficiently. -->
+As you can see from the message after the model finished, there were a lot of divergent transitions. This means the sampler is having difficulty exploring the posterior distribution effectively. This is common when hierarchical models are specified this way, because the scale of each participant-level parameter depends on another parameter in the model. This dependency can create a posterior geometry that is tricky to sample from efficiently.
 
 <!-- This is where the **non-centered parameterisation** can be helpful^[I realise there's a departure from Australian english in writing 'centered' instead of 'centred', but the latter just looks strange to me. So I'll use 'centered'.]. It removes this dependency by reparameterising the participant-level parameters. In the model below, a non-centered parameterisation is applied to beta0, beta1, and beta2 (sigma is a little more complicated since it's bounded at 0. We'll get to that next). As you can see, we now estimate z-scores for these three parameters and then in the `transformed parameters` block unstandardise the parameter via an inverse-z transform. -->
 
