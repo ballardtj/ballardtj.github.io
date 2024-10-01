@@ -1,7 +1,8 @@
-Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just
-For Univariate Gaussians
-================
-2024-10-01
+---
+layout: post
+title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
+date: 2024-10-01
+---
 
 ## What is a Hierarchical Bayesian Model?
 
