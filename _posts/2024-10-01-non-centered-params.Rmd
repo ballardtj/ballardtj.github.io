@@ -5,6 +5,7 @@ date: 2024-10-01
 output: 
   github_document:
     html_preview: false
+    preserve_yaml: true
 ---
 
 ```{r setup, include = FALSE}
