@@ -4,7 +4,7 @@ title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just 
 date: 2024-10-01
 output: 
   html_document:
-    theme: minimal
+    theme: cosmo
     highlight: textmate
     keep_md: true
 ---
