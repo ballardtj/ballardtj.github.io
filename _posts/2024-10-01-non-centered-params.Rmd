@@ -3,10 +3,16 @@ layout: post
 title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
 date: 2024-10-01
 output: 
-  md_document:
-    variant: gfm
-    preserve_yaml: true
+  html_document:
+    theme: minimal
+    highlight: textmate
+    keep_md: true
 ---
+
+<!-- output:  -->
+<!--   md_document: -->
+<!--     variant: gfm -->
+<!--     preserve_yaml: true -->
 
 ```{r setup, include = FALSE}
 library(cmdstanr)
@@ -14,6 +20,8 @@ library(truncnorm)
 library(posterior)
 library(bayesplot)
 ```
+
+# Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
 
 ## What is a Hierarchical Bayesian Model?
 
