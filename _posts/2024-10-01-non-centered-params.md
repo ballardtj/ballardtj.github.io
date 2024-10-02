@@ -1,4 +1,6 @@
 ---
+layout: single
+classes: wide
 title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
 date: 2024-10-01
 categories:
@@ -196,12 +198,12 @@ fit <- mod$sample(
     ## 
     ## Chain 2 finished in 33.9 seconds.
     ## Chain 1 finished in 46.2 seconds.
-    ## Chain 3 finished in 46.9 seconds.
-    ## Chain 4 finished in 51.8 seconds.
+    ## Chain 3 finished in 47.0 seconds.
+    ## Chain 4 finished in 51.9 seconds.
     ## 
     ## All 4 chains finished successfully.
     ## Mean chain execution time: 44.7 seconds.
-    ## Total execution time: 51.9 seconds.
+    ## Total execution time: 52.0 seconds.
 
     ## Warning: 694 of 4000 (17.0%) transitions ended with a divergence.
     ## See https://mc-stan.org/misc/warnings for details.

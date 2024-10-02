@@ -1,4 +1,6 @@
 ---
+layout: single
+classes: wide
 title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
 date: 2024-10-01
 categories:
