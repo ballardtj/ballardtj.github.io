@@ -3,16 +3,10 @@ layout: post
 title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
 date: 2024-10-01
 output: 
-  html_document:
-    theme: cosmo
-    highlight: textmate
-    keep_md: true
+  md_document:
+    variant: gfm
+    preserve_yaml: true
 ---
-
-<!-- output:  -->
-<!--   md_document: -->
-<!--     variant: gfm -->
-<!--     preserve_yaml: true -->
 
 ```{r setup, include = FALSE}
 library(cmdstanr)
