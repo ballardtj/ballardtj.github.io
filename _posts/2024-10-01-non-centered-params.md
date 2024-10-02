@@ -1,12 +1,7 @@
----
-layout: post
-title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
-date: 2024-10-01
-output: 
-    md_document:
-    variant: gfm
-    preserve_yaml: true
----
+Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just
+For Univariate Gaussians
+================
+2024-10-01
 
 ## What is a Hierarchical Bayesian Model?
 
@@ -189,14 +184,14 @@ fit <- mod$sample(
 
     ## Running MCMC with 4 parallel chains...
     ## 
-    ## Chain 2 finished in 35.0 seconds.
-    ## Chain 1 finished in 47.0 seconds.
-    ## Chain 3 finished in 47.6 seconds.
-    ## Chain 4 finished in 52.4 seconds.
+    ## Chain 2 finished in 33.6 seconds.
+    ## Chain 1 finished in 45.5 seconds.
+    ## Chain 3 finished in 46.2 seconds.
+    ## Chain 4 finished in 50.9 seconds.
     ## 
     ## All 4 chains finished successfully.
-    ## Mean chain execution time: 45.5 seconds.
-    ## Total execution time: 52.5 seconds.
+    ## Mean chain execution time: 44.1 seconds.
+    ## Total execution time: 51.1 seconds.
 
     ## Warning: 694 of 4000 (17.0%) transitions ended with a divergence.
     ## See https://mc-stan.org/misc/warnings for details.
