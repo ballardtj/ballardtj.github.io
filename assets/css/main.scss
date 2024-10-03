@@ -17,19 +17,21 @@
 }
 
 //Banner on home page
-
-..page__hero--overlay {
-  padding: 0em 0;
-  height: 100px; // Reduced from 200px to make it shorter
-  overflow: hidden;
+.page__hero--overlay {
+  padding: 0 !important;
+  height: 100px !important; // Reduced to make it shorter
+  min-height: 100px !important; // Added to override any min-height settings
+  max-height: 100px !important; // Added to ensure it doesn't expand
+  overflow: hidden !important;
 }
 
 .page__hero--overlay .wrapper {
   height: auto;
 }
 
-.page__hero-image {
-  object-position: center center; // This centers the image vertically and horizontally
-  height: 100%;
-  object-fit: cover;
+.page__hero--overlay .page__hero-image {
+  object-position: center center;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
 }
