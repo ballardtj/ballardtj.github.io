@@ -6,3 +6,10 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.author__avatar {
+  img {
+    max-width: 200px;  // Increase this value to make the image larger
+    border-radius: 50%;  // Keep this if you want a circular image
+ }
+}
