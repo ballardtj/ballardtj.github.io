@@ -7,9 +7,27 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+//Photo on home page
+
 .author__avatar {
   img {
-    max-width: 200px;  // Increase this value to make the image larger
+    max-width: 250px;  // Increase this value to make the image larger
     border-radius: 50%;  // Keep this if you want a circular image
  }
+}
+
+//Banner on home page
+
+.page__hero--overlay {
+  padding: 3em 0; // Adjust this value to change the height
+}
+
+.page__hero--overlay .wrapper {
+  height: auto;
+}
+
+.page__hero-image {
+  object-position: center center; // This centers the image vertically and horizontally
+  height: 100%;
+  object-fit: cover;
 }
