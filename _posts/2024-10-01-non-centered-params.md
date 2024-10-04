@@ -60,7 +60,7 @@ To explain what a non-centered parameterisation is and why it’s useful,
 let’s start with a simple example. Let’s simulate some multilevel data.
 In this example, we’ll assume we have 500 participants who each produce
 5 observations of three variables: X1, X2, and Y. In the code below, the
-parameters beta0, beta1, beta2, and sigma represent the intercept,
+parameters `beta0`, `beta1`, `beta2`, and `sigma` represent the intercept,
 linear effect of X1, linear effect of X2, and the residual error
 respectively. We first assign population-level distributions
 representing the variation in these parameters across participants. We
