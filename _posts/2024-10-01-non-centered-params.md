@@ -382,7 +382,7 @@ problem is the exponentiation itself.
 
 Importantly, there are other transformations that we can apply. One that
 I particularly like is the *softplus* transformation
-$f(x) = \log(1+e^x)$. This transformation avoids the heavy skew that can
+$f(x) = log(1+e^x)$. This transformation avoids the heavy skew that can
 sometimes be created by simply exponentiating. Compare the distribution
 above with the one below.
 
@@ -395,7 +395,7 @@ sigma = log(1+exp(sigma_mean + sigma_sd * sigma_z))   #unstandardise and convert
 hist(sigma)
 ```
 
-![](2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-2-1.png)<!-- -->
+![](/assets/images/2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-2-1.png)<!-- -->
 
 ``` r
 density(sigma)
@@ -431,7 +431,7 @@ sigma = 5+log(1+exp(sigma_mean + sigma_sd * sigma_z))   #unstandardise and conve
 hist(sigma)
 ```
 
-![](2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-3-1.png)<!-- -->
+![](/assets/images/2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-3-1.png)<!-- -->
 
 ``` r
 density(sigma)
@@ -464,7 +464,7 @@ sigma = 5-log(1+exp(sigma_mean + sigma_sd * sigma_z))   #unstandardise and conve
 hist(sigma)
 ```
 
-![](2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-4-1.png)<!-- -->
+![](/assets/images/2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-4-1.png)<!-- -->
 
 ``` r
 density(sigma)
@@ -605,7 +605,7 @@ fit_ncs$summary(variables = parameters)
 mcmc_trace(fit_ncs$draws(variables = parameters))
 ```
 
-![](2024-10-01-non-centered-params_files/figure-gfm/model-3-summary-1.png)<!-- -->
+![](/assets/images/2024-10-01-non-centered-params_files/figure-gfm/model-3-summary-1.png)<!-- -->
 
 It’s also possible to apply non-centered transformations to double
 bounded parameters that have lower bounds *and* upper bounds (e.g.,
