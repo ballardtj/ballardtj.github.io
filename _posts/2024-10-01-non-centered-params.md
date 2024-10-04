@@ -349,7 +349,7 @@ sigma = exp(sigma_mean + sigma_sd * sigma_z)   #unstandardise and convert to pos
 hist(sigma)
 ```
 
-![](2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-1-1.png)<!-- -->
+![](assets/images/2024-10-01-non-centered-params_files/figure-gfm/sigma-demo-1-1.png)<!-- -->
 
 ``` r
 density(sigma)
