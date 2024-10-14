@@ -1,5 +1,9 @@
 # main links
 main:
+  - title: "Research"
+    url: /_pages/research/
+  - title: "Consulting"
+    url: /_pages/consulting/
   - title: "Publications"
     url: /_pages/publications/
   - title: "Blog"
