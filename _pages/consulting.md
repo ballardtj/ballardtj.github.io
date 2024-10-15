@@ -1,102 +1,82 @@
 ---
-layout: single
-title: Research
+layout: wide
+title: Consulting
 ---
 
-My research focuses on understanding the dynamics of decision-making, motivation, fatigue, and stress 
-and how these processes affect our performance and mental health. I use computational and mathematical 
-models to understand how these complex processes evolve and interact over time. I use this knowledge 
-to help design work environments that promote happier, healthier, and more effective work. Practical 
-applications of this work so far have included providing evidence-based recommendations regarding 
-alternative work concepts such as the four-day work week, enhancing the capacity and safety of unmanned 
-aerial systems operations, providing tools to forecast fatigue in safety critical work environments, 
-and improving climate change communication practices. My research program has received over $3 million 
-in funding from the Australian Research Council and industry. My work has been published in journals 
-such as Psychological Review, Psychological Science, Journal of Applied Psychology, The Leadership 
-Quarterly, Annual Review of Organizational Psychology and Organizational Behavior, Organizational 
-Research Methods, Behavior Research Methods, Advances in Methods and Practices in Psychological Science,
-Journal of Neuroscience, and Global Environmental Change. 
+Building on over a decade of academic research in decision-making, motivation, fatigue, and stress, 
+I offer specialized consulting services that translate complex data into actionable insights. 
+My unique value lies not only in understanding human behavior in work environments but 
+also in my expertise in advanced quantitative methods. This dual focus allows me 
+to provide tailored, data-driven solutions that improve workforce health, safety, and performance.
 
-My major scientific contributions have been in two areas:
+With a PhD from the University of Western Australia and nearly a decade of experience at the 
+University of Queensland, my work has been at the forefront of pioneering new methods for 
+analysing complex human data. As a consultant, I apply this expertise to help organizations 
+leverage their data to solve complex people-related challenges.
 
-*1. Pioneering new methods for analysing complex human data.* A major contribution of my work has been
-the use of cutting-edge computational, mathematical, and statistical models for generating novel insights
-from messy data. This work has led to advances in the methods we analyse change in people and processes over time and how
-we assess heterogeneity across individuals and groups. Key papers are as follows:
+## Why Work With Me?
 
-ORM
+What sets me apart is my unique combination of advanced data analytics expertise and deep knowledge 
+of business and organizational psychology. I not only offer technical proficiency in data analysis 
+and modeling, but I also bring a thorough understanding of the human and organizational factors 
+that drive health, safety, and performance. This dual expertise allows me to provide insights that 
+are not only statistically sound but also highly relevant to real-world organizational challenges. 
+I don’t just deliver numbers—I translate complex data into actionable strategies that enhance 
+decision-making, optimize workforce productivity, and promote employee well-being.
 
-BRM
+## Services I Offer 
 
-PBR
+# Predictive Workforce Analytics
+I help organizations anticipate critical workforce outcomes such as employee turnover, fatigue, 
+and mental health trajectories. By applying advanced statistical techniques like Bayesian modeling 
+and longitudinal data analysis, I can provide more accurate predictions that allow you to proactively 
+address potential issues and optimize workforce planning.
 
-Emma paper
+# Workplace Well-Being & Mental Health Insights
+I help uncover new insights about the complex relationships between work conditions and employee well-being. 
+These insights enable organizations to design work environments that reduce stress, enhance mental health, and 
+boost productivity. For example, I can help you understand how work hours, job demands, and 
+organizational changes impact employee health over time, providing clear, evidence-based 
+recommendations to improve employee well-being.
 
-Model fitting chapter
+# Fatigue Risk Management
+My expertise in Bayesian parameter estimation and fatigue modeling has allowed me to develop 
+tools that predict fatigue levels in safety-critical environments like shift work, aviation, 
+or defense. These tools provide actionable insights to mitigate fatigue-related risks and 
+improve both safety and operational performance. By incorporating uncertainty forecasting 
+into the models, I offer more robust and flexible predictions that help organizations manage 
+fatigue more effectively.
 
-Review chapter
+# Optimizing Organizational Design and Work Practices
+Through the application of computational simulations, I assist organizations in 
+optimizing work environments and operational practices. I use data to model the potential impact 
+of changes such as implementing a four-day work week or reorganising work roles. This allows 
+organizations to make informed decisions that balance operational efficiency with employee well-being.
 
+# Data Visualization & Reporting
+I deliver insights in a way that’s easy to understand and act upon. Through clear visualisations, 
+interactive dashboards, or customized reports, I ensure that your organization has the tools it 
+needs to interpret and apply the data effectively.
 
-*2. Decision-making, self-regulation, and fatigue.* My work has also improved our understanding of how people 
-manage competing demands on their time, effort, and other resources, and the implications these decisions have 
-on motivation, fatigue, and mental health. My team has developed computational models to simulate the way people
-make task prioritisation decisions when under time pressure, how rostering and work patterns influence long-term
-fatigue trajectories among shift workers in safety critical environments, and how the number of hours people work
-shapes their mental health over time. Key papers are as follows:
+## Recent Projects
 
-Psych Review
+# Fatigue Forecasting in Safety-Critical Work Environments
+I developed an algorithm to predict fatigue levels in naval submarine crews, enabling more informed 
+crewing decisions that ensure performance is maintained in critical situations. This algorithm was integrated 
+into a software application, designed to assist with rostering in shift work environments. 
+The tool helps managers reduce the risk of fatigue-related performance issues by optimizing 
+shift assignments, improving both safety and operational efficiency.
 
-JAP 2016
+# Designing Next-Generation Remotely Piloted Aircraft Systems
+I developed a computational model that simulated the workflow and task allocation of remotely piloted 
+aircraft crews. The model provided nuanced insights into how task distribution, workload, communication 
+patterns, and decision-making processes interact, revealing areas where safety risks or inefficiencies 
+could occur. By understanding these interactions, the model helped identify opportunities to redesign 
+workflows, improving both operational safety and crew efficiency.
 
-JAP 2018
-
-
-
-
-
-
-
-
-
-
-
-
-See also [Google Scholar](https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en)
-
-## Preprints ##
-
-Ballard, T., Palada, H., Griffin, M., & Neal, A. (2018). [A flexible Bayesian approach to modeling change across time, individuals, and groups](https://doi.org/10.31234/osf.io/3djt5).
-
-Palada, H., Neal, A., Strayer, D., Ballard, T., & Heathcote, A. (2018). [Competing for cognitive resources: Measuring workload in a time pressured dual-task environment](https://psyarxiv.com/bckat/).
-
-Bon, J., Ballard, T., & Baffour, B. (2017). [Polling bias and undecided voter allocations: US Presidential elections, 2004 - 2016](https://arxiv.org/abs/1703.09430v3).
-
-
-
-## Publications ##
-
-Ballard. T., Vancouver, J. B., & Neal, A. (in press). On the pursuit of multiple goals with different deadlines. _Journal of Applied Psychology_. 
-[doi](https://doi.org/10.1037/apl0000304).
-
-Loft, S., Jooste, L., Yanqi, R. L., Ballard. T., Huf, S., Lipp, O. V., & Visser, T. A. W. (in press). Using situation awareness and workload to predict variation in performance in submarine track management: A multilevel approach. _Human Factors_. [doi](https://doi.org/10.1177/0018720818784803).
-
-Ballard, T., Farrell, S., & Neal, A. (2018). Quantifying the psychological value of goal achievement. _Psychonomic Bulletin \& Review, 25_, 1184-1192. [doi](https://doi.org/10.3758/s13423-017-1329-1)
-
-Ballard, T., Yeo, G., Vancouver, J. B., & Neal, A. (2017). The dynamics of avoidance goal regulation. _Motivation and Emotion, 6_, 698-707. [doi](https://doi.org/10.1007/s11031-017-9640-8)
-
-Neal, A., Ballard, T., & Vancouver, J. B. (2017). [Dynamic self-regulation and multiple-goal pursuit](https://www.annualreviews.org/doi/full/10.1146/annurev-orgpsych-032516-113156). _Annual Review of Organizational Psychology & Organizational Behavior, 4_, 401-423.
-
-Ballard. T., Yeo, G., Loft, S., Vancouver, J. B., & Neal, A. (2016). An integrative formal model of motivation and decision making: The MGPM*. _Journal of Applied Psychology, 101_, 1240-1265. [doi](https://doi.org/10.1037/apl0000121)
-
-Ballard, T., Yeo, G., Neal, A., & Farrell, S. (2016). [Departures from optimality when pursuing multiple approach or avoidance goals](http://psycnet.apa.org/fulltext/2016-11921-001.pdf). _Journal of Applied Psychology, 101_, 1056-1066. 
-
-Lewandowsky, S., Ballard, T., Oberauer, K., & Benestad, R. (2016). [A blind test of contrarian interpretations of climate data](https://ac.els-cdn.com/S0959378016300577/1-s2.0-S0959378016300577-main.pdf?_tid=e2dcdb67-d844-4bf4-bef5-d065cec3aeec&acdnat=1532833731_d5323c7f06b87cfefcbafdcfe46938aa). _Global Environmental Change, 39_, 91-97. 
-
-Ballard, T., & Lewandowsky, S. (2015). [When, not if: the inescapability of an uncertain climate future](http://rsta.royalsocietypublishing.org/content/roypta/373/2055/20140464.full.pdf). _Philosophical Transactions of the Royal Society A, 373_, 1-10. 
-
-Lewandowsky, S., Ballard, T., & Pancost, R. D. (2015). [Uncertainty as knowledge](http://rsta.royalsocietypublishing.org/content/roypta/373/2055/20140462.full.pdf). _Philosophical Transactions of the Royal Society A, 373_, 1-11.
-
-Gee, P., Ballard, T., Yeo, G., & Neal, A. (2012).  Measuring affect over time: The Momentary Affect Scale.  In Ashkanasy, N.  M., Hartel, C.  E.  J., & Zerbe, W.  J.  (Eds.), _Research on emotions in organisations, Volume 8: The emotions of compassion and care_.  Bingley, UK: Emerald Group Publishing/JAI Press.
-
-
-
+# Mental Well-Being and Working Hours
+I developed a new hierarchical Bayesian modeling approach for identifying individual differences in the long-term effects of 
+working hours on mental health, enableing actionable recommendations for workforce wellbeing. This approach allows for insights
+not only about average effects across a workforce, but also in the variation in effects, including the proportion of employees that
+may be adversely effected by certain policies and the factors that may mitigate those adverse effects. This allowed for more 
+targeted recommendations to improve workforce well-being.
