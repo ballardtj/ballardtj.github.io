@@ -6,7 +6,7 @@ title: Consulting
 Building on over a decade of academic research in decision-making, motivation, fatigue, and stress, 
 I offer specialized consulting services that translate complex data into actionable insights. 
 My unique value lies not only in understanding human behavior in work environments but 
-also in my expertise in advanced quantitative methods. This dual focus allows me 
+also in my expertise in advanced analytic methods. This dual focus allows me 
 to provide tailored, data-driven solutions that improve workforce health, safety, and performance.
 
 With a PhD from the University of Western Australia and nearly a decade of experience at the 
