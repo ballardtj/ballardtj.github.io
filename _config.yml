@@ -271,12 +271,12 @@ defaults:
       related: true
       
 # Defaults for pages
-  # - scope:
-  #     path: ""
-  #     type: pages
-  #   values:
-  #     layout: single
-  #     author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Resive pictures
 #picture:
