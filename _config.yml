@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Tim Ballard"
+  name             : "Dr Tim Ballard"
   avatar           : "/assets/images/headshot_2024.jpeg"
-  bio              : "Research Fellow and Consultant Specialising in Statistical and Computational Modelling of Complex Human Data."
+  bio              : "Senior Research Fellow and Advanced HR & People Analytics Consultant."
   location         : "The University of Queensland, Australia"
   email            :  "t.ballard@uq.edu.au"
   uri              :
@@ -298,9 +298,7 @@ defaults:
 #TO DO:
 #Write home page
 #Store papers in repo and link to them from publication page
-#Build CV page (make it printable)
-#Start blog
-#Teaching page?
+#Figure out image situation
 
 
 
