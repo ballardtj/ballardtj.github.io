@@ -20,9 +20,9 @@ Journal of Neuroscience, and Global Environmental Change.
 
 My major scientific contributions have been in two areas:
 
+## 1. Pioneering new methods for analysing complex human data.
 
-**1. Pioneering new methods for analysing complex human data.** A major contribution of my work has been
-the use of cutting-edge computational, mathematical, and statistical models for generating novel insights about human behavior
+A major contribution of my work has been the use of cutting-edge computational, mathematical, and statistical models for generating novel insights about human behavior
 from messy data. This work has led to advances in the methods we analyse change in people and processes over time and how
 we assess heterogeneity across individuals and groups. See below for some key papers:
 
@@ -45,8 +45,9 @@ Ballard, T., Evans, N. J., Fisher, G., & Sewell, D. K. (2024). Using mixture mod
 decision-making as a function of the time and method of participant recruitment, _Behavior Research Methods, 56_(3), 2194-2212. [doi](https://link.springer.com/article/10.3758/s13428-023-02142-0)
 
 
-**2. New insights about decision-making, self-regulation, and fatigue.** My work has also improved our understanding of how people 
-manage competing demands on their time, effort, and other resources, and the implications these decisions have 
+## 2. New insights about decision-making, self-regulation, and fatigue.
+
+My work has also improved our understanding of how people manage competing demands on their time, effort, and other resources, and the implications these decisions have 
 on motivation, fatigue, and mental health. My team has developed computational models to simulate the way people
 make task prioritisation decisions when under time pressure, how rostering and work patterns influence long-term
 fatigue trajectories among shift workers in safety critical environments, and how the number of hours people work
