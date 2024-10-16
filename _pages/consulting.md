@@ -1,6 +1,6 @@
 ---
 layout: single
-classes: wide
+toc: true
 title: Consulting
 ---
 

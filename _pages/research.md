@@ -1,7 +1,7 @@
 ---
 layout: single
-classes: wide
 title: Research
+toc: true
 ---
 
 My research focuses on understanding the dynamics of decision-making, motivation, fatigue, and stress 
