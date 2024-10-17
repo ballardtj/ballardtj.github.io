@@ -38,13 +38,13 @@ Using computational models to connect theory, model, and data. _Organizational R
 model parameters. _Psychonomic Bulletin & Review, 30_, 1294-1322. [doi](https://link.springer.com/article/10.3758/s13423-022-02241-7) [pdf](https://doi.org/10.31234/osf.io/mvk67)</span>
 
 <span style="font-size: 0.8em;">Ballard, T., Palada, H., & Neal, A. (2023). Fitting computational models to data: A tutorial. In J. B. Vancouver, M. Wang, & J. M. Weinhardt (Eds.), 
-_Computational Modeling for Industrial-Organizational Psychologists_ (255-296). Taylor & Francis.</span>
+_Computational Modeling for Industrial-Organizational Psychologists_ (pp 255-296). Taylor & Francis. [doi](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003388852-12/fitting-computational-models-data-timothy-ballard-hector-palada-andrew-neal) [pdf](/assets/docs/Fitting_computational_models_to_data_a_tutorial.pdf)</span>
 
 <span style="font-size: 0.8em;">Knight, E., Neal, A., Palada, H., & Ballard, T. (2023). A tutorial on Bayesian modelling of change across time, individuals, and groups.
-_Computational Brain & Behavior, 6_, 697-718. [doi](https://link.springer.com/article/10.1007/s42113-023-00173-6s)</span>
+_Computational Brain & Behavior, 6_, 697-718. [doi (includes open access to pdf)](https://link.springer.com/article/10.1007/s42113-023-00173-6s)</span>
 
 <span style="font-size: 0.8em;">Neal, A., Ballard, T., & Palada, H. (2023). How to publish and review a computational model. In J. B. Vancouver, M. Wang, & J. M. Weinhardt (Eds.), 
-_Computational Modeling for Industrial-Organizational Psychologists_ (297-319). Taylor & Francis.</span>
+_Computational Modeling for Industrial-Organizational Psychologists_ (pp 297-319). Taylor & Francis. [doi](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003388852-13/publish-review-computational-model-andrew-neal-timothy-ballard-hector-palada) [pdf](/assets/docs/How_to_publish_and_review_a_computational_model.pdf)</span>
 
 <span style="font-size: 0.8em;">Ballard, T., Evans, N. J., Fisher, G., & Sewell, D. K. (2024). Using mixture modeling to examine differences in perceptual 
 decision-making as a function of the time and method of participant recruitment, _Behavior Research Methods, 56_(3), 2194-2212. [doi](https://link.springer.com/article/10.3758/s13428-023-02142-0) [pdf](https://doi.org/10.31234/osf.io/w9d67)</span>
