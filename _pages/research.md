@@ -13,10 +13,9 @@ alternative work concepts such as the four-day work week, enhancing the capacity
 aerial systems operations, providing tools to forecast fatigue in safety critical work environments, 
 and improving climate change communication practices. My research program has received over $3 million 
 in funding from the Australian Research Council and industry. My work has been published in journals 
-such as Psychological Review, Psychological Science, Journal of Applied Psychology, The Leadership 
-Quarterly, Annual Review of Organizational Psychology and Organizational Behavior, Organizational 
-Research Methods, Behavior Research Methods, Advances in Methods and Practices in Psychological Science,
-Journal of Neuroscience, and Global Environmental Change. 
+such as _Psychological Review_, _Journal of Applied Psychology_, _The Leadership Quarterly_, _Annual Review of Organizational Psychology and Organizational Behavior_, 
+_Organizational Research Methods_, _Behavior Research Methods_, _Advances in Methods and Practices in Psychological Science_,
+_Psychological Science_, _Journal of Neuroscience_, and _Global Environmental Change_. 
 
 My major scientific contributions have been in two areas:
 
@@ -26,7 +25,7 @@ A major contribution of my work has been the use of cutting-edge computational, 
 from messy data. This work has led to advances in the methods we analyse change in people and processes over time and how
 we assess heterogeneity across individuals and groups. See below for some key papers:
 
-Ballard, T., Palada, H., Griffin, M., & Neal, A. (2021). An integrated approach to testing dynamic, multilevel theory: 
+<span style="font-size: 0.8em;">Ballard, T., Palada, H., Griffin, M., & Neal, A. (2021). An integrated approach to testing dynamic, multilevel theory: 
 Using computational models to connect theory, model, and data. _Organizational Research Methods, 24_(2), 251-284. [doi](https://journals.sagepub.com/doi/full/10.1177/1094428119881209)
 
 Ballard, T., Luckman, A., & Konstantinidis, E. (2023). A systematic investigation into the reliability of inter-temporal choice 
@@ -42,7 +41,7 @@ Neal, A., Ballard, T., & Palada, H. (2023). How do publish and review a computat
 _Computational Modeling for Industrial-Organizational Psychologists_ (297-319). Taylor & Francis.
 
 Ballard, T., Evans, N. J., Fisher, G., & Sewell, D. K. (2024). Using mixture modeling to examine differences in perceptual 
-decision-making as a function of the time and method of participant recruitment, _Behavior Research Methods, 56_(3), 2194-2212. [doi](https://link.springer.com/article/10.3758/s13428-023-02142-0)
+decision-making as a function of the time and method of participant recruitment, _Behavior Research Methods, 56_(3), 2194-2212. [doi](https://link.springer.com/article/10.3758/s13428-023-02142-0)</span>
 
 
 ## 2. New insights about decision-making, self-regulation, and fatigue.
@@ -53,7 +52,7 @@ make task prioritisation decisions when under time pressure, how rostering and w
 fatigue trajectories among shift workers in safety critical environments, and how the number of hours people work
 shapes their mental health over time. See below for some key papers:
 
-Ballard, T., Yeo, G., Loft, S., Vancouver, J. B., & Neal, A. (2016). An integrative formal model of motivation and decision making: 
+<span style="font-size: 0.8em;">Ballard, T., Yeo, G., Loft, S., Vancouver, J. B., & Neal, A. (2016). An integrative formal model of motivation and decision making: 
 The MGPM*. _Journal of Applied Psychology, 101_(9), 1240-1265. [doi](https://psycnet.apa.org/buy/2016-28692-001)
 
 Neal, A., Ballard, T., & Vancouver, J. B. (2017). Dynamic self-regulation and multiple-goal pursuit. _Annual Review of Organizational Psychology and Organizational Behavior, 4_(1),
@@ -72,7 +71,7 @@ Wilson, M. K., Strickland, L., Ballard, T., & Griffin, M. A. (2022). The next ge
 evaluating current trends in biomathematical modelling. _Theoretical Issues in Ergonomics Science, 24_(1), 21-43. [doi](https://doi.org/10.1080/1463922X.2022.2144962)
 
 Wilson, M., Strickland, L., & Ballard, T. (2020). FIPS: an R package for biomathematical modelling of human fatigue related impairment. 
-_Journal of Open Source Software, 5_, 2340-2340. [doi](https://doi.org/10.21105/joss.02340)
+_Journal of Open Source Software, 5_, 2340-2340. [doi](https://doi.org/10.21105/joss.02340)</span>
 
 
 A full list of my publications is available on [Google Scholar](https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en).

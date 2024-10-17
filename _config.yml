@@ -296,7 +296,9 @@ defaults:
 #        width: "300"
 
 #TO DO:
+
 #Make text smaller for journal papers
+#Add TOC to blog (and smaller text)
 #Store papers in repo and link to them from publication page
 #Figure out image situation
 
