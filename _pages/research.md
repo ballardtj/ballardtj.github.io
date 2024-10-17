@@ -37,13 +37,13 @@ Using computational models to connect theory, model, and data. _Organizational R
 <span style="font-size: 0.8em;">[Ballard, T., Luckman, A., & Konstantinidis, E. (2023). A systematic investigation into the reliability of inter-temporal choice 
 model parameters. _Psychonomic Bulletin & Review, 30_, 1294-1322.](https://link.springer.com/article/10.3758/s13423-022-02241-7)</span>
 
-<span style="font-size: 0.8em;">Ballard, T., Palada, H., & Neal, A. (2023). [Fitting computational models to data: A tutorial. In J. B. Vancouver, M. Wang, & J. M. Weinhardt (Eds.), 
+<span style="font-size: 0.8em;">[Ballard, T., Palada, H., & Neal, A. (2023). Fitting computational models to data: A tutorial. In J. B. Vancouver, M. Wang, & J. M. Weinhardt (Eds.), 
 _Computational Modeling for Industrial-Organizational Psychologists_ (pp 255-296). Taylor & Francis.](/assets/docs/Fitting_computational_models_to_data_a_tutorial.pdf)</span>
 
 <span style="font-size: 0.8em;">[Knight, E., Neal, A., Palada, H., & Ballard, T. (2023). A tutorial on Bayesian modeling of change across time, individuals, and groups.
 _Computational Brain & Behavior, 6_, 697-718.](https://link.springer.com/article/10.1007/s42113-023-00173-6)</span>
 
-<span style="font-size: 0.8em;">Neal, A., Ballard, T., & Palada, H. (2023). [How to publish and review a computational model. In J. B. Vancouver, M. Wang, & J. M. Weinhardt (Eds.), 
+<span style="font-size: 0.8em;">[Neal, A., Ballard, T., & Palada, H. (2023). How to publish and review a computational model. In J. B. Vancouver, M. Wang, & J. M. Weinhardt (Eds.), 
 _Computational Modeling for Industrial-Organizational Psychologists_ (pp 297-319). Taylor & Francis.](/assets/docs/How_to_publish_and_review_a_computational_model.pdf)</span>
 
 <span style="font-size: 0.8em;">[Ballard, T., Evans, N. J., Fisher, G., & Sewell, D. K. (2024). Using mixture modeling to examine differences in perceptual 
