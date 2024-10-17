@@ -15,6 +15,12 @@ output:
     preserve_yaml: true
 ---
 
+<style>
+  body {
+    font-size: 0.8em; /* Adjust font size just for this page */
+  }
+</style>
+
 ## What is a Hierarchical Bayesian Model?
 
 Hierarchical Bayesian models assess individual variation (e.g., between
