@@ -1,6 +1,6 @@
 ---
 layout: single
-classes: wide
+toc: true
 title: "Non-Centered Parameterisation in Hierarchical Bayesian Models: Not Just For Univariate Gaussians"
 date: 2024-10-01
 categories:
@@ -13,6 +13,7 @@ output:
   md_document:
     variant: gfm
     preserve_yaml: true
+    
 ---
 
 <style>
