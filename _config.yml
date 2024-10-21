@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-AU"
@@ -297,7 +297,9 @@ defaults:
 
 #TO DO:
 
-#Store papers in repo and link to them from publication page
+#Rethink beige backround -- white?
+#Not washed out images.
+#New banner image -- something that would appeal to corporate image
 #Add google analytics
 #Figure out image situation
 
