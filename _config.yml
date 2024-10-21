@@ -92,10 +92,11 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider: "google-gtag"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id: "G-Q05703VLF0"  # Replace this with your Measurement ID
+    anonymize_ip: false           # Set to true if you want to anonymize user IPs for privacy compliance
+
 
 
 # Site Author
@@ -298,7 +299,6 @@ defaults:
 #TO DO:
 
 #Not washed out images.
-#New banner image -- something that would appeal to corporate image
 #increase size of text in header
 #change red line to white
 #Add google analytics
