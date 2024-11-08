@@ -1,3 +1,22 @@
+---
+layout: single
+toc: true
+title: "How Can We Improve Fatigue Forecasting in Safety Critical Industries?"
+date: 2024-11-08
+categories:
+  - Blog
+tags:
+  - Fatigue Forecasting
+  - Biomathematical Models
+  - Occupatational Health & Safety
+output: 
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    
+---
+
+
 <style>
   body {
     font-size: 0.8em; /* Adjust font size just for this page */
@@ -23,7 +42,7 @@ In theory, fatigue could change at different rates for different individuals, wh
 Some folks might feel completely restored after 6 hours sleep whereas others might need 9 or 10 to feel
 completely recovered. 
 
-(insert graph figure here with equations)
+![](/assets/images/2024-10-24-fatigue-modelling_files/s_and_c_processes.png)
 
 The second factor, time of day, influences the circadian process. There can be individual 
 differences in this too. Some people’s circadian rhythm might peak later in the evening (e.g., the 
@@ -46,12 +65,12 @@ that actually control fatigue. Hence, there's a fair amount of academic research
 
 The problem, however, is that these fatigue risk management platforms too often generate one-size-fits-all predictions 
 that fail to account for diversity of the workforce. Instead, they rely strong assumptions about how the homestatic and circadian processes
-operatate that are based on so-called ``default'' parameter values. And in many cases, it's not at all clear where these assumptions come from.
+operate that are based on so-called "default" parameter values. And in many cases, it's not at all clear where these assumptions come from.
 These parameters that determine, for example, the rate of change in fatigue, or the timing of the circadian peak--there are a whole range of 
 theoretically plausible values for these parameters. How were these parameters chosen?
 
-Typically, when validating mathematical models of human data, researchers would do what's called *estimating the model parameters from the data*. 
-Instead of imposing strong assumptions about particular parameters, researchers would identity parameters that have uncertain values and/or
+Typically, when validating mathematical models of human data, analysts would do what's called *estimating the model parameters from the data*. 
+Instead of imposing strong assumptions about particular parameters, analysts would identity parameters that have uncertain values and/or
 could plausibly vary across individuals and treat these as unknown quantities. They would then use the data to inform their understanding
 of these quantities. In this way, they learn from the data. The resulting parameter estimates, now informed by the data, enable predictions
 to be made about fatigue trajectories that are tailored to the population whose fatigue they want to predict. Ultimately, this use of data-informed
@@ -59,16 +78,14 @@ parameters allows for more accurate forecasts to be made, which translates into 
 
 ## Where Do Default Parameters Come From? ##
 
-So how much of a problem is it when software applications use standard, ``default'' parameters to generate fatigue predictions instead of parameters
+So how much of a problem is it when software applications use standard, "default" parameters to generate fatigue predictions instead of parameters
 that have been learned or informed from data. To answer this question, we need to understand where these default parameters come from. 
 In the biomathematical modelling academic literature, it's common to see papers that rely on these default parameters, instead of using their data
-to provide more informed parameter estimates. Here are excerpts from a few papers that do so.
+to provide more informed parameter estimates. Here are excerpts from a few papers that do so. But very few papers actually communicate where the 
+values come from. 
 
-(insert image of papers that use default value )
-
-But very few papers actually communicate where they values come from. As it turns out, these default values are based on a small set of very underpowered
-studies from the 80s. One study by Akerstadt and Gillburg (insert reference) that's commonly cited as generating the default values used in a great deal of subsequent research used just 6 participants.
-Another such study by Borbely and colleagues used 8 participants. These studies also collected data from participants for only up to two days. Now
+As it turns out, these default values are based on a small set of very underpowered studies from the 80s. [One study by Akerstadt and Gillburg](https://pubmed.ncbi.nlm.nih.gov/7256076/) that's commonly cited as generating the default values used in a great deal of subsequent research used just 6 participants.
+[Another such study by Borbely and colleagues](https://pubmed.ncbi.nlm.nih.gov/6165548/) used 8 participants. These studies also collected data from participants for only up to two days. Now
 to be fair, these studies aren't at fault. They couldn't have known that the parameter values they published back in the 80s would end up being
 used to heavily in the decades that followed. These were sleep deprivation studies that brought participants into the lab for two whole days,
 prevented them from sleeping, and then examined the effects of participants' fatigue on a range of different things. This was expensive and time consuming
