@@ -41,7 +41,7 @@
 
 /* -------- Custom styles ---------- */
 
-/* Remove Profile Image Overlay */
+/* Remove Profile Image Overlay 
 
 .author__avatar {
   img {
@@ -59,4 +59,10 @@
   &::after {
     content: none !important;
   }
+} */
+
+.author__avatar {
+  background: none;
+  opacity: 1;
+  filter: none;
 }
