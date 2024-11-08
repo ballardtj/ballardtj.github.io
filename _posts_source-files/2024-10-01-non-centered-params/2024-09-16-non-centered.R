@@ -291,8 +291,8 @@ mcmc_trace(fit_ncs$draws(c("beta0_mean", "beta1_mean","beta2_mean", "beta0_sd", 
 set.seed(123)
 
 # Simulate data
-N <- 2500  # Total number of observations
-J <- 500    # Number of participants
+N <- 10000  # Total number of observations
+J <- 100    # Number of participants
 n_j <- N / J  # Number of observations per participant
 
 # Generate participant IDs and predictor variables
