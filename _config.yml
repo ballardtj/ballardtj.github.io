@@ -24,6 +24,7 @@ url                      : "https://ballardtj.github.io" # the base hostname & p
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ballardtj/ballardtj.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"assets/images/code1.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+keywords                 : ["people analytics", "HR analytics", "statistical modeling", "computational modeling", "research", "data science", "organizational psychology","business psychology","bayesian"]
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -70,8 +71,8 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "-JKwiHw8b2MJ73FsJtrHcgeuyVhOzSBQyFwUKqxI9V4"
+bing_site_verification   : "9ED2EA8A2AC2F55D9818FA2672F9AD9A"
 yandex_site_verification :
 naver_site_verification  :
 
@@ -100,8 +101,8 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-Q05703VLF0"  # Replace this with your Measurement ID
-    anonymize_ip: false           # Set to true if you want to anonymize user IPs for privacy compliance
-
+    anonymize_ip: true          # Set to true if you want to anonymize user IPs for privacy compliance
+    optimization: true
 
 
 # Site Author
@@ -210,6 +211,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
