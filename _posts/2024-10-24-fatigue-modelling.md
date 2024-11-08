@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "How Can We Improve Fatigue Forecasting in Safety Critical Industries?"
-date: 2024-11-08
+date: 2024-10-24
 categories:
   - Blog
 tags:
@@ -26,7 +26,7 @@ output:
 ## Biomathematical Models of Fatigue ##
 
 Fatigue management in safety critical work environments is a big issue. Industries like mining, 
-aviation, and defense all involve operations that require crew to be working around the clock. 
+aviation, healthcare, and defense all involve operations that require crew to be working around the clock. 
 And the cost of human error in these environments can be catastrophic. Mistakes can lead
 to loss of life and have huge financial and societal repercussions. The terms **safety critical**
 or **high reliability** are both often used to describe these types of operations.
