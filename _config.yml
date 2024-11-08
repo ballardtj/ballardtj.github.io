@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "contrast_green" # "default", "air", "aqua", "contras
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "Dr Tim Ballard"
+title                    : "Dr Tim Ballard - Advanced HR & People Analytics"
 title_separator          : "-"
 name                     : "Tim Ballard"
-description              : "Tim Ballard's personal website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Senior Research Fellow and Advanced HR & People Analytics Consultant specialising in complex human data analysis"
+url                      : "https://ballardtj.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ballardtj/ballardtj.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"assets/images/code1.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -86,9 +86,14 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Tim Ballard" # If the user or organization name differs from the site's name
+  links:  # An array of links to social media profiles
+    - "https://www.linkedin.com/in/tim-ballard-ba8ba625/"
+    - "https://github.com/ballardtj"
+    
+# Add Open Graph default image
+og_image: "/assets/images/headshot_2024.jpeg"
 
 # Analytics
 analytics:
@@ -298,8 +303,6 @@ defaults:
 
 #TO DO:
 
-#increase size of text in header
-#change red line to white
 #Search engine optimisation
 
 
