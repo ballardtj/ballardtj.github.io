@@ -38,31 +38,3 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
-
-/* -------- Custom styles ---------- */
-
-/* Remove Profile Image Overlay 
-
-.author__avatar {
-  img {
-    &:hover {
-      box-shadow: none;
-    }
-    
-    &::after {
-      display: none;
-    }
-  }
-}
-
-.author__avatar img {
-  &::after {
-    content: none !important;
-  }
-} */
-
-.author__avatar {
-  background: none;
-  opacity: 1;
-  filter: none;
-}
