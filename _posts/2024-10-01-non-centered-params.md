@@ -319,8 +319,8 @@ fit_nc <- mod_nc$sample(
 
 We’re still getting a lot of divergences and we’re hitting the maximum
 treedepth on many iterations, which suggests that the model still isn’t
-sampling efficiently. This is because we still haven’t applied an
-uncentered parameterisation to `sigma`. We’ll do that next.
+sampling efficiently. This is because we still haven’t applied a
+non-centered parameterisation to `sigma`. We’ll do that next.
 
 ## Non-Centered Parameterisation for Truncated Parameters
 

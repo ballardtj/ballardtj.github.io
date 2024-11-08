@@ -94,7 +94,7 @@ is **much** more accurate, not only in terms of the overall prediction (i.e., th
 of the precision of this prediction (i.e., the fact that the blue uncertainty ribbons are so narrow). This means the second model is making the
 correct forecast, and it's doing so with a high degree of confidence.
 
-(insert time of day graph)
+![](/assets/images/2024-10-24-fatigue-modelling_files/model_fits.jpg)
 
 Of course, you could argue that, the model with data-informed parameters is always going to make more accurate predictions because the very same data was used to inform the model's parameters. 
 This is true. It's not a suprise that the second model does a better job. What is suprising, however, is **how much better** a job the data-informed model does
