@@ -25,7 +25,7 @@ output:
 
 ## Overview
 Fatigue risk management in safety-critical industries often relies on biomathematical models using decades-old assumptions based on small studies. 
-Our research with the Australian Navy demonstrates that customised, data-informed models significantly outperform these one-size-fits-all approaches. 
+Our research demonstrates that customised, data-informed models significantly outperform these one-size-fits-all approaches. 
 This post explains why current industry-standard fatigue forecasting software may be inadequate and how organisations can achieve more accurate 
 predictions through data-driven solutions.
 
@@ -107,21 +107,21 @@ to generate valid forecasts for fatigue trajectories over weeks or even months f
 
 ## Comparing Predictions of Default Values to Data-Informed Parameters ##
 
-Our team worked with the Australian Navy to answer some of these questions. We tracked crew member sleep and wake times, and their fatigue levels, 
-over the course of several one-to-two week undersea operations. We then used two versions of a biomathematical model to predict crew member fatigue levels.
+Our team worked with an Australian organisation operating in a safety-critical industry to answer some of these questions. We tracked shift worker sleep and wake times, and their fatigue levels, 
+over the course of several weeks. We then used two versions of a biomathematical model to predict shift worker fatigue levels.
 In the first version, we applied a standard biomathematical model using the default values. Here, we just estimated a single noise parameter that 
 represented the uncertainty associated with the fatigue estimate. In the second version, we applied a model in which all parameters were estimated. 
 This model therefore allowed for individual differences in these homeostatic and circadian processes--processes that, again, should theoretically differ 
 across individuals.
 
-The graphs below show the results of our comparison. The black dots represent actual fatigue levels (measured through standardized subjective ratings) reported by crew members during operations. 
+The graphs below show the results of our comparison. The black dots represent actual fatigue levels (measured through standardised subjective ratings) reported by shiftworkers during operations. 
 The black line shows the model's forecast, while the blue ribbon represents the 95% credible interval of the prediction - in other words, how certain the model 
 is about its forecast.
 
 **Left graph (Default Parameters):** The model using standard industry parameters performs poorly, essentially predicting the same fatigue level regardless of time or circumstance. 
 The wide blue ribbon indicates high uncertainty, making the predictions virtually useless for practical decision-making.
 
-**Right graph (Data-Informed Parameters):** This model, trained on actual crew data, captures the dynamic nature of fatigue patterns with remarkable accuracy. 
+**Right graph (Data-Informed Parameters):** This model, trained on actual shift worker data, captures the dynamic nature of fatigue patterns with remarkable accuracy. 
 The narrow blue ribbon shows high confidence in these predictions, making them far more useful for operational planning.
 
 ![](/assets/images/2024-10-24-fatigue-modelling_files/model_fits.jpg)
@@ -131,10 +131,10 @@ of the precision of this prediction (i.e., the fact that the blue uncertainty ri
 correct forecast, and it's doing so with a high degree of confidence.
 
 Of course, you could argue that, the model with data-informed parameters is always going to make more accurate predictions because the very same data was used to inform the model's parameters. 
-This is true. It's not a surprise that the second model does a better job. What is suprising, however, is *how much better* a job the data-informed model does
-than the default value model. This default value model is not a strawman. It's not obvious that this model should make such poor predictions. After all, it forms the 
+This is true. It's not a surprise that the second model does a better job. What is surprising, however, is *how much better* a job the data-informed model does
+than the default value model. This default value model is not a straw man. It's not obvious that this model should make such poor predictions. After all, it forms the 
 basis of the software platforms that are being used to manage shift work in industry. The surprise is just how much better off an organisation can be if they move beyond
-these off-the-shelf platforms and develop costumised solutions for forecasting and managing fatigue among their workforce.
+these off-the-shelf platforms and develop customised solutions for forecasting and managing fatigue among their workforce.
 
 ## Practical Implications for Organisations
 
