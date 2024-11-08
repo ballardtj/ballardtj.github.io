@@ -23,7 +23,7 @@ output:
   }
 </style>
 
-## The Short Story
+## Overview
 Fatigue risk management in safety-critical industries often relies on biomathematical models using decades-old assumptions based on small studies. 
 Our research with the Australian Navy demonstrates that customised, data-informed models significantly outperform these one-size-fits-all approaches. 
 This post explains why current industry-standard fatigue forecasting software may be inadequate and how organisations can achieve more accurate 
@@ -124,11 +124,11 @@ The wide blue ribbon indicates high uncertainty, making the predictions virtuall
 **Right graph (Data-Informed Parameters):** This model, trained on actual crew data, captures the dynamic nature of fatigue patterns with remarkable accuracy. 
 The narrow blue ribbon shows high confidence in these predictions, making them far more useful for operational planning.
 
+![](/assets/images/2024-10-24-fatigue-modelling_files/model_fits.jpg)
+
 So the model with data-informed parameters (on the right) is *much* more accurate, not only in terms of the overall prediction (i.e., the alignment between the black dots and the black lines), but also in terms
 of the precision of this prediction (i.e., the fact that the blue uncertainty ribbons are so narrow). This means the second model is making the
 correct forecast, and it's doing so with a high degree of confidence.
-
-![](/assets/images/2024-10-24-fatigue-modelling_files/model_fits.jpg)
 
 Of course, you could argue that, the model with data-informed parameters is always going to make more accurate predictions because the very same data was used to inform the model's parameters. 
 This is true. It's not a surprise that the second model does a better job. What is suprising, however, is *how much better* a job the data-informed model does
@@ -138,32 +138,13 @@ these off-the-shelf platforms and develop costumised solutions for forecasting a
 
 ## Practical Implications for Organisations
 
-As part of a project led by [Dr Micah Wilson](https://staffportal.curtin.edu.au/staff/profile/view/micah-wilson-f7df86b0/), our team developed an R package called the [Fatigue Impairment Performance Suite](https://joss.theoj.org/papers/10.21105/joss.02340) that lets the user
-apply different assumptions about the key parameter values, so that shiftwork managers and other practioners can see how the fatigue forecasts change
-as assumptions change. But if your organisation has their own fatigue data, we can help you go a step further. We can deliver a custom platform for forecasting 
-fatigue that is tailored to your workforce, and we can measure how much of an improvement in forecasting accuracy can be achieved compared to one-size-fits-all proprietary models.
-
-The dramatic improvement in prediction accuracy has important implications for organisations in safety-critical industries. While custom solutions require initial investment 
-in data collection and analysis, they can significantly reduce costs associated with fatigue-related incidents and accidents that come from suboptimal workforce planning.
-  
-If you're interested in discussing these opportunities, feel free to [get in touch](mailto:t.ballard@uq.edu.au). If you're interested in reading more about the academic research our team has done on this topic, check out the papers below:
-
-<span style="font-size: 0.8em;">[Wilson, M. K., Ballard, T., Strickland, L., Boeing, A. A., Cham, B., Griffin, M. A., & Jorritsma, K. (2021). Understanding fatigue in a naval submarine: Applying biomathematical models 
-and workload measurement in an intensive longitudinal design. _Applied Ergonomics, 94_, 103412.](https://espace.curtin.edu.au/bitstream/handle/20.500.11937/83423/83405.pdf;jsessionid=6BA0809653F3A734618882E735BE2107?sequence=2)</span>
-
-<span style="font-size: 0.8em;">[Wilson, M. K., Strickland, L., Ballard, T., & Griffin, M. A. (2022). The next generation of fatigue prediction models: 
-evaluating current trends in biomathematical modelling. _Theoretical Issues in Ergonomics Science, 24_(1), 21-43.](https://doi.org/10.31234/osf.io/e8awh)</span>
-
-
-## Practical Implications for Organizations
-
 As part of a project led by [Dr Micah Wilson](https://staffportal.curtin.edu.au/staff/profile/view/micah-wilson-f7df86b0/), our team developed the [Fatigue Impairment Performance Suite](https://joss.theoj.org/papers/10.21105/joss.02340) - an R package that enables shiftwork managers and 
 practitioners to explore how fatigue forecasts change under different parameter assumptions. This tool provides a starting point for understanding fatigue patterns 
 in your workforce.
 
-However, organizations with their own fatigue data can achieve even better results. We can develop a custom forecasting platform tailored to your specific workforce, 
-quantifying the improvement in prediction accuracy compared to standard proprietary models. The benefits of such customised solutions extend beyond better predictions - 
-while they require initial investment in data collection and analysis, they can significantly reduce costs associated with fatigue-related incidents and suboptimal 
+However, organisations with their own fatigue data can achieve even better results. We can develop a custom forecasting platform tailored to your specific workforce, and 
+quantify the improvement in prediction accuracy compared to standard proprietary models. While such customised solutions require an initial investment in data collection and analysis, 
+they can significantly reduce costs associated with fatigue-related accidents and incidents that stem from suboptimal 
 workforce planning.
 
 ### Next Steps
