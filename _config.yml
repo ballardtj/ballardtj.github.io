@@ -277,6 +277,10 @@ defaults:
       comments: # true
       share: true
       related: true
+      # Add these SEO-related defaults
+      meta: true
+      excerpt_separator: "<!--more-->"
+      sitemap: true
       
 # Defaults for pages
   - scope:
@@ -305,7 +309,7 @@ defaults:
 
 #TO DO:
 
-#Search engine optimisation
+#Search engine optimisation (see claude convo from step 6 onward)
 
 
 
