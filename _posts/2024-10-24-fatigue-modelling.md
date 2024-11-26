@@ -50,7 +50,7 @@ which is still among the most widely used today. This model assumes that fatigue
 Sleep history is governed by the **homeostatic** process. Quite simply, fatigue increases when you’re awake and decreases when you sleep. 
 In theory, fatigue could change at different rates for different individuals, which is what these different lines represent.
 Some folks might feel completely restored after 6 hours sleep whereas others might need 9 or 10 to feel
-completely recovered. 
+completely recover
 
 ![](/assets/images/2024-10-24-fatigue-modelling_files/s_and_c_processes.png)
 
