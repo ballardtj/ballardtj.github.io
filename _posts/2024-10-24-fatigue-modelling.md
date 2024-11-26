@@ -24,8 +24,8 @@ output:
 </style>
 
 ## Overview
-Fatigue risk management in safety-critical industries often relies on biomathematical models using population-level parameters to predict worker fatigue. 
-Our research demonstrated how customised, data-informed models can enhance these predictions by accounting for individual differences in fatigue patterns. 
+Fatigue risk management in safety-critical industries often relies on a one-size-fits-all approach that use biomathematical models to predict worker fatigue. 
+Our research demonstrates how customised, data-informed models can enhance these predictions by accounting for individual differences in fatigue patterns. 
 This post discusses approaches for improving fatigue forecasting through data-driven solutions that complement existing practices.
 
 **Key Takeaways:**
@@ -64,8 +64,7 @@ In fact, there's a huge amount of variability in possible fatigue trajectories a
 
 ## Fatigue Risk Management Software
 
-Biomathematical models are widely used in practice. They inform the algorithm underlying fatigue risk management software programs
-like SAFTE-FAST and FAID. These are proprietary platforms that are used heavily in industry to manage shiftwork. Managers use
+Biomathematical models are widely used in practice. They inform the algorithm underlying many fatigue risk management software programs that are used heavily in industry to manage shiftwork. Managers use
 these platforms to simulate the fatigue patterns of shift workers based on the times of day they'll be working, how long their shift lasts, 
 when they'll likely be sleeping, and how much sleep they're likely to get. Managers can then use this information to design rosters that ensure
 the risk of fatigue-related performance impairment is at a minimum. This approach has merit. An advantage of these tools is that they
@@ -73,7 +72,7 @@ make precise, quantitative predictions about how fatigue should change over time
 These models are also biologically inspired. The mathematical functions that underpin the model have been developed based on biological processes
 that actually control fatigue. Hence, there's a fair amount of academic research to support these models.
 
-One challenge, however, with fatigue risk management platforms is that they typically use population-level parameters, which may not capture the 
+One challenge, however, with many fatigue risk management platforms is that they typically make one-size-fits-all predictions, which may not capture the 
 full range of individual differences in how fatigue manifests across a diverse workforce. The same is the case in the academic biomathematical modelling literature, where there
 is often strong assumptions made about how the homeostatic and circadian processes operate. In many cases, it's not clear where these assumptions come from.
 The parameters that determine, for example, the rate of change in fatigue, or the timing of the circadian peak--there are a whole range of 
@@ -88,8 +87,8 @@ parameters allows for more accurate forecasts to be made, which translates into 
 
 ## Where Do Default Parameters Come From?
 
-In academic research using biomathematical models, it's important to understand where commonly used default parameters come from. 
-In the biomathematical modelling academic literature, it's common to see papers that rely on these default parameters, instead of using their data
+In academic research using biomathematical models, it's important to understand where commonly used assumptions come from. 
+In the biomathematical modelling academic literature, it's common to see papers that rely on "default" parameters, instead of using their data
 to provide more informed parameter estimates. While this sometimes is a useful and justified tradeoff for addressing certain questions, 
 very few papers actually communicate where the default values come from.
 
@@ -115,14 +114,14 @@ The graphs below show the results of our comparison. The black dots represent ac
 The black line shows the model's forecast, while the blue ribbon represents the 95% credible interval of the prediction - in other words, how certain the model 
 is about its forecast.
 
-**Left graph (Default Parameters):** This model uses general population-level, one-size-fits-all parameters, showing broader prediction error that reflect greater uncertainty in individual fatigue.
+**Left graph (Default Parameters):** This model uses the default, one-size-fits-all parameters, and shows higher prediction error that reflects greater uncertainty in individual fatigue.
 
 **Right graph (Data-Informed Parameters):** This model, incorporating workforce-specific data, captures the dynamic nature of fatigue patterns with a high-level of accuracy. 
 The narrow blue ribbon shows high confidence in these predictions, demonstrating how customised approaches can potentially provide more precise predictions for specific operational contexts.
 
 ![](/assets/images/2024-10-24-fatigue-modelling_files/model_fits.jpg)
 
-So the model with data-informed parameters (on the right) is much more accurate, not only in terms of the overall prediction (i.e., the alignment between the black dots and the black lines), but also in terms
+So the model with data-informed parameters (on the right) was more accurate, not only in terms of the overall prediction (i.e., the alignment between the black dots and the black lines), but also in terms
 of the precision of this prediction (i.e., the fact that the blue uncertainty ribbons are so narrow). This means the second model is making the
 correct forecast, and it's doing so with a high degree of confidence.
 
@@ -140,7 +139,7 @@ in your workforce.
 However, organisations with their own fatigue data can achieve even better results. We can develop a custom forecasting platform tailored to your specific workforce, 
 leveraging your organisation's unique data to enhance fatigue prediction accuracy. While such customised solutions require an initial investment in data collection and analysis, 
 they can significantly reduce costs associated with fatigue-related accidents and incidents that stem from suboptimal 
-workforce planning.
+fatigue management.
 
 ### Next Steps
 
