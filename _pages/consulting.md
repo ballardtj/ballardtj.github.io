@@ -4,6 +4,12 @@ toc: true
 title: Consulting
 ---
 
+<style>
+  body {
+    font-size: 0.8em; /* Adjust font size just for this page */
+  }
+</style>
+
 Building on over a decade of academic research in decision-making, motivation, fatigue, and stress, 
 I offer specialised consulting services that translate complex data into actionable insights. 
 My unique value lies not only in understanding human behaviour in work environments but 
