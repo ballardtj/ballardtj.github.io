@@ -85,3 +85,13 @@ working hours on mental health, enabling actionable recommendations for workforc
 not only about average effects across a workforce, but also in the variation in effects, including the proportion of employees that
 may be adversely effected by certain policies and the factors that may mitigate those adverse effects. This allowed for more 
 targeted recommendations to improve workforce well-being.
+
+## Getting Started
+I offer a free initial consultation to understand your needs and determine how I can help. Here's how we can begin:
+
+1. Contact: Send me an email outlining your project or challenge
+2. Discussion: We'll schedule a brief call to discuss your needs in detail
+3. Proposal: I'll provide a tailored proposal outlining the approach, timeline, and pricing
+4. Implementation: We'll begin with a clearly defined scope and deliverables
+
+Contact me via [email](mailto:t.ballard@uq.edu.au) to start the conversation.
