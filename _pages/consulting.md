@@ -70,7 +70,7 @@ I developed an algorithm to predict fatigue levels in naval submarine crews, ena
 crewing decisions that ensure performance is maintained in critical situations. This algorithm was integrated 
 into a software application, designed to assist with rostering of shift work in high reliability environments. 
 The tool helps managers reduce the risk of fatigue-related performance issues by optimising 
-shift assignments, improving both safety and operational efficiency.
+shift assignments, improving both safety and operational efficiency. Read more about this project [here](/blog/fatigue-modelling/) 
 
 ### Designing Next-Generation Remotely Piloted Aircraft Systems
 I developed a computational model that simulates the workflow and task allocation of remotely piloted 
