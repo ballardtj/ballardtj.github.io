@@ -52,7 +52,7 @@ tools that predict fatigue levels in safety-critical environments involving shif
 mining, or defense. These tools provide actionable insights to more effectively manage fatigue-related risks and 
 improve both safety and operational performance.
 
-### Optimising organisational Design and Work Practices
+### Optimising Organisational Design and Work Practices
 Through the application of computational simulations, I assist organisations in 
 optimising work environments and operational practices. I use data to model the potential impact 
 of changes such as implementing a four-day work week or work role redesign. This allows 
@@ -70,7 +70,7 @@ I developed an algorithm to predict fatigue levels in naval submarine crews, ena
 crewing decisions that ensure performance is maintained in critical situations. This algorithm was integrated 
 into a software application, designed to assist with rostering of shift work in high reliability environments. 
 The tool helps managers reduce the risk of fatigue-related performance issues by optimising 
-shift assignments, improving both safety and operational efficiency. Read more about this project [here](/blog/fatigue-modelling/) 
+shift assignments, improving both safety and operational efficiency. Read more about this project [here](/blog/fatigue-modelling/).
 
 ### Designing Next-Generation Remotely Piloted Aircraft Systems
 I developed a computational model that simulates the workflow and task allocation of remotely piloted 
@@ -94,4 +94,4 @@ I offer a free initial consultation to understand your needs and determine how I
 3. Proposal: I'll provide a tailored proposal outlining the approach, timeline, and pricing
 4. Implementation: We'll begin with a clearly defined scope and deliverables
 
-Contact me via [email](mailto:t.ballard@uq.edu.au) to start the conversation.
+Send me an [email](mailto:t.ballard@uq.edu.au?subject=Analytics Consulting Inquiry) to start the conversation.
