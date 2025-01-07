@@ -10,6 +10,8 @@ main:
   #  url: /_pages/publications/
   - title: "Blog"
     url: /blog/
+  - title: "Contact Me"
+    url: "mailto:t.ballard@uq.edu.au?subject=Analytics%20Consulting%20Inquiry"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
