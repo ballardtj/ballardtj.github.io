@@ -11,7 +11,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Contact Me"
-    url: /contact/
+    url: /_pages/contact/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
