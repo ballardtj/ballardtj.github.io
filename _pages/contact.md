@@ -2,19 +2,16 @@
 layout: single
 toc: false
 title: Get in Touch
+permalink: /_pages/contact/
+
 ---
 
 <style>
   body {
-    font-size: 1em; /* Adjust font size just for this page */
+    font-size: 0.8em; /* Adjust font size just for this page */
   }
 </style>
 
----
-title: "Contact"
-layout: single
-permalink: /contact/
----
 
 I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people. Whether you have a specific project in mind or just want to explore possibilities, feel free to reach out.
 

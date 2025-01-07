@@ -2,6 +2,7 @@
 layout: single
 title: Research
 toc: true
+permalink: /_pages/research/
 ---
 
 <style>

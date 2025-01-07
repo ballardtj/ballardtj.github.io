@@ -2,6 +2,7 @@
 layout: single
 toc: true
 title: Consulting
+permalink: /_pages/consulting/
 ---
 
 <style>
