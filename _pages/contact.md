@@ -2,7 +2,7 @@
 layout: single
 toc: false
 title: Get in Touch
-permalink: /_pages/contact/
+permalink: /contact/
 
 ---
 
