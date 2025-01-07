@@ -11,7 +11,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Contact Me"
-    url: "mailto:t.ballard@uq.edu.au"
+    url: /contact/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
