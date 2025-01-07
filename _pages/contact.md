@@ -1,7 +1,7 @@
 ---
 layout: single
-toc: true
-title: Consulting
+toc: false
+title: Get in Touch
 ---
 
 <style>
@@ -15,8 +15,6 @@ title: "Contact"
 layout: single
 permalink: /contact/
 ---
-
-# Get in Touch
 
 I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people. Whether you have a specific project in mind or just want to explore possibilities, feel free to reach out.
 
