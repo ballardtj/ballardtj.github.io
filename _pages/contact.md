@@ -65,9 +65,5 @@ I'm always interested in discussing how advanced analytics can help managers and
     </div>
 </div>
 
-<p style="margin-top: 1rem; font-size: 0.9em; color: #666;">
-Prefer to connect directly? You can also <a href="mailto:t.ballard@uq.edu.au">email me</a> or reach out on <a href="https://www.linkedin.com/in/tim-ballard-ba8ba625/">LinkedIn</a>.
-</p>
-
 Prefer to connect directly? You can also [email me](mailto:t.ballard@uq.edu.au) or reach out on [LinkedIn](https://www.linkedin.com/in/tim-ballard-ba8ba625/).
 
