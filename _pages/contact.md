@@ -120,7 +120,7 @@ permalink: /contact/
       #mlb2-21785938.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
         color: #000000;
         /*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-        font-family: Arial, Helvetica, sans-serif;  /* Changed to prefer Arial */
+       /* font-family: Arial, Helvetica, sans-serif;  /* Changed to prefer Arial */
         font-size: 40px;
         font-weight: 400;
         margin: 0 0 10px 0;
@@ -131,7 +131,7 @@ permalink: /contact/
       #mlb2-21785938.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
         color: #000000;
           /*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-        font-family: Arial, Helvetica, sans-serif;  /* Changed to prefer Arial */
+        /* font-family: Arial, Helvetica, sans-serif;  /* Changed to prefer Arial */
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
@@ -781,7 +781,7 @@ permalink: /contact/
             <div class="ml-form-embedContent" style=" ">
               
                 <h4>Get in touch</h4>
-                <p>Interested in learning how advanced analytics could help your organisation? Leave your details below and I'll get in touch.</p>
+                <p>I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people. Whether you have a specific project in mind or just want to explore possibilities, feel free to leave your details below and I'll get in touch.</p>
               
             </div>
 
@@ -968,12 +968,8 @@ permalink: /contact/
             fetch("https://assets.mailerlite.com/jsonp/1286787/forms/144001985362789761/takel")
         </script>
         
+        <p style="margin-top: 1rem; font-size: 0.9em; color: #666;">
+Prefer to connect directly? You can also <a href="mailto:t.ballard@uq.edu.au">email me</a> or reach out on <a href="https://www.linkedin.com/in/tim-ballard-ba8ba625/">LinkedIn</a>.
+</p>
+        
         </div>
-
-
-
-I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people. Whether you have a specific project in mind or just want to explore possibilities, feel free to reach out.
-
-You can email me at [t.ballard@uq.edu.au](mailto:t.ballard@uq.edu.au).
-
-You can also connect with me on [LinkedIn](https://www.linkedin.com/in/tim-ballard-ba8ba625/).
