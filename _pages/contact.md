@@ -57,7 +57,7 @@ I'm always interested in discussing how advanced analytics can help managers and
           <div class="ml-form-successBody row-success" style="display: none">
             <div class="ml-form-successContent">
               <h4>Thank you!</h4>
-              <p>You have successfully joined our subscriber list.</p>
+              <p>You have successfully submitted your details.</p>
             </div>
           </div>
         </div>
