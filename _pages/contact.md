@@ -13,7 +13,7 @@ permalink: /contact/
 
 I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people. Whether you have a specific project in mind or just want to explore possibilities, feel free to leave your details below and I'll get in touch.
 
-<style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1734335");</style>
+<div style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1734335");</style>
     <style type="text/css">
     /* LOADER */
     .ml-form-embedSubmitLoad {
@@ -986,6 +986,7 @@ I'm always interested in discussing how advanced analytics can help managers and
         <script>
             fetch("https://assets.mailerlite.com/jsonp/1286787/forms/144001985362789761/takel")
         </script>
+</div>
 
 
 Prefer to connect directly? You can also [email me](mailto:t.ballard@uq.edu.au) or reach out on [LinkedIn](https://www.linkedin.com/in/tim-ballard-ba8ba625/).
