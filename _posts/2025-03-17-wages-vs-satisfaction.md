@@ -11,6 +11,9 @@ tags:
   - Workforce Analytics
   - HR Analytics
   - HILDA Survey
+header:
+  teaser: /assets/images/1_turnover_wage_satisfaction_plot.png
+  og_image: /assets/images/1_turnover_wage_satisfaction_plot.png
 output: 
   md_document:
     variant: gfm
