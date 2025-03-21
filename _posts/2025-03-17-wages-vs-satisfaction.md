@@ -14,9 +14,6 @@ tags:
 header:
   teaser: /assets/images/1_turnover_wage_satisfaction_plot.png
   og_image: /assets/images/1_turnover_wage_satisfaction_plot.png
-  image: /assets/images/1_turnover_wage_satisfaction_plot.png
-  overlay_image: /assets/images/1_turnover_wage_satisfaction_plot.png
-  image_description: "Graph showing relationship between wages, job satisfaction, and turnover probability"
 output: 
   md_document:
     variant: gfm
