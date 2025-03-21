@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "The Job-Hopping Gamble: Is Switching Jobs Always the Fast Track to Higher Pay?"
-date: 2025-03-21
+date: 2025-03-25
 categories:
   - Blog
 tags:
@@ -27,9 +27,8 @@ output:
   }
 </style>
 
-# The Job-Hopping Gamble: Is Switching Jobs Always the Fast Track to Higher Pay?
 
-Should you stay or should you go? When it comes to career progression, this is a question employees constantly face. Conventional wisdom says that hopping to a new job often comes with a big pay rise, but is that always true? In this post, we examine data from the HILDA survey (a long-term study of Australian workers) to see how job switching really impacts wage growth. The findings might surprise you: on the whole, people who changed jobs didn't see dramatically different pay growth than those who stayed – median gains were nearly the same – but the range of outcomes for job switchers was far wider. This matters for both employees planning their next career move and HR leaders working to retain talent.
+Should you stay or should you go? When it comes to career progression, this is a question employees constantly face. Conventional wisdom says that hopping to a new job often comes with a big pay rise, but is that always true? In this post, we examine data from the Household, Income, and Labour Dynamics in Australia survey (a long-term study of life in Australia) to see how job switching really impacts wage growth. The findings might surprise you: on the whole, people who changed jobs didn't see dramatically different pay growth than those who stayed – median gains were nearly the same – but the range of outcomes for job switchers was far wider. This matters for both employees planning their next career move and HR leaders working to retain talent.
 
 ## What the Data Shows: Switching Jobs vs. Staying Put
 
