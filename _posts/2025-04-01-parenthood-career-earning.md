@@ -1,15 +1,17 @@
 ---
 layout: single
 toc: true
-title: "Career Paths and Parenthood: How Having Children Shapes Earnings Trajectories"
-date: 2025-03-24
+title: "Motherhood Penalty vs Fatherhood Bonus: How Does Parenthood Change Earnings Trajectories?"
+date: 2025-04-01
 categories:
   - Blog
 tags:
+  - Gender Pay Gap
+  - Parental Leave
   - Career Development
-  - Workforce Analytics
-  - HR Analytics
+  - Workplace Equity
   - HILDA Survey
+  - Evidence-Based HR
 header:
   teaser: /assets/images/3_gender_and_parenthood_impact_on_careers_plot.png
   og_image: /assets/images/3_gender_and_parenthood_impact_on_careers_plot.png
@@ -30,13 +32,13 @@ Having children changes everything - including, often, our relationship with wor
 
 ## What the Data Shows: Parenthood, Gender, and Income
 
-We used data from the Household, Income and Labour Dynamics in Australia (HILDA) survey to track wages from 3,546 men and women in full-time work in the years before and after they became parents (specifically, their first child's birth). All earnings are adjusted to 2024 dollars to allow meaningful comparisons across time. Even before parenthood, our data showed a gap – men were earning more than women on average, reflecting the broader gender pay disparity. The figure below illustrates how this gap changes dramatically after childbirth:
+We used data from the Household, Income and Labour Dynamics in Australia (HILDA) survey to track wages from 3,546 men and women in full-time work in the years before and after they became parents (specifically, their first child's birth). All earnings are adjusted to 2024 dollars to allow meaningful comparisons across time. Even before parenthood, our data showed a gap – men were earning more than women on average, reflecting the broader gender pay disparity. The figure below illustrates how this gap changes after becoming a parent:
 
 ![](/assets/images/3_gender_and_parenthood_impact_on_careers_plot.png)
 
 Average annual wage trajectories are shown for men (red line) and women (blue line) in the years before and after the birth of their first child (year 0 = birth of first child). Men's earnings show a steady upward trend through the transition to parenthood. Women's earnings rise before the child, peaking around the birth year, then drop sharply in the year after childbirth (blue dip), and only partially recover in subsequent years. Even five years later, mothers on average earn significantly less than fathers, and the gap is larger than it was before children.
 
-This pattern aligns with broader research findings: [women typically lose around 4% of hourly wages per child, while men gain about 6% for becoming fathers](https://medium.com/leveled-legislation/why-the-motherhood-penalty-fatherhood-bonus-are-more-than-just-feminist-issues-122592807466)​. The year immediately after childbirth is particularly challenging financially for women, and though mothers' wages recover gradually, they never catch up to their pre-baby trajectory. By five years into parenthood, women's pay often returns to its pre-children level, but by that time fathers have moved significantly ahead.
+This pattern aligns with broader research findings: [women typically lose around 4% of hourly wages per child, while men gain about 6% for becoming fathers](https://medium.com/leveled-legislation/why-the-motherhood-penalty-fatherhood-bonus-are-more-than-just-feminist-issues-122592807466)​. The year immediately after childbirth is particularly challenging financially for women, and though mothers' wages recover gradually, they never catch up to their pre-children trajectory. By five years into parenthood, women's pay often returns to its pre-children level, but by that time fathers have moved significantly ahead.
 
 In our data, fathers were earning about 30% (approximately $30k) more per year on average than mothers by five years after becoming a parent – a much larger gap than the one prior to parenthood. [One Australian study](https://treasury.gov.au/publication/p2023-372004) found that in the five years following childbirth, women's total earnings were 55% lower on average than they would have been otherwise, while men's earnings were not significantly affected​.
 
@@ -48,9 +50,9 @@ The persistence of this gendered career impact has direct implications for busin
 
 ### Support working mothers with flexibility
 
-Organisations that want to retain talented women need to make it feasible for new mothers to stay and progress. This includes offering truly flexible work arrangements, hybrid/remote options, and robust parental leave. Critically, [it also means providing or subsidising childcare support](https://www.businessthink.unsw.edu.au/articles/gender-gap-progress-childcare-support#:~:text=Childcare%20support%20and%20access%20are,insufficient%20to%20realise%20pay%20equity), because affordable childcare is often the make-or-break factor for a mother's ability to continue her career​.
+Organisations that want to retain talented women need to make it feasible for new mothers to stay and progress. This includes offering truly flexible work arrangements, hybrid/remote options, and robust parental leave. Critically, [it also means providing or subsidising childcare support](https://www.businessthink.unsw.edu.au/articles/gender-gap-progress-childcare-support#:~:text=Childcare%20support%20and%20access%20are,insufficient%20to%20realise%20pay%20equity), because affordable childcare is often key for a mother's ability to continue her career​.
 
-As experts note, simply having maternity leave isn't enough – if there's no support when she returns, her long-term earnings will suffer. Flexible schedules or part-time ramp-back periods can help mothers remain on track instead of stepping off completely.
+However, simply having maternity leave isn't enough – if there's no support when she returns, her long-term earnings will suffer. Flexible schedules or part-time ramp-back periods can help mothers remain on track instead of stepping off completely.
 
 ### Encourage and normalise paternity leave
 
@@ -66,7 +68,7 @@ Guard against bias in performance evaluations; for example, avoid penalising an 
 
 The bottom line is to proactively counteract the loss of visibility and opportunities that often hits new mothers. By intentionally supporting their career growth (through training, clear paths to promotion, and fair pay reviews), employers can mitigate the long-term wage penalty these women would otherwise face.
 
-From a policy perspective, the findings underscore that achieving gender pay equity will require systemic changes. Paid parental leave is important, but it's only one piece. Broadly accessible childcare, flexible work cultures, and legal protections against caregiver discrimination are all necessary. The fact that women earn significantly less than men after having children is not just a family issue – it's a productivity and talent issue for businesses, and an economic issue for society. Bridging this gap could unlock higher workforce participation and reduce attrition of skilled women.
+From a policy perspective, the findings highlight that achieving gender pay equity will require systemic changes. Paid parental leave, broadly accessible childcare, flexible work cultures, and legal protections against caregiver discrimination are all important. The fact that women earn significantly less than men after having children is not just a family issue – it's a productivity and talent issue for businesses, and an economic issue for society. Bridging this gap is important for achieving higher workforce participation and reduced attrition of skilled women.
 
 ## Next Steps
 
