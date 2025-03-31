@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "Motherhood Penalty vs Fatherhood Bonus: How Does Parenthood Change Earnings Trajectories?"
-date: 2025-04-01
+date: 2025-03-31
 categories:
   - Blog
 tags:
