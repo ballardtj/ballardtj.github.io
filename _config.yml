@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Dr Tim Ballard"
   avatar           : "/assets/images/headshot_2024.jpeg"
-  bio              : "Senior Research Fellow and People Analytics Consultant specialising in complex human data analysis. Want to apply these insights to your organisation? [Let's connect](mailto:t.ballard@uq.edu.au)"
+  bio              : "Senior Research Fellow and People Analytics Consultant. Want to apply these insights to your organisation? [Let's connect](mailto:t.ballard@uq.edu.au)"
   location         : "Brisbane, Australia"
   email            :  "t.ballard@uq.edu.au"
   uri              :
@@ -307,9 +307,10 @@ defaults:
 #      source_default: 
 #        width: "300"
 
-#TO DO:
 
-#Search engine optimisation (see claude convo from step 6 onward)
+sidebar:
+  - title: "Ready to Apply These Insights?"
+    text: "<a href='mailto:t.ballard@uq.edu.au'>Get in touch</a> to discuss your organisation's needs."
 
 
 
