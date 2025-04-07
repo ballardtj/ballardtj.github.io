@@ -20,12 +20,6 @@ output:
     variant: gfm
     preserve_yaml: true
     
-sidebar:
-  nav: "next_steps"
-  - title: "Next Steps"
-    text: "Want to explore what's driving employee development in your organisation? Get in touch to discuss how we can apply these analytical approaches to your challenges."
-    url: "mailto:t.ballard@uq.edu.au"
-
 <style>
   body {
     font-size: 0.8em; /* Adjust font size just for this page */
