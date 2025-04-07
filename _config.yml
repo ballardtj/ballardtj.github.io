@@ -109,7 +109,9 @@ analytics:
 author:
   name             : "Dr Tim Ballard"
   avatar           : "/assets/images/headshot_2024.jpeg"
-  bio              : "Senior Research Fellow and People Analytics Consultant. Want to apply these insights to your organisation? Reach out using the contact details below."
+  bio              : | 
+                      Senior Research Fellow and People Analytics Consultant. 
+                      Want to apply these insights to your organisation? Reach out using the contact details below.
   location         : "Brisbane, Australia"
   email            :  "t.ballard@uq.edu.au"
   uri              :
