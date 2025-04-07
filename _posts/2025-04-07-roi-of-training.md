@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "The ROI of Employee Training: Does Upskilling Actually Lead to Promotions and Pay Raises?"
+title: "The ROI of Employee Training: Does Upskilling Actually Lead to Career Advancement?"
 date: 2025-04-06
 categories:
   - Blog
@@ -20,7 +20,11 @@ output:
     variant: gfm
     preserve_yaml: true
     
----
+sidebar:
+  nav: "next_steps"
+  - title: "Next Steps"
+    text: "Want to explore what's driving employee development in your organisation? Get in touch to discuss how we can apply these analytical approaches to your challenges."
+    url: "mailto:t.ballard@uq.edu.au"
 
 <style>
   body {
@@ -28,7 +32,7 @@ output:
   }
 </style>
 
-You send an employee to an expensive training program – will it actually help them get promoted or earn more? It's a question on the minds of HR directors and CFOs alike as they weigh training budgets against tangible returns. In this post, I examine data from the Household, Income, and Labour Dynamics in Australia survey (a long-term study of life in Australia) to see whether participating in work-related training yields benefits in subsequent promotions and salary growth. 
+You send an employee to an expensive training program – will it actually help them get promoted or earn more? It's a question on the minds of HR directors and CFOs alike as they weigh training budgets against tangible returns. Many organisations invest significant resources in professional development, yet often struggle to measure the concrete benefits these programs deliver. In this post, I examine data from the Household, Income, and Labour Dynamics in Australia survey (a long-term study of life in Australia) to see whether participating in work-related training yields benefits in subsequent promotions and salary growth.
 
 ## Measuring Impact – What the Data Shows
 
@@ -38,13 +42,13 @@ Using data tracking 12,338 full-time Australian workers over time (2007–presen
 
 The results show training pays off modestly across the board in promotions and pay:
 
-- **Higher Promotion Rates**: Employees who underwent training had about a 13% chance of receiving any promotion in the next year, compared to roughly 9% for those without training. This equates to approximately 1.4 times higher odds of being promoted for the training group.
-- **More Moves into Management**: Among workers not already in supervisory positions, those with training were slightly more likely to step up to a managerial role (around 25% vs. 22% chance within a year). That's a smaller bump – 1.14 times higher odds – but still a positive effect.
-- **Faster Wage Growth**: Recently trained employees enjoyed a bit more pay growth as well. Their median wage increase was 1.17 times higher than peers who skipped training (on average, a 10.5% raise instead of 9% over the year).
+- **Higher Promotion Rates**: Employees who underwent training had about a 13% chance of receiving a promotion in the next year, compared to roughly 9% for those without training. This equates to approximately 1.4 times higher odds of being promoted for the training group.
+- **More Moves into Management**: Among workers not already in supervisory positions, those with training were slightly more likely to step up to a managerial role (around 25% vs. 22% chance within a year). It's a smaller jump – 1.14 times higher odds – but still a positive effect.
+- **Faster Wage Growth**: Recently trained employees enjoyed a bit more pay growth as well. Their median wage increase was 1.17 times higher than peers who did not engage in training (on average, a 10.5% raise instead of 9% over the year).
 
-## Why Development Matters (Modestly)
+## Why Development Matters
 
-These figures confirm what many HR professionals suspect: employee development does yield returns – but not a windfall. A 42% higher chance of promotion sounds impressive, yet in absolute terms the promotion rate only nudged up from about 9% to 13%. In other words, training is no silver bullet for climbing the ladder, but it does provide an edge.
+These figures confirm what many HR professionals suspect: employee development does yield returns – but not a windfall. A 42% higher chance of promotion sounds impressive, yet in absolute terms the promotion rate only jumped up from about 9% to 13%. In other words, training is no silver bullet for climbing the ladder, but it does provide an edge.
 
 How might training help? It likely expands employees' skill sets and signals their initiative, making them more competitive when opportunities arise. Managers may view trained staff as more prepared for new responsibilities, thus slightly prioritising them for advancement and pay increases.
 
@@ -64,8 +68,8 @@ Does training pay off? According to the data, yes – albeit incrementally (at l
 
 For organisations, this means money spent on upskilling is put to good use; it produces measurable improvements in career progression. In a competitive talent market, even a modest edge can set your workforce apart.
 
-For employees, the message is to take advantage of training opportunities – they can help open doors, if only a bit sooner. For leaders, the takeaway is to continue fostering a learning culture: developing your people is an investment in your organisation's future, yielding more capable managers and slightly better retention of ambitious staff.
+For employees, the message is to take advantage of training opportunities – they can help open doors. For leaders, the takeaway is to continue fostering a learning culture: developing your people is an investment in your organisation's future, yielding more capable managers and slightly better retention of ambitious staff.
 
 ## Next Steps
 
-If you're looking for guidance, collaboration or a closer look at the numbers, let's talk. I specialise in translating workforce data (like HILDA and your in-house HR metrics) into actionable strategy. [Get in touch](mailto:t.ballard@uq.edu.au) to explore how tailored people analytics can enhance your employee development and promotion outcomes.
+If you're looking for guidance, collaboration or a closer look at the numbers, let's talk. I specialise in translating workforce data into actionable insights. [Get in touch](mailto:t.ballard@uq.edu.au) to explore how tailored people analytics can enhance your employee development and promotion outcomes.
