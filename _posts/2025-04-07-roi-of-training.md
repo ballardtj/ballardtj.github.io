@@ -19,7 +19,8 @@ output:
   md_document:
     variant: gfm
     preserve_yaml: true
-    
+---
+
 <style>
   body {
     font-size: 0.8em; /* Adjust font size just for this page */
