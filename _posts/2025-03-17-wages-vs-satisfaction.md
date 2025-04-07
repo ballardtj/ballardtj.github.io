@@ -30,7 +30,7 @@ output:
 
 You offer a star employee a generous pay rise – yet a few months later, they hand in their resignation. It's a scenario business leaders dread, and it highlights an important question: what really makes employees stay or go? A new analysis of Australian workplace data suggests the answer isn't simply a bigger pay cheque. In fact, findings from the HILDA survey (Household, Income and Labour Dynamics in Australia) reveal that while higher wages do modestly reduce turnover, job satisfaction is a far stronger predictor of whether an employee will still be with you next year.
 
-## Wages vs. Satisfaction – What the Data Shows
+## Wages vs. Satisfaction – What the Data Show
 
 Using data from the HILDA survey, Australia's nationally representative household-based panel study that has tracked the same individuals since 2001, we fitted a generalised linear mixed effects model to predict the probability of an employee leaving their job in the following year. Our analysis of 20,496 individuals incorporated job satisfaction levels, annual wages (adjusted to 2024 AUD), and their interaction, while controlling for age and gender effects. The resulting analysis, visualised in the graph below, shows the predicted probability of turnover across different wage levels for three satisfaction groups (10th, 50th, and 90th percentiles of reported satisfaction).
 

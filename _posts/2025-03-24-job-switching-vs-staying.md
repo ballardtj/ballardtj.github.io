@@ -30,7 +30,7 @@ output:
 
 Should you stay or should you go? When it comes to career progression, this is a question employees constantly face. Conventional wisdom says that hopping to a new job often comes with a big pay rise, but is that always true? In this post, we examine data from the Household, Income, and Labour Dynamics in Australia survey (a long-term study of life in Australia) to see how job switching really impacts wage growth. The findings might surprise you: on the whole, people who changed jobs didn't see dramatically different pay growth than those who stayed – median gains were nearly the same – but the range of outcomes for job switchers was far wider. This matters for both employees planning their next career move and HR leaders working to retain talent.
 
-## What the Data Shows: Switching Jobs vs. Staying Put
+## What the Data Show: Switching Jobs vs. Staying Put
 
 To compare career trajectories, we analysed year-to-year employment and wage changes since 2001 for 16,175 full-time workers living in Australia, distinguishing between those who were still in the same job the following year and those who switched employers. The graph below shows how annual wage growth varied between job-stayers and job-switchers.
 

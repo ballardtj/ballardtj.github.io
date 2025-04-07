@@ -30,7 +30,7 @@ output:
 
 Having children changes everything - including, often, our relationship with work. While the personal adjustments of parenthood are well documented, we're only starting to understand how parenthood shapes long-term career trajectories. How do earnings patterns shift after welcoming a first child? Do these changes differ depending on the gender of the parent? And what might these patterns tell us about workplace dynamics and career development?
 
-## What the Data Shows: Parenthood, Gender, and Income
+## What the Data Show: Parenthood, Gender, and Income
 
 We used data from the Household, Income and Labour Dynamics in Australia (HILDA) survey to track wages from 3,546 men and women in full-time work in the years before and after they became parents (specifically, their first child's birth). All earnings are adjusted to 2024 dollars to allow meaningful comparisons across time. Even before parenthood, our data showed a gap – men were earning more than women on average, reflecting the broader gender pay disparity. The figure below illustrates how this gap changes after becoming a parent:
 

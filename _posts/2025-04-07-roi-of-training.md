@@ -29,7 +29,7 @@ output:
 
 You send an employee to an expensive training program – will it actually help them get promoted or earn more? It's a question on the minds of HR directors and CFOs alike as they weigh training budgets against tangible returns. Many organisations invest significant resources in professional development, yet often struggle to measure the concrete benefits these programs deliver. In this post, I examine data from the Household, Income, and Labour Dynamics in Australia survey (a long-term study of life in Australia) to see whether participating in work-related training yields benefits in subsequent promotions and salary growth.
 
-## Measuring Impact – What the Data Shows
+## Measuring the Impact of Training – What the Data Show
 
 Using data tracking 12,338 full-time Australian workers over time (2007–present), we compared career outcomes for those who received work-related training in a given year versus those who did not. To ensure a fair comparison, the analysis controlled for factors like age, tenure, and gender. The results of our analysis are shown in the bar chart below, which compares three key metrics - promotion rates, moves into a management role, and wage growth (adjusted to 2024 AUD) - between employees who received training and those who did not. The dark blue bars represent employees who received training, while the light blue bars show outcomes for those without training. 
 
