@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "The Path to Leadership: Who Gets Promoted to Managerial Roles?"
+title: "Paving the Path to Leadership: Who Gets Promoted to Managerial Roles?"
 date: 2025-04-14
 categories:
   - Blog
