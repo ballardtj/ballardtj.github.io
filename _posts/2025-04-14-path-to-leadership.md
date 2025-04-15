@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "Path to Leadership: Who Gets Promoted to Management Roles?"
-date: 2025-04-15
+date: 2025-04-14
 categories:
   - Blog
 tags:
