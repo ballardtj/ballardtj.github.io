@@ -1,8 +1,8 @@
 ---
 layout: single
 toc: true
-title: "Does Offering Flexibility Mitigate the Impact of Long Working Hours?"
-date: 2025-04-22
+title: "Does Offering Flexibility Mitigate the Impact of Long Working Hours on Retention?"
+date: 2025-04-28
 categories:
   - Blog
 tags:
