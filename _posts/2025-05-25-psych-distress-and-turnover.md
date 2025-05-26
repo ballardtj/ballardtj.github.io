@@ -39,7 +39,7 @@ The bar chart below illustrates the predicted percentage of employees exiting wo
 
 ![](/assets/images/8_wellbeing_plot.png)
 
-After controlling for other relevant factors, we found that for each standard deviation increase on the scale measuring psychological distress, the odds of an employee exiting the workforce in the following year rose by approximately 7.9%, indicating that psychological distress was a significant risk factor for workforce attrition. These findings align with a growing body of research, such as [a study by the Black Dog Institute](https://www.blackdoginstitute.org.au/workplace-mental-health-white-paper/), which consistently shows that poor mental health is a key driver of turnover and reduced work capacity. 
+After controlling for other relevant factors, we found that for each standard deviation increase on the scale measuring psychological distress, the odds of an employee exiting the workforce in the following year rose by approximately 7.9%, indicating that psychological distress was a significant risk factor for workforce attrition. These findings align with a growing body of research, such as [this white paper by the Black Dog Institute](https://www.blackdoginstitute.org.au/workplace-mental-health-white-paper/), which consistently shows that poor mental health is a key driver of turnover and reduced work capacity. 
 
 Other factors also played a role: higher job satisfaction and better physical health were associated with a lower likelihood of work exit, while older age significantly increased the probability of leaving employment (as expected, given that older folks are more likely to retire). Interestingly, being female was associated with slightly lower odds of exiting work in this model. 
 
