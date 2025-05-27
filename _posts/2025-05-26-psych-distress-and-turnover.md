@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "The Unseen Toll: How Much Does Psychological Distress Really Impact Retention?"
+title: "The Hidden Cost of Psychological Distress: How Does Mental Health Impact Workforce Retention?"
 date: 2025-05-26
 categories:
   - Blog
