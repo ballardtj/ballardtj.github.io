@@ -37,7 +37,7 @@ We explored this question using data from the Household, Income, and Labour Dyna
 
 The graph below illustrates the predicted chance of retirement (vertical axis, expressed as a percentage) across different levels of job satisfaction, mental health, and physical health (horizontal axis, representing standardised scores from -2 to +2, where 0 is the average). Each line represents the trend for one of these factors, holding others constant. If you squint, you might be able to see the 95% confidence interval shown as a ribbon around each line. This dataset is huge, so the error is small. 
 
-![](/assets/images/9_retirement_model_summary.png)
+![](/assets/images/9_retirement_factors_plot.png)
 
 Several patterns emerged. First, **job satisfaction** stands out as the strongest predictor of retirement decisions. As shown by the green line, higher job satisfaction is associated with a lower probability of retirement. Our analysis indicates that for each standard deviation increase in job satisfaction, the odds of retiring decrease by approximately 15.3%. This effect is notably stronger than that observed for physical or mental health, emphasising the impact of a fulfilling work experience on the decision to continue working. It suggests that employees who feel genuinely content and valued in their roles are much more inclined to postpone retirement, more so than due to health factors alone. This aligns with [other findings](https://ballardtj.github.io/blog/wages-vs-satisfaction/) that enjoyable work and a positive workplace environment are powerful retention factors. This is true even for those approaching traditional retirement age.
 
