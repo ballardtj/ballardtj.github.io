@@ -41,7 +41,7 @@ To address the challenge of quantifying uncertainty in turnover risk, we turned 
 
 The graph below displays the odds ratios for each factor, illustrating their impact on the likelihood of turnover. An odds ratio greater than 1.0 (the vertical dashed red line) indicates an increased probability of leaving, while a value less than 1.0 suggests a decreased probability. Each violin shape represent the *posterior distribution* -- the range of plausible values for each odd ratio. The posterior distribution directly reflects our confidence or uncertainty in the estimate. Narrower violins signify greater certainty. Factors depicted in red are associated with higher turnover, while those in blue are linked to lower turnover.
 
-![](/assets/images/10_predictive_turnover_modelling_with_bayes.png)
+![](/assets/images/10_predictive_turnover_modelling_with_bayes_plot.png)
 
 Our analysis reveals the impacts of several key predictors. Job satisfaction was negatively associated with turnover. We can summarize the posterior distribution using what's called a *95% credible interval*, which identifies the 2.5th and 9.75th quantiles of the posterior distribution, highlighting where the range of odds ratios that are most plausible. The 95% credible interval on the job satisfaction odds ratio spans from 0.72 to 0.74. For each standard deviation increase in job satisfaction, the odds of an employee leaving decrease by between 25.9% and 28.1%. This highlights that employees who genuinely enjoy their work are far less likely to seek opportunities elsewhere. This aligns with [extensive research](https://doi.org/10.1111/peps.12226) highlighting job satisfaction's critical role.
 
