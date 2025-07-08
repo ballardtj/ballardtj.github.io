@@ -33,7 +33,7 @@ output:
   }
 </style>
 
-Losing a valued employee is undeniably costly, with [PwC Australia estimating an average cost of $40,000 per departing employee](https://www.pwc.com.au/people-organisation/employee-turnover-costs.html). Many organisations grapple with identifying the true drivers of attrition. While numerous factors are often cited, how certain can we be about the expected impact of each one? Understanding not just the 'what' but also the 'how sure are we' is vital for making informed, evidence-based decisions to improve retention.
+Losing a valued employee is undeniably costly, with [PwC Australia estimating an average cost of $40,000 per departing employee](https://www.pwc.com.au/future-of-work-design-for-the-future/2023-future-of-work-outlook.html). Many organisations grapple with identifying the true drivers of attrition. While numerous factors are often cited, how certain can we be about the expected impact of each one? Understanding not just the 'what' but also the 'how sure are we' is vital for making informed, evidence-based decisions to improve retention.
 
 ## Understanding Uncertainty in Turnover Risk: What the Data Show
 
