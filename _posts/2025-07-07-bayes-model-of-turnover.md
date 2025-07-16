@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "But How Sure Are We?: A Bayesian Look at the Uncertainty in Predicting Turnover"
+title: "But How Sure Are We? A Bayesian Look at the Uncertainty in Predicting Turnover"
 date: 2025-07-07 # Placeholder date, adjust as needed
 categories:
   - Blog
