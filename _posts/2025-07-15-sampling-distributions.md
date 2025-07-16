@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "About How Many Books Do You See? Fun With Sampling Distributions"
-date: 2025-15-07 # Placeholder date, adjust as needed
+date: 2025-07-15 # Placeholder date, adjust as needed
 categories:
   - Blog
 tags:
