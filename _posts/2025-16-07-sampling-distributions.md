@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "About How Many Books Do You See? Fun With Sampling Distributions"
-date: 2025-16-07 # Placeholder date, adjust as needed
+date: 2025-15-07 # Placeholder date, adjust as needed
 categories:
   - Blog
 tags:
@@ -24,7 +24,6 @@ output:
     font-size: 0.8em; /* Adjust font size just for this page */
   }
 </style>
-
 
 How many books do you see in the image below? And how could you estimate the total number of books without having to count all them? This exercise was introduced by the [multiplicity lab](https://multiplicitylab.northwestern.edu/project/ltt_r-057-about/) to help to train teachers to help students develop an understanding of mathematical concepts. My wife showed this to me. She's training to become a primary school teacher and worked through this exercise in her tutorial this week. When she told me about it, I couldn't help but think about how much this exercise can teach us about sampling distributions.
 
