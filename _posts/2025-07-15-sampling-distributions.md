@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "About How Many Books Do You See? Fun With Sampling Distributions"
+title: "How Many Books Do You See? Fun With Sampling Distributions"
 date: 2025-07-15 # Placeholder date, adjust as needed
 categories:
   - Blog
@@ -11,8 +11,8 @@ tags:
   - Data Science
   - R Programming
 header:
-  teaser: /assets/images/11_bookshelf.png # Placeholder image path
-  og_image: /assets/images/11_bookshelf.png # Placeholder image path
+  teaser: /assets/images/11_sampling_distributions_by_sample_size.png # Placeholder image path
+  og_image: /assets/images/11_sampling_distributions_by_sample_size.png # Placeholder image path
 output:
   md_document:
     variant: gfm
@@ -25,7 +25,7 @@ output:
   }
 </style>
 
-How many books do you see in [this image](https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/1/5269/files/2021/07/R.057-About.pdf)? And how could you estimate the total number of books without having to count all them? This exercise was introduced by the [multiplicity lab](https://multiplicitylab.northwestern.edu/project/ltt_r-057-about/) to help to train teachers to help students develop an understanding of mathematical concepts. My wife showed this to me. She's training to become a primary school teacher and worked through this exercise in her tutorial this week. When she told me about it, I couldn't help but think about how much this exercise can teach us about sampling distributions.
+How many books do you see in [this image](https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/1/5269/files/2021/07/R.057-About.pdf)? And how could you estimate the total number of books without having to count all them? This exercise was introduced by the [multiplicity lab](https://multiplicitylab.northwestern.edu/project/ltt_r-057-about/) to help to train teachers to help students develop an understanding of statistical concepts. My wife showed this to me. She's doing her masters in primary school teaching and worked through this exercise in her tutorial this week. When she told me about it, I couldn't help but think about how much this exercise can teach us about sampling distributions.
 
 ## What's a Sampling Distribution?
 
