@@ -48,7 +48,9 @@ So,in practice, how do we know whether our estimate is likely to be close to the
 
 If the goal is to generate a test statistic that is as accurate an estimate as possible of the true value, it follows that we want to try reduce the standard error. The easiest way to do this is to collect more data. One of the first formulas taught in every first year statistics course describes how the standard error increases with the square root of the sample size. But I always find it interesting to see this law in action. So I used the same method to generate sampling distributions for sample sizes of 8, 12, 16, and 20 sections. 
 
-The top row in the figure below shows how the sampling distribution changes when you increase the number of sections in each sample. As you increase the sample size from 4, to 8, and eventually to 20 shelves, the distributions get more concentrated. Your estimate gets more precise. The bottom panel shows the standard deviation of each sampling distribution (blue dots) mapped against the standard error you get from that formala I mentioned before (red line). When you transition from 4 to 8 shelves, there's a big decrease in the standard error. But further increases in the number of shelves produce smaller and smaller decreases. This is the square root law at play [Okay, this is slightly different from the classic standard error formula, because you have to apply what's called a finite sample correction to account for the fact that there is a limited number of units (sections) to sample, but the intuition doesn't change.] 
+
+
+The top row in the figure below shows how the sampling distribution changes when you increase the number of sections in each sample. As you increase the sample size from 4, to 8, and eventually to 20 shelves, the distributions get more concentrated. Your estimate gets more precise. The bottom panel shows the standard deviation of each sampling distribution (blue dots) mapped against the standard error you get from that formala I mentioned before (red line). When you transition from 4 to 8 shelves, there's a big decrease in the standard error. But further increases in the number of shelves produce smaller and smaller decreases. This is the square root law at play[^1]. 
 
 ![](/assets/images/11_sampling_distributions_by_sample_size.png)
 
@@ -57,3 +59,5 @@ The top row in the figure below shows how the sampling distribution changes when
 At this point we've expended far more effort than would be required to just count all the books in the first place. But this was way more fun! And hopefully it was educational. I love using simulations like these to explore statistical concepts. It can really help you to see the intuition behind the formulae. I've put the R code I used to create the simulations for this post [here](). Feel free to play around with it.
 
 So how many books are there actually in total? Well, I counted 542. But that's by no means a perfect estimate. 
+
+[^1]: Okay, this is slightly different from the classic standard error formula, because you have to apply what's called a finite sample correction factor to account for the fact that there is a limited number of units (sections) to sample. But the intuition doesn't change.
