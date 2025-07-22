@@ -28,13 +28,13 @@ output:
 
 I had so much fun creating [this post on sampling distributions](https://ballardtj.github.io/blog/sampling-distributions/) last week that I decided to do another post that uses simulations in R to illustrate core statistical concepts. This time I thought I'd focus on the central limit theorem.
 
-The central limit theorem is another one of those concepts taught in introductory stats courses. The theorem states that when you take the average of a large enough pool of independent samples from any distribution (with finite variance), that average will follow a normal distribution, regardless of what the original distribution looked like. This extremely useful for conducting inferential statistics because it means that even if you're sampling from a wildly skewed or unusual distribution, the sampling distribution of the mean will eventually converge to a normal distribution.
+The central limit theorem is another one of those concepts taught in introductory stats courses. The theorem states that when you take the average of a large enough pool of independent samples from any distribution (with finite variance), that average will follow a normal distribution, regardless of what the original distribution looked like. This is extremely useful for conducting inferential statistics because it means that even if you're sampling from a wildly skewed or unusual distribution, the sampling distribution of the mean will eventually converge to a normal distribution.
 
 To illustrate, I generated sampling distributions for three different types of non-normal distributions: a uniform distribution, a skewed one, and a bimodal one. For each sample size (shown as rows in the figure below), I simulated 100,000 samples, for each one taking the mean. The panels in the figure below show the distribution of the sample mean across the 100,000 simulations. The top row in the figure shows the sample mean for a sample size of 1. This is just equivalent to the probability density function of the distribution itself (since the mean of any single value is just the value itself). So, as we'd expect, the shape of the distributions are still highly non-normal.
 
 ![](/assets/images/12_clt_demonstration_means.png)
 
-However, as the sample size increases (as you move down the rows), all three distributions eventually start to look like the classic bell curve (albeit quite skinny or concentrated ones by the time you get to a sample size of 500). This is the central limit theorem at work. As you take the average across larger and larger samples, the sample mean will converge toward normality regardless of the underlying distribution that generated each value within the sample.
+However, as the sample size increases (as you move down the rows), all three distributions eventually start to look like the classic bell curve (albeit quite skinny or concentrated ones by the time you get to a sample size of 500). This is the central limit theorem at work. As you take the average across larger and larger samples, the sample mean will converge toward normality regardless (well, almost regardless) of the underlying distribution that generated each value within the sample.
 
 ## When Does the Central Limit Theorem Fail?
 
@@ -44,7 +44,7 @@ So what does it mean for a distribution to have finite variance? In simple terms
 
 This is not true for all distributions. A classic example is the cauchy distribution, which is a special case of Student's t distribution with only one degree of freedom. The left panel of the figure below shows the probability density function of the Cauchy distribution. At first glance, it looks deceptively like a normal distribution. It has a bell-like shape with a peak in the middle, but its tails are much "heavier" than a normal distribution, which means that extreme values occur far more frequently. In fact, these values are so extreme and so frequent that they prevent the variance estimate from stabilising. To illustrate, here are the results returned when I run `var(rcauchy(1000000))` 10 times: 1302851, 21687560, 3554555, 1306802, 3552145, 1078193, 76092406, 6515833, 562154.3, 739489.5. That's more than 2 orders of magnitude of inconsistency. And it's not the case increasing sample size fixes things. In fact, as the number of values per sample approaches infinity, the estimated variance doesn't converge to any value. It continues to fluctuate wildly and can grow without bound. 
 
-![](/assets/images/12_clt_demonstration_means.png)
+![](/assets/images/12_cauchy_pareto_pdf.png)
 
 The Pareto distribution also has non-finite variance under certain circumstances (specifically when it's shape parameter is less than 2). This distribution, like the Cauchy distribution, allocates non-trivial density to extremely high values. This makes the Pareto distribution particularly relevant for modeling real-world phenomena with extreme outliers, such as wealth distributions, city sizes, and earthquake magnitudes.
 
