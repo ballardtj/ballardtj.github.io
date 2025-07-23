@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "When Averages Go Wild: The Limits of the Central Limit Theorem"
+title: "When Averages Run Wild: The Limits of the Central Limit Theorem"
 date: 2025-07-22 # Placeholder date, adjust as needed
 categories:
   - Blog
@@ -46,7 +46,7 @@ This is not true for all distributions. A classic example is the cauchy distribu
 
 ![](/assets/images/12_cauchy_pareto_pdf.png)
 
-The Pareto distribution also has non-finite variance under certain circumstances (specifically when it's shape parameter is less than 2). This distribution, like the Cauchy distribution, allocates non-trivial density to extremely high values. This makes the Pareto distribution particularly relevant for modeling real-world phenomena with extreme outliers, such as wealth distributions, city sizes, and earthquake magnitudes.
+The Pareto distribution also has non-finite variance under certain circumstances (specifically, when its shape parameter is less than 2). This distribution, like the Cauchy distribution, allocates non-trivial density to extremely high values. This makes the Pareto distribution particularly relevant for modeling real-world phenomena with extreme outliers, such as wealth distributions, city sizes, and earthquake magnitudes. But it also makes the distribution tricky to work with.
 
 So why doesn't the central limit theorem apply in these cases? Take a look at the figure below and see what happens to the distribution of the sample mean as the sample size increases. As can be seen, even when n = 1, there's something weird going on. The panels in the top row show that while there's a spike in density at the modal value of 0, there are some extreme outliers. While the outliers themselves aren't visible in the plots, you can see their presence because they stretch the range of the x-axis. As you move down through the rows, you can see that increasing the sample size doesn't get rid of this outlier problem. No matter how large the sample, these distributions never converge to normality.
 
