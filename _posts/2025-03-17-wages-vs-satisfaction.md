@@ -55,12 +55,14 @@ For HR teams, one practical implication is the value of measuring and monitoring
 
 Higher wages can help reduce employee turnover – but they are not the most powerful factor keeping your talent onboard. If your goal is to hang on to your best and brightest, focus on cultivating high job satisfaction. That means building an environment where people want to come to work, not just one that pays them to. Competitive paychecks matter, but engaging work, supportive managers, and growth opportunities matter more in the long run.
 
+<!--
+
 ## Next Steps
 
 Want to understand what's driving retention in your organisation? I specialise in applying [advanced analytics to workforce data](/consulting), helping organisations uncover actionable insights about employee satisfaction and retention. 
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to discuss how we can apply these analytical approaches to your organisation's unique challenges.
 
-
+-->
 
 

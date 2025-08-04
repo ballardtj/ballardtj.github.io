@@ -56,12 +56,14 @@ At the same time, recognise that money isn't the only motivator. Employees may l
 
 Essentially, companies should reward and develop their internal talent proactively – not just to match external offers, but to demonstrate that employees don't need to leave to grow. By doing so, you'll reduce unnecessary turnover and hold on to valuable institutional knowledge.
 
+<!--
+
 ## Next Steps
 
 Want to understand how remuneration and career mobility patterns affect your workforce? I specialise in applying [advanced analytics to workforce data](/consulting), helping organisations develop evidence-based strategies around remuneration, internal mobility, and career development.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to explore how data-driven insights can inform your talent retention and remuneration strategies.
 
-
+-->
 
 

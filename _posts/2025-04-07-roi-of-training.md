@@ -66,6 +66,10 @@ For organisations, this means money spent on upskilling is put to good use; it p
 
 For employees, the message is to take advantage of training opportunities – they can help open doors. For leaders, the takeaway is to continue fostering a learning culture: developing your people is an investment in your organisation's future, yielding more capable managers and slightly better retention of ambitious staff.
 
+<!--
+
 ## Next Steps
 
 If you're looking for guidance, collaboration or a closer look at the numbers, let's talk. I specialise in translating workforce data into actionable insights. [Get in touch](mailto:t.ballard@uq.edu.au) to explore how tailored people analytics can enhance your employee development and promotion outcomes.
+
+-->

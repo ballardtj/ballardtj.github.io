@@ -70,12 +70,14 @@ The bottom line is to proactively counteract the loss of visibility and opportun
 
 From a policy perspective, the findings highlight that achieving gender pay equity will require systemic changes. Paid parental leave, broadly accessible childcare, flexible work cultures, and legal protections against caregiver discrimination are all important. The fact that women earn significantly less than men after having children is not just a family issue – it's a productivity and talent issue for businesses, and an economic issue for society. Bridging this gap is important for achieving higher workforce participation and reduced attrition of skilled women.
 
+<!--
+
 ## Next Steps
 
 Want to understand how parenthood affects career trajectories in your organisation? I specialise in applying [advanced analytics to workforce data](/consulting), helping organisations develop evidence-based strategies for supporting working parents while maintaining career momentum.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to explore how data-driven insights can inform your parental leave policies and career development programs.
 
-
+-->
 
 

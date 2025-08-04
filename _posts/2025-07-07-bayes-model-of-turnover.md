@@ -59,6 +59,8 @@ The clear, if somewhat surprising, link between longer tenure and higher turnove
 
 While age itself is not a manageable factor, the strong evidence that older workers are less likely to leave highlights their value as a stable segment of the workforce. Creating an inclusive environment that supports older workers is therefore also important. The finding that female employees have a higher turnover risk highlights the need to consider internal practices related to equity, development, and support for work-life integration. See also [this earlier blog post on the impact of parenthood on gender pay disparities](https://ballardtj.github.io/blog/parenthood-career-earning/).
 
+<!--
+
 ## Next Steps
 
 Predicting employee turnover involves considering a range of factors, each with effects that vary in their strength and level of certainty. A Bayesian approach allows us to directly account for this uncertainty, giving policy makers better information that can lead to more informed decisions about retention strategies. 
@@ -66,3 +68,5 @@ Predicting employee turnover involves considering a range of factors, each with 
 Want to explore how these predictive factors play out in your organisation? I specialise in applying advanced analytics, including Bayesian methods, to workforce data, helping organisations uncover actionable insights into employee turnover and develop targeted retention initiatives.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to discuss how we can apply these analytical approaches to your organisation's unique talent management challenges.
+
+-->

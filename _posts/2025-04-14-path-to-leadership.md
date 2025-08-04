@@ -56,6 +56,8 @@ Second, the gender parity in promotion rates is encouraging – maintaining this
 
 Third, invest in education and skill development across your workforce. Our analysis shows that formal qualifications significantly increase promotion chances. Rather than limiting your hiring pool to candidates with advanced degrees, consider creating pathways for promising employees to gain additional qualifications through tuition assistance programs, industry certifications, or university partnerships. By investing in employee education, you'll naturally expand your pipeline of management-ready talent while fostering loyalty among ambitious team members.
 
+<!--
+
 ## Next Steps
 
 Every company's culture and promotion dynamics are unique. It's worth examining your own HR data to see who advances to leadership internally to better understand your organisation's specific patterns.
@@ -63,3 +65,5 @@ Every company's culture and promotion dynamics are unique. It's worth examining 
 Want to explore what's driving leadership advancement in your organisation? I specialise in applying advanced analytics to workforce data, helping organisations uncover actionable insights about promotion patterns and leadership development.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to discuss how we can apply these analytical approaches to understand your organisation's unique leadership pipeline.
+
+-->

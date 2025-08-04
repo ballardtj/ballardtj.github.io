@@ -64,6 +64,8 @@ Armed with this knowledge, organisations can take proactive steps to improve ret
 
 - **No One-Size-Fits-All**: Recognise that needs differ. Some employees don't mind extra hours if they can do them on their own schedule; others fiercely protect their evenings. Tailor solutions where possible – maybe an hour cap for one person and a flex-time arrangement for another. The goal is the same: prevent burnout and frustration from driving good people away.
 
+<!--
+
 ## Next Steps
 
 How does your organisation fare on the flexibility-workload balance? Consider conducting a brief anonymous survey to measure both flexibility satisfaction and typical working hours among your teams. The patterns you discover might reveal hidden retention risks or validate your current approach. Even simple metrics like tracking average hours alongside exit interview feedback can provide valuable insights into whether your workplace is striking the right balance.
@@ -71,3 +73,5 @@ How does your organisation fare on the flexibility-workload balance? Consider co
 Want to explore what's driving retention in your organisation? I specialise in applying advanced analytics to workforce data, helping organisations uncover actionable insights about work-life balance and employee turnover.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to discuss how we can apply these analytical approaches to your organisation's unique retention challenges.
+
+-->

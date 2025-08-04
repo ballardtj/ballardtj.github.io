@@ -59,6 +59,8 @@ These findings have clear implications: employee wellbeing is not just a "nice-t
 4.  **Invest in Manager Training:**
     Managers are at the frontline of employee experience. Equipping them with the skills to recognise early signs of distress, have supportive conversations, and guide employees to appropriate resources is paramount. [Research by Gartner suggests that manager support is key to employee wellbeing](https://www.gartner.com/en/newsroom/press-releases/2023-06-22-gartner-hr-survey-finds-77-percent-of-employees-are-placing-increased-importance-on-manager-support). When employees feel their manager genuinely cares, they are more likely to feel supported through challenging times.
 
+<!--
+
 ## Next Steps
 
 Higher psychological distress significantly increases the likelihood of an employee leaving the workforce. Ignoring the mental wellbeing of your staff is not just a human cost; it's a tangible loss to the organisation in terms of talent, productivity, and replacement expenses.
@@ -66,3 +68,5 @@ Higher psychological distress significantly increases the likelihood of an emplo
 Want to explore how wellbeing dynamics are affecting retention in your organisation? I specialise in applying advanced analytics to workforce data, helping organisations uncover actionable insights into employee mental health, engagement, and attrition.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to discuss how we can apply these analytical approaches to your organisation's unique wellbeing and retention challenges.
+
+-->

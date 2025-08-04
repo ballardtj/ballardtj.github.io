@@ -55,6 +55,8 @@ The clear link between better physical health and delayed retirement demonstrate
 
 Finally, organisations should embrace and facilitate positive retirement transitions. The finding that those with better mental health might be more inclined to retire suggests that retirement is often a proactive choice made by individuals who feel ready for a new chapter. Rather than viewing retirement solely as a loss of talent, organisations can foster a culture where this transition is seen as a natural and positive progression. Supporting employees in planning for retirement, celebrating their careers, and maintaining connections through alumni programs or mentoring opportunities can make the process smoother and more positive for everyone involved. This approach acknowledges the individual's journey while also facilitating better knowledge transfer and succession planning for the business.
 
+<!--
+
 ## Next Steps
 
 The decision to retire is different for everyone. While job satisfaction appears to be the most significant lever for retention among older workers, physical health also plays a key role in enabling continued work. Understanding these dynamics is key to retaining valuable experienced staff and supporting positive transitions when employees do decide to retire.
@@ -62,3 +64,5 @@ The decision to retire is different for everyone. While job satisfaction appears
 Want to explore how factors like health and job satisfaction are influencing retirement patterns in your organisation? I specialise in applying advanced analytics to workforce data, which can help organisations develop evidence-based strategies for managing an ageing workforce.
 
 [Get in touch](mailto:t.ballard@uq.edu.au) to discuss how we can apply these analytical approaches to your organisation's unique challenges related to retirement planning and older worker engagement.
+
+-->
