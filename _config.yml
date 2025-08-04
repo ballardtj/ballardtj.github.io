@@ -19,7 +19,7 @@ locale                   : "en-AU"
 title                    : "Tim Ballard, PhD"
 title_separator          : "-"
 name                     : "Tim Ballard"
-description              : "Senior Research Fellow" #Want to apply these insights to your organisation? [Let's connect](mailto:t.ballard@uq.edu.au)"
+description              : "Senior Research Fellow, The University of Queensland" #Want to apply these insights to your organisation? [Let's connect](mailto:t.ballard@uq.edu.au)"
 url                      : "https://ballardtj.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ballardtj/ballardtj.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr Tim Ballard"
+  name             : "Tim Ballard, PhD"
   avatar           : "/assets/images/headshot_2024.jpeg"
-  bio              : "<strong>Senior Research Fellow</strong>" #and People Analytics Consultant</strong><br><br>Want to apply these insights to your organisation? Reach out using the contact details below."
+  bio              : "<strong>Senior Research Fellow, The University of Queensland</strong>" #and People Analytics Consultant</strong><br><br>Want to apply these insights to your organisation? Reach out using the contact details below."
   location         : "Brisbane, Australia"
   email            :  "t.ballard@uq.edu.au"
   uri              :

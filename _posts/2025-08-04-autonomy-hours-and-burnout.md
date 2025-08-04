@@ -1,4 +1,3 @@
-
 ---
 layout: single
 toc: true
@@ -37,7 +36,7 @@ Organisations are continually seeking ways to support their employees and mainta
 
 A [recent report from the Black Dog Institute](https://www.blackdoginstitute.org.au/wp-content/uploads/2020/04/creating-mentally-healthy-workplaces.pdf), for example, highlighted that poor mental health is a strong driver of turnover and reduced work capacity in Australian workplaces, with economic analyses consistently showing that mental health conditions cost Australian businesses around $11 billion each year through absenteeism, reduced work performance, increased turnover, and compensation claims.
 
-This raises an important question for HR leaders and managers: can granting employees more control over their work lessen the toll of extended hours? We investigated this in new analysis of Australian workplace data, and the findings offer some interesting insights.
+This raises an important question for HR leaders and managers: can granting employees more control over their work lessen the toll of extended hours? In a [previous post](https://ballardtj.github.io/blog/work-life-balance-and-retention/), we examined whether flexibility reduced the extent to which longer hours lead workers to leave an organisation (spoiler alert: it didn't). But can offering autonomy more broadly at least reduce stress? We investigated this in a new analysis of Australian workplace data, and the findings offer some interesting insights.
 
 ## Working Smarter, Not Just Harder: What the Data Show
 
