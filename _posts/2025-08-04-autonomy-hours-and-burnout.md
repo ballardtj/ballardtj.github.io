@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title: "Autonomy Does Not Mitigate the Stress of Working Long Hours"
-date: 2025-08-07
+date: 2025-08-03
 categories:
   - Blog
 tags:
@@ -16,8 +16,8 @@ tags:
   - HR
   - Well-being
 header:
-  teaser: /assets/images/autonomy_long_hours.png
-  og_image: /assets/images/autonomy_long_hours.png
+  teaser: /assets/images/13_dimensions-plot-1.png
+  og_image: /assets/images/13_dimensions-plot-1.png
 output:
   md_document:
     variant: gfm
