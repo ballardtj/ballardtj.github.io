@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast_green" # "default", "air", "aqua", "contras
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "Dr Tim Ballard - People Analytics"
+title                    : "Tim Ballard, PhD"
 title_separator          : "-"
 name                     : "Tim Ballard"
-description              : "Senior Research Fellow and People Analytics Consultant specialising in complex human data analysis. Want to apply these insights to your organisation? [Let's connect](mailto:t.ballard@uq.edu.au)"
+description              : "Senior Research Fellow #Want to apply these insights to your organisation? [Let's connect](mailto:t.ballard@uq.edu.au)"
 url                      : "https://ballardtj.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ballardtj/ballardtj.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
