@@ -2,6 +2,8 @@
 layout: single
 toc: false
 title: Get in Touch
+author_profile: true
+permalink: /contact/
 ---
 
 <style>
@@ -10,7 +12,7 @@ font-size: 0.8em; /* Adjust font size just for this page */
 }
 </style>
 
-I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people and policies. Whether you have a specific project in mind or just want to explore possibilities, feel free to [email me](mailto:t.ballard@uq.edu.au) or reach out on [LinkedIn](https://www.linkedin.com/in/tim-ballard-ba8ba625/) and let's have a conversation.
+I'm always interested in discussing how advanced analytics can help managers and organisations make better decisions about their people and policies. Whether you have a specific project in mind or just want to explore possibilities, feel free to [email me](mailto:t.ballard@uq.edu.au) or reach out on [LinkedIn](https://www.linkedin.com/in/tim-ballard-phd-ba8ba625/) and let's have a conversation.
 
 <!--
 
