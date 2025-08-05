@@ -1,7 +1,7 @@
 ---
 layout: single
 toc: true
-title: "Autonomy Does Not Mitigate the Stress of Working Long Hours"
+title: "Does Autonomy Mitigate the Stress of Working Long Hours?"
 date: 2025-08-04
 categories:
   - Blog
