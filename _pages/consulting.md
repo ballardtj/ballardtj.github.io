@@ -55,12 +55,12 @@ patterns, and decision-making processes interact, revealing areas where safety r
 could occur. By understanding these interactions, the model helps identify opportunities to redesign 
 workflows, improving both safety and crew efficiency.
 
-### Mental Well-Being and Working Hours
+### Mental Wellbeing and Working Hours
 I developed a new hierarchical Bayesian modelling approach for identifying individual differences in the long-term effects of 
 working hours on mental health, enabling actionable recommendations for workforce wellbeing. This approach allows for insights
 not only about average effects across a workforce, but also in the variation in effects, including the proportion of employees that
 may be adversely affected by certain policies and the factors that may mitigate those adverse effects. This allowed for more 
-targeted recommendations to improve workforce well-being.
+targeted recommendations to improve workforce wellbeing.
 
 ## Getting Started
 
