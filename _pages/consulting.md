@@ -17,8 +17,8 @@ My unique value lies not only in understanding human behaviour in work environme
 also in my expertise in advanced analytic methods. This dual focus allows me 
 to provide tailored, data-driven solutions that improve workforce health, safety, and performance.
 
-With a PhD from the University of Western Australia and nearly a decade of experience at the 
-University of Queensland, my work has been at the forefront of pioneering new methods for 
+With a PhD from the University of Western Australia and over a decade of experience at the 
+University of Queensland, my work has been at the forefront of advancing methods for 
 analysing complex human data. As a consultant, I apply this expertise to help organisations 
 leverage their data to solve complex people-related challenges.
 
