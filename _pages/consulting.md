@@ -22,47 +22,20 @@ University of Queensland, my work has been at the forefront of pioneering new me
 analysing complex human data. As a consultant, I apply this expertise to help organisations 
 leverage their data to solve complex people-related challenges.
 
-## Why Work With Me?
+## My Approach
 
-What sets me apart is my unique combination of advanced data analytics expertise and deep knowledge 
-of business and organisational psychology. I not only offer technical proficiency in data analysis 
-and modeling, but I also bring a thorough understanding of the human and organisational factors 
-that drive health, safety, and performance. This dual expertise allows me to provide insights that 
-are not only cutting-edge statistically but also highly relevant to real-world organisational challenges. 
-I don’t just deliver numbers—I translate complex data into actionable strategies that enhance 
-decision-making, optimise workforce productivity, and promote employee well-being.
+I partner with organisational psychologists, HR teams, and health & safety professionals—both in-house teams and consultancies—to enhance their analytics capabilities. I work collaboratively alongside your team to build sustainable analytical approaches to your most complex workforce challenges. Every engagement is tailored to your team's needs. I offer strategic advisory on analytical approaches for teams that need expert input. I also offer collaborative partnerships where we design and analyze together. Or I can provide full-service analysis, handling the complete workflow from data preparation to statistical modeling to actionable insights about key drivers and intervention points.
 
-## Services I Offer 
+My approach moves beyond backward-looking reports or dashboards to focus on _understanding_ why things happen so you know where to intervene, and _predicting_ what will happen so you can quantify ROI. Whether you're trying to identify key drivers of turnover, demonstrate compliance with psychosocial safety regulations, or build evidence-based business cases for interventions, I help you transform data into strategic decisions that improve workforce outcomes.
 
-### Predictive Workforce Analytics
-I help organisations anticipate critical workforce outcomes such as employee turnover, fatigue, 
-and mental health trajectories. By applying advanced statistical techniques like Bayesian modeling 
-and longitudinal data analysis, I can provide more accurate predictions that allow you to proactively 
-address potential issues and optimise workforce planning.
+## Common Challenges I Address
 
-### Workplace Well-Being & Mental Health Insights
-I help uncover new insights about the complex relationships between work conditions and employee well-being. 
-These insights enable organisations to design work environments that reduce stress, enhance mental health, and 
-boost productivity. For example, I can help you understand how work hours, job demands, and 
-organisational changes impact employee health over time, providing clear, evidence-based 
-recommendations to improve employee well-being.
-
-### Fatigue Risk Management
-My expertise in biomathematical fatigue modeling and Bayesian estimation of uncertainy has allowed me to develop 
-tools that predict fatigue levels in safety-critical environments involving shift work, such aviation, 
-mining, or defense. These tools provide actionable insights to more effectively manage fatigue-related risks and 
-improve both safety and operational performance.
-
-### Optimising Organisational Design and Work Practices
-Through the application of computational simulations, I assist organisations in 
-optimising work environments and operational practices. I use data to model the potential impact 
-of changes such as implementing a four-day work week or work role redesign. This allows 
-organisations to make informed decisions that balance operational efficiency with employee well-being.
-
-### Data Visualisation & Reporting
-I deliver insights in a way that’s easy to understand and act upon. Through clear visualisations, 
-interactive dashboards, or customised reports, I ensure that your organisation has the tools it 
-needs to interpret and apply the data effectively.
+| Core Function | Key Question | Common Challenge | How I Help |
+|--------------|--------------|------------------|------------|
+| **Talent Acquisition** | Which candidate attributes actually predict performance and retention? | Hiring relies heavily on resumes and interviews with little evidence linking methods to outcomes | Apply advanced statistical methods and predictive analytics to your organisational data to identify which attributes and assessment tools actually predict success. Quantify the ROI of improving selection validity. |
+| **Learning & Development** | Did this program improve performance, retention, or business outcomes? | Training effectiveness judged by satisfaction scores rather than actual impact | Use pre/post testing, causal inference methods, and machine learning models to identify not just if training worked, but for whom and whether it justified the investment. |
+| **Health, Safety & Wellbeing** | How can we proactively reduce injuries and manage psychosocial risk? | Reliance on lagging indicators and a struggle to meet new psychosocial regulations | Integrate diverse data sources (survey data, HR records, incident reports) to build predictive models that identify leading indicators. Provide evidence-based insights for interventions and compliance. |
+| **Retention & Workforce Planning** | Who is likely to leave, and what can we do to retain them? | Retention efforts often rely on annual surveys or anecdotal feedback, offering limited insight into actual drivers of turnover | Use predictive models combining quantitative data analysis with psychological insights to uncover risk factors and quantify individual and team-level attrition risk. Identify high-risk groups and forecast the impact of targeted retention strategies. |
 
 ## Recent Projects
 
@@ -84,15 +57,11 @@ workflows, improving both safety and crew efficiency.
 I developed a new hierarchical Bayesian modeling approach for identifying individual differences in the long-term effects of 
 working hours on mental health, enabling actionable recommendations for workforce wellbeing. This approach allows for insights
 not only about average effects across a workforce, but also in the variation in effects, including the proportion of employees that
-may be adversely effected by certain policies and the factors that may mitigate those adverse effects. This allowed for more 
+may be adversely affected by certain policies and the factors that may mitigate those adverse effects. This allowed for more 
 targeted recommendations to improve workforce well-being.
 
 ## Getting Started
-I offer a free initial consultation to understand your needs and determine how I can help. Here's how we can begin:
 
-1. Contact: Send me an email outlining your project or challenge
-2. Discussion: We'll schedule a brief call to discuss your needs in detail
-3. Proposal: I'll provide a tailored proposal outlining the approach, timeline, and pricing
-4. Implementation: We'll begin with a clearly defined scope and deliverables
+If you're interested in working with me, let's have a (free) conversation so I can understand your needs and see how I can help. Send me an [email](mailto:t.ballard@uq.edu.au?subject=Analytics Consulting Inquiry) to get the conversation started.
 
-Send me an [email](mailto:t.ballard@uq.edu.au?subject=Analytics Consulting Inquiry) to start the conversation.
+
