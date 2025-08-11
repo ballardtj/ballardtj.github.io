@@ -28,7 +28,7 @@ I partner with organisational psychologists, HR teams, and health & safety profe
 
 My approach moves beyond backward-looking reports or dashboards to focus on _understanding_ why things happen so you know where to intervene, and _predicting_ what will happen so you can quantify ROI. Whether you're trying to identify key drivers of turnover, demonstrate compliance with psychosocial safety regulations, or build evidence-based business cases for interventions, I help you transform data into strategic decisions that improve workforce outcomes.
 
-For examples of my analytical approach in action, visit my [blog](https://ballardtj.github.io/blog/) where I share research insights on important organisational questions.
+For examples of my analytical approach in action, check out my [blog](https://ballardtj.github.io/blog/) where I share research insights on important organisational questions.
 
 ## Common Challenges I Address
 
