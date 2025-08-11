@@ -24,7 +24,7 @@ leverage their data to solve complex people-related challenges.
 
 ## My Approach
 
-I partner with organisational psychologists, HR teams, and health & safety professionals—both in-house teams and consultancies—to enhance their analytics capabilities. I work collaboratively alongside your team to build sustainable analytical approaches to your most complex workforce challenges. Every engagement is tailored to your team's needs. I offer strategic advisory on analytical approaches for teams that need expert input. I also offer collaborative partnerships where we design and analyze together. Or I can provide full-service analysis, handling the complete workflow from data preparation to statistical modeling to actionable insights about key drivers and intervention points.
+I partner with organisational psychologists, HR teams, and health & safety professionals—both in-house teams and consultancies—to enhance their analytics capabilities. I work collaboratively alongside your team to build sustainable analytical approaches to your most complex workforce challenges. Every engagement is tailored to your team's needs. I offer strategic advisory on analytical approaches for teams that need expert input. I also offer collaborative partnerships where we design and analyse together. Or I can provide full-service analysis, handling the complete workflow from data preparation to statistical modelling to actionable insights about key drivers and intervention points.
 
 My approach moves beyond backward-looking reports or dashboards to focus on _understanding_ why things happen so you know where to intervene, and _predicting_ what will happen so you can quantify ROI. Whether you're trying to identify key drivers of turnover, demonstrate compliance with psychosocial safety regulations, or build evidence-based business cases for interventions, I help you transform data into strategic decisions that improve workforce outcomes.
 
@@ -54,7 +54,7 @@ could occur. By understanding these interactions, the model helps identify oppor
 workflows, improving both safety and crew efficiency.
 
 ### Mental Well-Being and Working Hours
-I developed a new hierarchical Bayesian modeling approach for identifying individual differences in the long-term effects of 
+I developed a new hierarchical Bayesian modelling approach for identifying individual differences in the long-term effects of 
 working hours on mental health, enabling actionable recommendations for workforce wellbeing. This approach allows for insights
 not only about average effects across a workforce, but also in the variation in effects, including the proportion of employees that
 may be adversely affected by certain policies and the factors that may mitigate those adverse effects. This allowed for more 
