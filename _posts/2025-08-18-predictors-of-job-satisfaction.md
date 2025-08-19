@@ -16,8 +16,8 @@ tags:
   - HR
   - Compensation
 header:
-  teaser: /assets/images/16_predictor_bargraph.png
-  og_image: /assets/images/16_predictor_bargraph.png
+  teaser: /assets/images/16_predictor_bargraph_large.png
+  og_image: /assets/images/16_predictor_bargraph_large.png
 output:
   md_document:
     variant: gfm
@@ -38,7 +38,7 @@ To understand what truly drives satisfaction, we analysed workplace factors usin
 
 The figure below shows the results of our analysis. The bars display the best estimate for each factor's effect on job satisfaction, while the error bars show the 95% credible intervals, which represent the range where the true effect most likely lies. We've ranked the factors from most negative (bottom) to most positive (top). Green bars mean a factor credibly increases satisfaction, red bars mean it credibly decreases it, and grey means there's no credible effect.
 
-![](/assets/images/16_predictor_bargraph.png)
+![](/assets/images/16_predictor_bargraph_large.png)
 
 Our analysis revealed interesting patterns in what drives workplace satisfaction. The strongest positive predictor was having *variety in one's work*, followed closely by being *paid fairly* and having a *secure future* in the job. The different measures of *autonomy* also had a substantial positive impact, including having a say in what happens on the job, and freedom over how, when, and where to work. When employees reported more variety, fairness, security, and control, their satisfaction was notably higher.
 
