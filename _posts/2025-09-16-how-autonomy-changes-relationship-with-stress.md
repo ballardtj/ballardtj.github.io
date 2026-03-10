@@ -30,8 +30,6 @@ output:
   }
 </style>
 
-📊 How Autonomy Changes Our Relationship with Stress
-
 Job autonomy and stress both impact job satisfaction. Having autonomy over our work boosts satisfaction, while high levels of stress can lead to burnout.
 
 But how do autonomy and stress interact? Is autonomy a silver bullet that nullifies the impact of stress? Or does job stress lead to negative outcomes even when autonomy is high?

@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 What's the true economic cost of workplace mental health claims?
-
 I've been experimenting with different ways to visualise the economic impact of mental health claims in Australia. We know these claims are the most expensive per claim, and we know they're growing fast. But to understand the total economic burden, you need to account for both the cost per claim and the number of claims being paid out each year.
 
 Each bubble in the figure below represents an injury type, plotted by the number of claims (x-axis) and the median compensation paid per claim (y-axis). The size and colour of each bubble reflects the total economic cost (the claims multiplied by median compensation*). The left panel shows 2015, the right shows 2023.

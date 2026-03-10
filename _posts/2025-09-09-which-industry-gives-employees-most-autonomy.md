@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 Which Industry Gives Employees the Most Autonomy?
-
 There's solid evidence that increasing employee autonomy leads to better job satisfaction, engagement, and staff retention. But not all industries are equal when it comes to level of autonomy offered.
 
 So, which industry is best for workers wanting to maximise their autonomy?

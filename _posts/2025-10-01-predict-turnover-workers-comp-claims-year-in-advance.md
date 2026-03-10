@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 How accurately can we predict turnover and workers' comp claims a year in advance?
-
 Turnover and workers' comp claims are costly for organisations and difficult experiences for employees. Knowing where risk is likely to emerge gives HR and Health & Safety teams a chance to proactively manage it.
 
 But how accurately can these outcomes be predicted in advance?

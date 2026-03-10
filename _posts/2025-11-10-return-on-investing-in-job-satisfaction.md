@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 What's the Return on Investing in Job Satisfaction?
-
 Leaders know that improving job satisfaction matters. We see it in discussions about 'quiet quitting', disengagement, and talent retention. But when budgets tighten, initiatives with clear financial returns get approved while investments in employee wellbeing often struggle to secure funding. This creates an important challenge: how do you prove the financial value of investing in your people?
 
 One powerful way to quantify this return is through employee turnover costs. While turnover isn't the only outcome affected by job satisfaction, it provides a concrete, measurable financial impact that resonates in boardrooms and budget meetings.

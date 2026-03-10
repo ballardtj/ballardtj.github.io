@@ -29,9 +29,7 @@ output:
   }
 </style>
 
-📊 No Industry is Immune to the Mental Health Gap
-
-Last week I shared data showing a growing mental health gap in the workforce. Younger workers are reporting worse mental health than older workers, a trend which has been growing over the past decade (see link in comments below).
+Last week I shared data showing a growing mental health gap in the workforce. Younger workers are reporting worse mental health than older workers, a trend which has been growing over the past decade.
 
 But is this gap consistent across industries, or is the overall trend driven by just a few sectors?
 

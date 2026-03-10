@@ -28,8 +28,6 @@ output:
   }
 </style>
 
-📊 What's Driving the Decline in Mental Health Among Workers?
-
 Mental health among Australian workers has declined steadily over the past decade. The data in the left-hand panel of the figure below shows the average mental health (as measured by the SF36) across the working population using data from the HILDA survey, which has tracked over 23,000 workers from 2001-2023.
 
 This decline is about 0.3 standard deviations. But for context, job loss—one of the most disruptive life events—typically reduces mental health by an average of about 0.05 SD in this dataset. The decline over the last decade is roughly six times that.

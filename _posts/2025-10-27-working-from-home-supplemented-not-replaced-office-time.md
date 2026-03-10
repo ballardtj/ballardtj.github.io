@@ -29,9 +29,7 @@ output:
   }
 </style>
 
-📊 Working from home hasn't just replaced time at the workplace—it has supplemented it.
-
-Last week, I posted about a paradox: while the Australian national average work week has reduced by 3.1 hours since 2001, individuals' working hours are increasing (see link to previous post in comments).
+Last week, I posted about a paradox: while the Australian national average work week has reduced by 3.1 hours since 2001, individuals' working hours are increasing.
 
 This is because the national average is being pulled down by compositional change. Older generations who worked longer hours are retiring and being replaced by newer generations who work fewer hours. At the same time, when we look at the within-person change (how each individual's hours have changed over the last two decades), many people's workloads are actually going up.
 

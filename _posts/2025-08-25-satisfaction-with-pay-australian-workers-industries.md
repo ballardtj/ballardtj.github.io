@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 Satisfaction with Pay Among 19,224 Australian Workers Across 19 Industries
-
 Last week, I posted some findings about the work-related predictors of job satisfaction. One takeaway was that an employee's satisfaction with their pay has a stronger influence on job satisfaction than their actual salary.
 
 I dug a little bit deeper into this relationship between actual salary and satisfaction with that salary across industries. Once again, I used data from the Household, Income, and Labour Dynamics in Australia survey. The sample contained 120,914 observations from 19,244 full-time employees between 2001 and 2023.

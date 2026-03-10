@@ -29,9 +29,7 @@ output:
   }
 </style>
 
-📊 The Escalating Cost of Unhappy High Earners
-
-In my post last week, we quantified the ROI of investing in job satisfaction, showing that an organisation of 1,000 employees can save over $4m per annum in turnover costs simply by improving staff satisfaction (see link to that post in comments).
+In my post last week, we quantified the ROI of investing in job satisfaction, showing that an organisation of 1,000 employees can save over $4m per annum in turnover costs simply by improving staff satisfaction.
 
 But it raised another question: What about salary?
 

@@ -28,9 +28,7 @@ output:
   }
 </style>
 
-📊 What type of workplace injury claims cost organisations the most?
-
-I shared some data a few weeks ago showing that workers compensation claims for mental health issues are among the fastest growing type of claim (see link to previous post in comments).
+I shared some data a few weeks ago showing that workers compensation claims for mental health issues are among the fastest growing type of claim.
 
 But how much do these claims actually cost organisations?
 

@@ -28,8 +28,6 @@ output:
   }
 </style>
 
-📊 The Mental Health Gap Is Just as Much About Gender as Generation
-
 Over the past few weeks, I've been really interested in the growing mental health gap in the Australian workforce. Workers born in more recent decades are reporting significantly worse mental health than workers born in earlier decades, and this gap has been growing over the past 10 years.
 
 But in looking at this further, it's not just a gap between birth cohorts. The gap also depends on gender.

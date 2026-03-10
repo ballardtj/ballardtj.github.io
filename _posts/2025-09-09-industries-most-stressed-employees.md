@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 Which Industries Have the Most Stressed Employees?
-
 Workplace stress is a major driver of burnout, poor performance, and employee turnover. While a certain amount of stress is normal, even desirable, too much stress can place employees at risk. The risk isn't just about employee disengagement, but also about the potential for physical and psychological injury.
 
 So which industries are carrying the heaviest burden?

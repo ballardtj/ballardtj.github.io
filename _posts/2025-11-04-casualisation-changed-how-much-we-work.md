@@ -28,9 +28,7 @@ output:
   }
 </style>
 
-📊 Has Casualisation Changed How Much We Work?
-
-I'm continuing down the rabbit hole of examining how and why working hours have changed over time in Australia. In previous posts, I've described an interesting paradox. While the national average work week has shrunk by 3.1 hours since 2001, individuals are paradoxically working slightly more over their careers. A big part of this is that we're working more from home, especially since COVID, but we're not spending much less time in the office (see links to prior posts in comments).
+I'm continuing down the rabbit hole of examining how and why working hours have changed over time in Australia. In previous posts, I've described an interesting paradox. While the national average work week has shrunk by 3.1 hours since 2001, individuals are paradoxically working slightly more over their careers. A big part of this is that we're working more from home, especially since COVID, but we're not spending much less time in the office.
 
 One great question that was raised was how the mix of casual versus permanent work impacts all this.
 

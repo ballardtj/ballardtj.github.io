@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 Which industries see the highest ROI from job satisfaction?
-
 We know that improving job satisfaction reduces turnover, saving organisations millions in replacement costs.
 
 But not all industries are equal. The financial return on keeping employees happy depends on two variables:

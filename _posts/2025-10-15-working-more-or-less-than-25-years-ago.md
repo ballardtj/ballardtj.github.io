@@ -27,8 +27,6 @@ output:
   }
 </style>
 
-📊 Are we working more or less than we were 25 years ago?
-
 In 1930, economist John Maynard Keynes famously predicted that by 2030, technology would advance so much we'd only need to work a 15-hour week. And even that was just so we wouldn't get bored. With 2030 just around the corner (relatively speaking), how are we tracking?
 
 The answer is a little complicated. Just looking at average hours can be misleading, because a rise in part-time work could pull the average down without full-time workers' hours actually changing.

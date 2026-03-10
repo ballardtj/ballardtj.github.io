@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 Which Industries Provide the Most Engaging Jobs?
-
 We all want a job that's interesting, uses our skills, and allows us to learn and grow. Not only are these qualities important for engagement, but they also support mental health and psychosocial safety. While every organisation is different, it turns out there are clear patterns in how engaging the work tends to be across different industries.
 
 To investigate this, we analysed nearly two decades of Australian data (HILDA 2005-2023). We compared 19 industries based on six key features of job design: variety, complexity, skill-use, initiative, learning, and repetitiveness.

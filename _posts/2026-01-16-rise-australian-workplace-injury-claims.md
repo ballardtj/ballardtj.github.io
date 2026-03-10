@@ -29,8 +29,6 @@ output:
   }
 </style>
 
-📊 What's driving the rise in Australian workplace injury claims?
-
 Safe Work Australia data tells an interesting story.
 
 The figure below shows claims for the five most common injury types over the decade up to 2024. The left panel tracks yearly claim numbers; the right panel shows percentage growth from 2015 to 2024.

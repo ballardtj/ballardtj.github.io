@@ -28,9 +28,7 @@ output:
   }
 </style>
 
-📊 The Emerging Mental Health Divide in the Workforce
-
-Last week I shared data showing that worker mental health has declined over the past decade, driven by both individual deterioration (a given worker will likely have poorer mental health today than they did 10 years ago) and compositional change (newer workers are entering with lower baseline mental health than those retiring). I'll link this previous post in the comments.
+Last week I shared data showing that worker mental health has declined over the past decade, driven by both individual deterioration (a given worker will likely have poorer mental health today than they did 10 years ago) and compositional change (newer workers are entering with lower baseline mental health than those retiring).
 
 A good follow-up question that some of you asked was "how do these trends differ by age or career stage?" Is this most recent generation of new workers starting off with worse mental health? Or is it just that young workers have always struggled more?
 
