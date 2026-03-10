@@ -27,9 +27,7 @@ output:
   }
 </style>
 
-📊 The Paradox of Working Hours: Why Average Hours Are Dropping, But Yours Are Not
-
-The average Australian has gone from working 37.5 hours a week in 2001 to 34.4 in 2023—a drop of over 3 hours. My post last week (see link in comments) broke down these trends at the population level.
+The average Australian has gone from working 37.5 hours a week in 2001 to 34.4 in 2023—a drop of over 3 hours. My post last week broke down these trends at the population level.
 
 On the surface, this looks like we're all embracing a better work-life balance. But is that what's really happening?
 
