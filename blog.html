@@ -1,5 +1,147 @@
----
-layout: posts
-title: Blog
-permalink: /blog/
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Tim Ballard, PhD</title>
+  <meta name="description" content="Research insights on workforce mental health, working hours, employee engagement, psychosocial safety, and people analytics using Australian HILDA survey data.">
+  <meta property="og:title" content="Blog — Tim Ballard, PhD">
+  <meta property="og:description" content="Research insights on workforce mental health, working hours, employee engagement, and psychosocial safety.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/headshot_2024_edited_cropped.png">
+  <meta property="og:url" content="https://tjballard.com/blog.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="blog-page">
+  <div class="blog-hero">
+    <h1>Blog</h1>
+    <p>Research insights on workforce mental health, working hours, employee engagement, and psychosocial safety.</p>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterPosts('all',this)">All</button>
+    <button class="filter-btn" onclick="filterPosts('mental-health',this)">Mental Health</button>
+    <button class="filter-btn" onclick="filterPosts('working-hours',this)">Working Hours</button>
+    <button class="filter-btn" onclick="filterPosts('job-satisfaction',this)">Job Satisfaction</button>
+    <button class="filter-btn" onclick="filterPosts('psychosocial-safety',this)">Psychosocial Safety</button>
+    <button class="filter-btn" onclick="filterPosts('retention',this)">Retention &amp; Turnover</button>
+    <button class="filter-btn" onclick="filterPosts('methods',this)">Methods &amp; Stats</button>
+  </div>
+
+  <div class="blog-grid">
+    <a href="/blog/cumulative-cost.html" class="post-card" data-tags="mental-health,psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/17_cumul_combined.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Psychosocial Safety</span></div><h3>The Cumulative Cost of Poor Working Conditions on Mental Health</h3><p class="post-excerpt">Effects compound over time in ways most risk assessments miss.</p><div class="post-meta">Mar 2026 · 1 min</div></div></a>
+
+    <a href="/blog/true-economic-cost.html" class="post-card" data-tags="mental-health,psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/18_claims_cost_scatter.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Psychosocial Safety</span></div><h3>What's the True Economic Cost of Workplace Mental Health Claims?</h3><p class="post-excerpt">Visualising the economic impact reveals a story most analyses miss.</p><div class="post-meta">Mar 2026 · 1 min</div></div></a>
+
+    <a href="/blog/workplace-injury-claims.html" class="post-card" data-tags="psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/19_median_comp_by_nature_combined.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Psychosocial Safety</span></div><h3>What Type of Workplace Injury Claims Cost Organisations the Most?</h3><p class="post-excerpt">Mental health claims are the fastest growing — but how do they compare on cost?</p><div class="post-meta">Feb 2026 · 1 min</div></div></a>
+
+    <a href="/blog/mental-health-gap-gender.html" class="post-card" data-tags="mental-health"><div class="post-thumb"><img loading="lazy" src="assets/images/20_21_mental_health_gender_cohort.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span></div><h3>The Mental Health Gap Is Just as Much About Gender as Generation</h3><p class="post-excerpt">The gap isn't only a generational story — gender plays an equally important role.</p><div class="post-meta">Feb 2026 · 1 min</div></div></a>
+
+    <a href="/blog/no-industry-immune.html" class="post-card" data-tags="mental-health,psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/21_20_industry_cohort_combined.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Industry Analysis</span></div><h3>No Industry is Immune to the Mental Health Gap</h3><p class="post-excerpt">The gap exists in nearly every industry, but varies in magnitude and form.</p><div class="post-meta">Feb 2026 · 1 min</div></div></a>
+
+    <a href="/blog/emerging-mental-health-divide.html" class="post-card" data-tags="mental-health"><div class="post-thumb"><img loading="lazy" src="assets/images/22_16_mental_health_age_cohort_combined.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Workforce Trends</span></div><h3>The Emerging Mental Health Divide in the Workforce</h3><p class="post-excerpt">Is this most recent generation starting off with worse mental health? Or have young workers always struggled more?</p><div class="post-meta">Feb 2026 · 2 min</div></div></a>
+
+    <a href="/blog/whats-driving-mental-health-decline.html" class="post-card" data-tags="mental-health,working-hours"><div class="post-thumb"><img loading="lazy" src="assets/images/23_15_mental_health_three_components.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Working Hours</span></div><h3>What's Driving the Decline in Mental Health Among Workers?</h3><p class="post-excerpt">Individual deterioration and a cohort effect are both at play.</p><div class="post-meta">Jan 2026 · 2 min</div></div></a>
+
+    <a href="/blog/rise-workplace-injury-claims.html" class="post-card" data-tags="mental-health,psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/24_incident_by_nature_combined.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Psychosocial Safety</span></div><h3>What's Driving the Rise in Australian Workplace Injury Claims?</h3><p class="post-excerpt">Mental health claims grew 165% over the past decade.</p><div class="post-meta">Jan 2026 · 1 min</div></div></a>
+
+    <a href="/blog/industries-roi-job-satisfaction.html" class="post-card" data-tags="job-satisfaction,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/25_04_industry_intercept_slope.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">Retention</span></div><h3>Which Industries See the Highest ROI from Job Satisfaction?</h3><p class="post-excerpt">The financial return varies dramatically by industry.</p><div class="post-meta">Jan 2026 · 1 min</div></div></a>
+
+    <a href="/blog/escalating-cost-unhappy-high-earners.html" class="post-card" data-tags="job-satisfaction,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/33_02_satisfaction_income_interaction.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">Retention</span></div><h3>The Escalating Cost of Unhappy High Earners</h3><p class="post-excerpt">Higher pay increases the cost of turnover when it occurs.</p><div class="post-meta">Nov 2025 · 2 min</div></div></a>
+
+    <a href="/blog/return-on-job-satisfaction.html" class="post-card" data-tags="retention,job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/34_01_job_satisfaction_and_turnover.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Retention</span><span class="tag">Job Satisfaction</span></div><h3>What's the Return on Investing in Job Satisfaction?</h3><p class="post-excerpt">You offer a generous pay rise — yet months later, they resign.</p><div class="post-meta">Nov 2025 · 3 min</div></div></a>
+
+    <a href="/blog/casualisation.html" class="post-card" data-tags="working-hours"><div class="post-thumb"><img loading="lazy" src="assets/images/26_17_employment_trends_combined.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Working Hours</span><span class="tag">Employment Trends</span></div><h3>Has Casualisation Changed How Much We Work?</h3><p class="post-excerpt">Contrary to common rhetoric, casual work has actually decreased.</p><div class="post-meta">Nov 2025 · 1 min</div></div></a>
+
+    <a href="/blog/wfh-supplemented.html" class="post-card" data-tags="working-hours"><div class="post-thumb"><img loading="lazy" src="assets/images/27_15_home_workplace_decomposition.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Working Hours</span><span class="tag">Hybrid Work</span></div><h3>Working from Home Hasn't Just Replaced Time at the Workplace—It Has Supplemented It</h3><p class="post-excerpt">The flexibility to work from home has come with an unexpected cost.</p><div class="post-meta">Oct 2025 · 2 min</div></div></a>
+
+    <a href="/blog/paradox-working-hours.html" class="post-card" data-tags="working-hours"><div class="post-thumb"><img loading="lazy" src="assets/images/28_14_combined_three_components.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Working Hours</span></div><h3>The Paradox of Working Hours: Why Average Hours Are Dropping, But Yours Are Not</h3><p class="post-excerpt">The average work week dropped 3 hours since 2001 — but individuals' hours haven't budged.</p><div class="post-meta">Oct 2025 · 1 min</div></div></a>
+
+    <a href="/blog/working-more-or-less.html" class="post-card" data-tags="working-hours"><div class="post-thumb"><img loading="lazy" src="assets/images/29_05b_hours_brackets_faceted.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Working Hours</span><span class="tag">Workforce Trends</span></div><h3>Are We Working More or Less Than We Were 25 Years Ago?</h3><p class="post-excerpt">A 'great compression' of working hours, with fewer people at the extremes.</p><div class="post-meta">Oct 2025 · 1 min</div></div></a>
+
+    <a href="/blog/predict-turnover.html" class="post-card" data-tags="retention,methods"><div class="post-thumb"><img loading="lazy" src="assets/images/30_21_performance_metrics.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Predictive Analytics</span><span class="tag">Retention</span></div><h3>How Accurately Can We Predict Turnover and Workers' Comp Claims a Year in Advance?</h3><p class="post-excerpt">The top 3% flagged were 3.5× more likely to actually leave or claim.</p><div class="post-meta">Oct 2025 · 1 min</div></div></a>
+
+    <a href="/blog/autonomy-stress.html" class="post-card" data-tags="job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/32_stress_autonomy_surface.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">Autonomy</span></div><h3>How Autonomy Changes Our Relationship with Stress</h3><p class="post-excerpt">The most satisfied employees aren't those with low stress.</p><div class="post-meta">Sep 2025 · 1 min</div></div></a>
+
+    <a href="/blog/stressed-industries.html" class="post-card" data-tags="psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/35_heatmap_stress_z.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Psychosocial Safety</span><span class="tag">Industry Analysis</span></div><h3>Which Industries Have the Most Stressed Employees?</h3><p class="post-excerpt">Stress isn't spread evenly across the economy.</p><div class="post-meta">Sep 2025 · 1 min</div></div></a>
+
+    <a href="/blog/engaging-industries.html" class="post-card" data-tags="job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/31_heatmap_characteristics_z.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">Industry Analysis</span></div><h3>Which Industries Provide the Most Engaging Jobs?</h3><p class="post-excerpt">Knowledge-intensive industries offer the most dynamic roles.</p><div class="post-meta">Sep 2025 · 1 min</div></div></a>
+
+    <a href="/blog/autonomy-industries.html" class="post-card" data-tags="job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/36_heatmap_autonomy_z.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Autonomy</span><span class="tag">Industry Analysis</span></div><h3>Which Industry Gives Employees the Most Autonomy?</h3><p class="post-excerpt">Not all industries are equal when it comes to autonomy.</p><div class="post-meta">Sep 2025 · 1 min</div></div></a>
+
+    <a href="/blog/pay-satisfaction.html" class="post-card" data-tags="job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/37_industry_satisfaction_vs_salary_scatter.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">Compensation</span></div><h3>Satisfaction with Pay Among 19,224 Australian Workers Across 19 Industries</h3><p class="post-excerpt">Salary predicts pay satisfaction in general, but not all industries conform.</p><div class="post-meta">Aug 2025 · 1 min</div></div></a>
+
+    <a href="/blog/predictors-satisfaction.html" class="post-card" data-tags="job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/16_predictor_bargraph_larger.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">People Analytics</span></div><h3>Job-Related Predictors of Satisfaction Among Australian Workers</h3><p class="post-excerpt">Salary had no credible effect on job satisfaction once other factors were accounted for.</p><div class="post-meta">Aug 2025 · 3 min</div></div></a>
+
+    <a href="/blog/presenteeism.html" class="post-card" data-tags="psychosocial-safety"><div class="post-thumb"><img loading="lazy" src="assets/images/15_work_limitations_effects_or.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Psychosocial Safety</span><span class="tag">Well-being</span></div><h3>What's the True Cost of Working While Unwell?</h3><p class="post-excerpt">Presenteeism carries real health costs that compound over time.</p><div class="post-meta">Aug 2025 · 4 min</div></div></a>
+
+    <a href="/blog/autonomy-hours.html" class="post-card" data-tags="psychosocial-safety,working-hours"><div class="post-thumb"><img loading="lazy" src="assets/images/13_dimensions-plot-1.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Working Hours</span><span class="tag">Well-being</span></div><h3>Does Autonomy Mitigate the Stress of Working Long Hours?</h3><p class="post-excerpt">Autonomy helps, but it's not a substitute for sustainable workloads.</p><div class="post-meta">Aug 2025 · 3 min</div></div></a>
+
+    <a href="/blog/clt.html" class="post-card" data-tags="methods"><div class="post-thumb"><img loading="lazy" src="assets/images/12_clt_demonstration_means.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Methods</span><span class="tag">Statistics</span></div><h3>When Averages Run Wild: The Limits of the Central Limit Theorem</h3><p class="post-excerpt">There are limits to the central limit theorem — and they matter more than you'd think.</p><div class="post-meta">Jul 2025 · 4 min</div></div></a>
+
+    <a href="/blog/bayes-turnover.html" class="post-card" data-tags="methods,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/10_predictive_turnover_modelling_with_bayes_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Methods</span><span class="tag">Retention</span></div><h3>But How Sure Are We? A Bayesian Look at Predicting Turnover</h3><p class="post-excerpt">Most turnover models give a prediction — but not the confidence you should have in it.</p><div class="post-meta">Jul 2025 · 5 min</div></div></a>
+
+    <a href="/blog/sampling-distributions.html" class="post-card" data-tags="methods"><div class="post-thumb"><img loading="lazy" src="assets/images/11_sampling_distributions_by_sample_size.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Methods</span><span class="tag">Statistics</span></div><h3>How Many Books Do You See? Fun With Sampling Distributions</h3><p class="post-excerpt">A bookshelf exercise that teaches us about sampling distributions and standard error.</p><div class="post-meta">Jul 2025 · 3 min</div></div></a>
+
+    <a href="/blog/retirement.html" class="post-card" data-tags="mental-health,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/9_retirement_factors_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Retirement</span><span class="tag">Job Satisfaction</span></div><h3>Life After Work: What are the Key Drivers of Decisions to Retire?</h3><p class="post-excerpt">Job satisfaction stands out as the strongest predictor of retirement decisions.</p><div class="post-meta">Jun 2025 · 3 min</div></div></a>
+
+    <a href="/blog/psych-distress.html" class="post-card" data-tags="mental-health,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/8_wellbeing_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Mental Health</span><span class="tag">Retention</span></div><h3>The Hidden Cost of Psychological Distress: How Does Mental Health Impact Workforce Retention?</h3><p class="post-excerpt">As distress intensifies, so does the likelihood of leaving the workforce.</p><div class="post-meta">May 2025 · 3 min</div></div></a>
+
+    <a href="/blog/honeymoon.html" class="post-card" data-tags="job-satisfaction,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/7_satisfaction_trajectories_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Job Satisfaction</span><span class="tag">Retention</span></div><h3>From Honeymoon to Hangover: How Does Job Satisfaction Evolve Over Time?</h3><p class="post-excerpt">The post-honeymoon hangover is predictable — and so is the promotion boost.</p><div class="post-meta">May 2025 · 3 min</div></div></a>
+
+    <a href="/blog/flexibility.html" class="post-card" data-tags="working-hours,retention"><div class="post-thumb"><img loading="lazy" src="assets/images/6_flexibility_hours_turnover_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Working Hours</span><span class="tag">Retention</span></div><h3>Does Offering Flexibility Mitigate the Impact of Long Working Hours on Retention?</h3><p class="post-excerpt">Flexibility helps, but it can't fully overcome the impact of excessive workloads.</p><div class="post-meta">Apr 2025 · 3 min</div></div></a>
+
+    <a href="/blog/path-leadership.html" class="post-card" data-tags="retention"><div class="post-thumb"><img loading="lazy" src="assets/images/5_leadership_age_gender_faceted_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Career Advancement</span><span class="tag">People Analytics</span></div><h3>Paving the Path to Leadership: Who Gets Promoted to Managerial Roles?</h3><p class="post-excerpt">Promotions to management typically occur within the first 5–10 years of tenure.</p><div class="post-meta">Apr 2025 · 3 min</div></div></a>
+
+    <a href="/blog/training-roi.html" class="post-card" data-tags="retention"><div class="post-thumb"><img loading="lazy" src="assets/images/4_training_roi_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Career Advancement</span><span class="tag">People Analytics</span></div><h3>The ROI of Professional Development: Does Upskilling Actually Lead to Career Advancement?</h3><p class="post-excerpt">Training pays off modestly across the board in promotions and pay.</p><div class="post-meta">Apr 2025 · 3 min</div></div></a>
+
+    <a href="/blog/parenthood.html" class="post-card" data-tags="retention"><div class="post-thumb"><img loading="lazy" src="assets/images/3_gender_and_parenthood_impact_on_careers_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Gender Pay Gap</span><span class="tag">Workplace Equity</span></div><h3>Motherhood Penalty vs Fatherhood Bonus: How Does Parenthood Change Earnings Trajectories?</h3><p class="post-excerpt">By five years into parenthood, fathers earn about 30% more than mothers on average.</p><div class="post-meta">Mar 2025 · 3 min</div></div></a>
+
+    <a href="/blog/job-hopping.html" class="post-card" data-tags="retention"><div class="post-thumb"><img loading="lazy" src="assets/images/2_job_switching_wage_growth_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Retention</span><span class="tag">Compensation</span></div><h3>The Job-Hopping Gamble: Is Switching Jobs Always the Fast Track to Higher Pay?</h3><p class="post-excerpt">Median wage growth is similar whether you switch or stay — but the variance is far wider.</p><div class="post-meta">Mar 2025 · 3 min</div></div></a>
+
+    <a href="/blog/wages-vs-satisfaction.html" class="post-card" data-tags="retention,job-satisfaction"><div class="post-thumb"><img loading="lazy" src="assets/images/1_turnover_wage_satisfaction_plot.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Retention</span><span class="tag">Job Satisfaction</span></div><h3>It's Not (Just) About the Money: Why Job Satisfaction Beats Salary in Employee Retention</h3><p class="post-excerpt">Job satisfaction is a far stronger predictor of retention than salary.</p><div class="post-meta">Mar 2025 · 3 min</div></div></a>
+
+    <a href="/blog/fatigue.html" class="post-card" data-tags="methods"><div class="post-thumb"><img loading="lazy" src="assets/images/2024-10-24-fatigue-modelling_files/model_fits.jpg" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Methods</span><span class="tag">Fatigue Forecasting</span></div><h3>How Can We Improve Fatigue Forecasting in Safety Critical Industries?</h3><p class="post-excerpt">Data-informed models offer opportunities to capture workforce-specific fatigue patterns.</p><div class="post-meta">Oct 2024 · 5 min</div></div></a>
+
+    <a href="/blog/non-centered.html" class="post-card" data-tags="methods"><div class="post-thumb"><img loading="lazy" src="assets/images/2024-10-01-non-centered-params_files/figure-gfm/model-3-summary-1.png" alt=""></div><div class="post-body"><div class="post-tags"><span class="tag">Methods</span><span class="tag">Bayesian Models</span></div><h3>Non-Centered Parameterisation in Hierarchical Bayesian Models</h3><p class="post-excerpt">Not just for univariate Gaussians — extending to truncated and multivariate distributions.</p><div class="post-meta">Oct 2024 · 8 min</div></div></a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+<script>
+  function filterPosts(tag, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.blog-grid .post-card').forEach(c => {
+      c.style.display = tag === 'all' || (c.dataset.tags || '').includes(tag) ? 'flex' : 'none';
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Many Books Do You See? Fun With Sampling Distributions — Tim Ballard, PhD</title>
+  <meta name="description" content="A bookshelf counting exercise that illustrates sampling distributions, standard error, and how sample size affects estimation precision.">
+  <meta property="og:title" content="How Many Books Do You See? Fun With Sampling Distributions">
+  <meta property="og:description" content="A bookshelf exercise that teaches us about sampling distributions and standard error.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/11_sampling_distributions_by_sample_size.png">
+  <meta property="og:url" content="https://tjballard.com/blog/sampling-distributions.html">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Statistics</span>
+        <span class="tag">Sampling Distributions</span>
+        <span class="tag">R Programming</span>
+      </div>
+      <h1>How Many Books Do You See? Fun With Sampling Distributions</h1>
+      <div class="post-meta">15 July 2025 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>How many books do you see in <a href="https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/1/5269/files/2021/07/R.057-About.pdf">this image</a>? And how could you estimate the total number of books without having to count all of them? This exercise was introduced by the <a href="https://multiplicitylab.northwestern.edu/project/ltt_r-057-about/">multiplicity lab</a> to help train teachers to help students develop an understanding of statistical concepts.</p>
+    <h2>What's a Sampling Distribution?</h2>
+    <p>First, let's identify the thing we're trying to estimate. Here, this quantity is simply the total number of books. In statistical terms, this is our <em>test statistic</em>. To estimate this test statistic, we need to come up with some model to calculate it. Here, that's pretty simple too. We just pick a certain number of sections in the shelf, count the number of books in each section, take the average across sections, and then multiply that average by 24 (the total number of sections in the shelf).</p>
+    <p>As an example, let's take the four sections in the top row. These shelves have 21, 17, 17, and 22 books respectively. These four shelves are called our <em>sample</em>. Across these four sections, the average number of books is 18.5. If we multiply that average by 24, we get 444 books total. But this number is just one estimate of many possible estimates we might have obtained.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/11_sampling_distributions_of_4_shelf_sample.png" alt="Sampling distribution from 4-shelf samples"></div>
+    <p>The fact that the same procedure can yield different estimates depending on which units are sampled is the foundation for a large branch of statistical theory. In this example, we know exactly what our sampling distribution looks like because we can count the number of books in every section. However, in practice we don't.</p>
+    <p>So, in practice, how do we know whether our estimate is likely to be close to the truth or way off? To do this, we need to understand how much our estimates will typically vary. This is where the concept of <em>standard error</em> becomes important. Standard error is a measure of how much the estimates produced by our sampling procedure differ from one another.</p>
+    <h2>How Can We Improve the Estimate of the Test Statistic?</h2>
+    <p>If the goal is to generate a test statistic that is as accurate an estimate as possible of the true value, it follows that we want to try to reduce the standard error. The easiest way to do this is to collect more data.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/11_sampling_distributions_by_sample_size.png" alt="How sampling distributions narrow with increasing sample size"></div>
+    <p>The top row in the figure above shows how the sampling distribution changes when you increase the number of sections in each sample. As you increase the sample size from 4, to 8, and eventually to 20 shelves, the distributions get more concentrated. Your estimate gets more precise. The bottom panel shows the standard deviation of each sampling distribution mapped against the standard error formula. When you transition from 4 to 8 shelves, there's a big decrease in the standard error. But further increases in the number of shelves produce smaller and smaller decreases. This is the square root law at play.</p>
+    <h2>So How Many Books Are There?</h2>
+    <p>At this point we've expended far more effort than would be required to just count all the books in the first place. But this was way more fun! And hopefully it was educational. I love using simulations like these to explore statistical concepts. It can really help you to see the intuition behind the formulae.</p>
+    <p>So how many books are there actually in total? Well, I counted 542. But that's by no means a perfect estimate.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/bayes-turnover.html">← Previous post</a>
+    <a href="/blog/retirement.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>

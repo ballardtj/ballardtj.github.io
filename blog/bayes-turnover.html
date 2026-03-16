@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>But How Sure Are We? A Bayesian Look at Predicting Turnover — Tim Ballard, PhD</title>
+  <meta name="description" content="Most turnover models give a prediction but not the confidence. Bayesian analysis of 21,356 workers reveals job satisfaction reduces turnover odds by 26-28% per SD increase.">
+  <meta property="og:title" content="But How Sure Are We? A Bayesian Look at Predicting Turnover">
+  <meta property="og:description" content="Most turnover models give a prediction — but not the confidence you should have in it.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/10_predictive_turnover_modelling_with_bayes_plot.png">
+  <meta property="og:url" content="https://tjballard.com/blog/bayes-turnover.html">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Methods</span>
+        <span class="tag">Retention</span>
+        <span class="tag">Bayesian Analysis</span>
+        <span class="tag">HILDA Survey</span>
+      </div>
+      <h1>But How Sure Are We? A Bayesian Look at the Uncertainty in Predicting Turnover</h1>
+      <div class="post-meta">7 July 2025 · 5 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>Losing a valued employee is undeniably costly, with <a href="https://www.pwc.com.au/future-of-work-design-for-the-future/2023-future-of-work-outlook.html">PwC Australia estimating an average cost of $40,000 per departing employee</a>. Many organisations grapple with identifying the true drivers of attrition. While numerous factors are often cited, how certain can we be about the expected impact of each one? Understanding not just the 'what' but also the 'how sure are we' is vital for making informed, evidence-based decisions to improve retention.</p>
+    <h2>Understanding Uncertainty in Turnover Risk: What the Data Show</h2>
+    <p>To address the challenge of quantifying uncertainty in turnover risk, we turned to the Household, Income and Labour Dynamics in Australia (HILDA) survey, a long-term study of life in Australia. Our analysis included 21,356 employed participants, whom the survey has followed over time from as early as 2001. We used a Bayesian generalised linear mixed model to predict the odds of an employee leaving their job in the following year as a function of job satisfaction, job tenure, age, gender, job autonomy, and job stress.</p>
+    <p>The graph below displays the odds ratios for each factor. An odds ratio greater than 1.0 indicates an increased probability of leaving, while a value less than 1.0 suggests a decreased probability. Each violin shape represents the <em>posterior distribution</em> — the range of plausible values for each odds ratio.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/10_predictive_turnover_modelling_with_bayes_plot.png" alt="Bayesian turnover model showing posterior distributions for each predictor"></div>
+    <p>Our analysis reveals the impacts of several key predictors. Job satisfaction was negatively associated with turnover. The 95% credible interval on the job satisfaction odds ratio spans from 0.72 to 0.74. For each standard deviation increase in job satisfaction, the odds of an employee leaving decrease by between 25.9% and 28.1%.</p>
+    <p>Age was negatively related to turnover. The odds of turnover decreased by between 38.7% and 42.3% for each standard deviation increase in age. Conversely, longer job tenure was associated with an increased likelihood of leaving. The odds of turnover increased by between 43.3% and 47.7% for each standard deviation increase in tenure.</p>
+    <p>The person's sex also predicted higher turnover, with odds of leaving being between 15.0% and 22.1% higher for females compared to males.</p>
+    <p>The impacts of job autonomy and job stress were more modest, but still statistically reliable. Greater job autonomy was linked to slightly lower odds of turnover, with a decrease of between 2.0% and 4.9%. Perhaps most surprisingly, higher reported job stress was associated with slightly lower odds of turnover, with a decrease of between 6.8% and 9.5%. This counterintuitive finding might reflect individuals in demanding but highly engaging or rewarding "challenge stress" roles.</p>
+    <h2>From Probabilities to Policies</h2>
+    <p>The ability of Bayesian analysis to quantify uncertainty helps organisations prioritise interventions. Factors that are relatively certain to have strong effects, like job satisfaction, demand immediate and sustained attention. The reduction in turnover odds associated with higher satisfaction means that investments in creating a positive work environment, ensuring meaningful work, providing recognition, and fostering supportive relationships are likely to yield significant returns.</p>
+    <p>The clear, if somewhat surprising, link between longer tenure and higher turnover risk suggests a need for proactive engagement strategies for experienced staff. This highlights the importance of implementing robust career development planning and offering opportunities for growth or internal mobility to prevent stagnation.</p>
+    <p>While age itself is not a manageable factor, the strong evidence that older workers are less likely to leave highlights their value as a stable segment of the workforce. The finding that female employees have a higher turnover risk highlights the need to consider internal practices related to equity, development, and support for work-life integration. See also <a href="/blog/parenthood.html">this earlier blog post on the impact of parenthood on gender pay disparities</a>.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/clt.html">← Previous post</a>
+    <a href="/blog/sampling-distributions.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>

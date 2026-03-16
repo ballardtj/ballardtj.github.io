@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Accurately Can We Predict Turnover and Workers' Comp Claims a Year in Advance? — Tim Ballard, PhD</title>
+  <meta name="description" content="Using gradient-boosted models on HILDA data, the top 3% flagged were 3.5x more likely to leave or claim. Predictive analytics can focus retention and safety efforts.">
+  <meta property="og:title" content="How Accurately Can We Predict Turnover and Workers' Comp Claims a Year in Advance?">
+  <meta property="og:description" content="The top 3% flagged were 3.5× more likely to actually leave or claim.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/30_21_performance_metrics.png">
+  <meta property="og:url" content="https://tjballard.com/blog/predict-turnover.html">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Predictive Analytics</span>
+        <span class="tag">Retention</span>
+        <span class="tag">Workers Compensation</span>
+        <span class="tag">HILDA Survey</span>
+      </div>
+      <h1>How Accurately Can We Predict Turnover and Workers' Comp Claims a Year in Advance?</h1>
+      <div class="post-meta">1 October 2025 · 2 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>Turnover and workers' comp claims are costly for organisations and difficult experiences for employees. Knowing where risk is likely to emerge gives HR and Health & Safety teams a chance to proactively manage it.</p>
+    <p>But how accurately can these outcomes be predicted in advance?</p>
+    <p>To explore this, we trained a gradient-boosted decision tree model on data from the HILDA survey (2001–2023), which included 191,000 observations from nearly 25,000 workers.</p>
+    <p>We used predictors that mirror what most HR systems or engagement surveys capture including demographics, tenure, role characteristics, compensation, benefits, and job satisfaction. We trained on 80% of the workers and tested on the remaining 20%.</p>
+    <p>What we found:</p>
+    <ul>
+      <li><strong>Triple the Accuracy for the Highest-Risk Individuals:</strong> The top 3% flagged were 3.5× more likely to actually leave or claim than a random 3%.</li>
+      <li><strong>Double the Overall Prediction Quality:</strong> Across the whole workforce, the model was over twice as good as chance at separating higher- from lower-risk employees.</li>
+      <li><strong>Concentrated Risk for Intervention:</strong> The top 10% flagged accounted for nearly 3× more cases than expected by chance.</li>
+    </ul>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/30_21_performance_metrics.png" alt="Predictive model performance metrics"></div>
+    <p>Even a year in advance, a data-driven approach can provide a strong signal to help focus retention and safety efforts. The accuracy, while not perfect, is high enough to be useful, especially when a model like this is used to support the expertise of managers, organisational psychologists, and other specialists. It can help HR and Health & Safety teams develop proactive and targeted risk management efforts.</p>
+    <p>The exciting thing is that this was all with broad, national survey data. With higher-quality internal data from a single organisation, predictive accuracy could be even stronger. But the challenge is making sure the right data is being collected and shared between units and systems, which is often the hardest part of turning analytics into action.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/working-more-or-less.html">← Previous post</a>
+    <a href="/blog/autonomy-stress.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>

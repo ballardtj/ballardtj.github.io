@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>When Averages Run Wild: The Limits of the Central Limit Theorem — Tim Ballard, PhD</title>
+  <meta name="description" content="The central limit theorem doesn't always hold. Heavy-tailed distributions like the Cauchy and Pareto can produce sample means that never converge to normality.">
+  <meta property="og:title" content="When Averages Run Wild: The Limits of the Central Limit Theorem">
+  <meta property="og:description" content="There are limits to the central limit theorem — and they matter more than you'd think.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/12_clt_demonstration_means.png">
+  <meta property="og:url" content="https://tjballard.com/blog/clt.html">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Statistics</span>
+        <span class="tag">Central Limit Theorem</span>
+        <span class="tag">Methods</span>
+        <span class="tag">R Programming</span>
+      </div>
+      <h1>When Averages Run Wild: The Limits of the Central Limit Theorem</h1>
+      <div class="post-meta">22 July 2025 · 4 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>I had so much fun creating <a href="/blog/sampling-distributions.html">this post on sampling distributions</a> last week that I decided to do another post that uses simulations in R to illustrate core statistical concepts. This time I thought I'd focus on the central limit theorem.</p>
+    <p>The central limit theorem is another one of those concepts taught in introductory stats courses. The theorem states that when you take the average of a large enough pool of independent samples from any distribution (with finite variance), that average will follow a normal distribution, regardless of what the original distribution looked like. This is extremely useful for conducting inferential statistics because it means that even if you're sampling from a wildly skewed or unusual distribution, the sampling distribution of the mean will eventually converge to a normal distribution.</p>
+    <p>To illustrate, I generated sampling distributions for three different types of non-normal distributions: a uniform distribution, a skewed one, and a bimodal one. For each sample size (shown as rows in the figure below), I simulated 100,000 samples, for each one taking the mean.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/12_clt_demonstration_means.png" alt="CLT demonstration showing convergence to normality for well-behaved distributions"></div>
+    <p>However, as the sample size increases (as you move down the rows), all three distributions eventually start to look like the classic bell curve. This is the central limit theorem at work. As you take the average across larger and larger samples, the sample mean will converge toward normality regardless (well, almost regardless) of the underlying distribution that generated each value within the sample.</p>
+    <h2>When Does the Central Limit Theorem Fail?</h2>
+    <p>It's at this point that most introductory stats courses stop. But as it turns out, there are limits to the central limit theorem. I alluded to one of the main assumptions of the theorem at the top of the post — the assumption that the variance of the underlying distribution must be finite. If this assumption isn't met, the theorem doesn't hold.</p>
+    <p>So what does it mean for a distribution to have finite variance? In simple terms, it means that the variance is a specific, calculable number. Let's consider a normal distribution as an example. If you repeatedly generate 1 million random values from a standard normal distribution and take the variance each time, your result will always be almost exactly 1. So the variance of a normal distribution converges to a single value.</p>
+    <p>This is not true for all distributions. A classic example is the Cauchy distribution, which is a special case of Student's t distribution with only one degree of freedom. The left panel of the figure below shows the probability density function of the Cauchy distribution. At first glance, it looks deceptively like a normal distribution. It has a bell-like shape with a peak in the middle, but its tails are much "heavier" than a normal distribution, which means that extreme values occur far more frequently.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/12_cauchy_pareto_pdf.png" alt="Cauchy and Pareto probability density functions"></div>
+    <p>The Pareto distribution also has non-finite variance under certain circumstances (specifically, when its shape parameter is less than 2). This distribution, like the Cauchy distribution, allocates non-trivial density to extremely high values.</p>
+    <p>So why doesn't the central limit theorem apply in these cases? Take a look at the figure below and see what happens to the distribution of the sample mean as the sample size increases. No matter how large the sample, these distributions never converge to normality.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/12_clt_demonstration_means2.png" alt="CLT failure with heavy-tailed distributions"></div>
+    <h2>So...Who Cares?</h2>
+    <p>So apart from being interesting to stats nerds like me, why does this matter? How often do real-world phenomena follow Cauchy or heavy-tailed Pareto distributions? They're actually not that rare. Financial returns, especially during market crashes, can exhibit extreme outliers that make variance calculations unstable. Network latencies in distributed systems can have heavy tails due to occasional catastrophic delays. Even insurance claims can follow heavy-tailed distributions where a few massive payouts dwarf all others. In these situations, blindly applying statistical methods that assume the central limit theorem holds can lead to inaccurate conclusions. So when your data might contain extreme outliers, it's worth checking whether those outliers are just rare events from a well-behaved distribution, or signs that you're dealing with a heavy-tailed monster where traditional statistics break down.</p>
+    <p><em>This post was inspired by <a href="https://www.youtube.com/watch?v=zeJD6dqJ5lo&ab_channel=3Blue1Brown">this video</a> from my favourite maths youtuber (everyone has a favourite maths youtuber, right?).</em></p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/autonomy-hours.html">← Previous post</a>
+    <a href="/blog/bayes-turnover.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
