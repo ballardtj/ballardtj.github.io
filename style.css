@@ -300,3 +300,7 @@
   .challenge-card:nth-child(even) .challenge-label { color: #1e40af !important; }
   .challenge-card:nth-child(even) p { color: #1e3a8a !important; }
 }
+
+pre + p {
+  margin-top: 1.5em;
+}
