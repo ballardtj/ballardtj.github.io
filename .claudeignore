@@ -1,0 +1,23 @@
+# Archived old Minimal Mistakes site
+_old_minimal_mistakes/
+
+# Project file
+ballardtj.github.io.Rproj
+
+# Assets & images
+assets/
+
+# Not needed for blog audit
+.Rhistory
+.DS_Store
+.bundle/
+.nojekyll
+.gitignore
+style.css
+sitemap.xml
+robots.txt
+index.html
+blog.html
+research.html
+consulting.html
+contact.html
