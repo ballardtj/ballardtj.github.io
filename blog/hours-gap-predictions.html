@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Happens When You Work More or Fewer Hours Than You'd Prefer? — Tim Ballard, PhD</title>
+  <meta name="description" content="Working more or fewer hours than preferred is associated with higher stress, lower job satisfaction, and reduced mental health, based on HILDA panel data.">
+  <meta property="og:title" content="What Happens When You Work More or Fewer Hours Than You'd Prefer?">
+  <meta property="og:description" content="Working more or fewer hours than preferred is associated with higher stress, lower job satisfaction, and reduced mental health, based on HILDA panel data.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/hours_gap_predictions.png">
+  <meta property="og:url" content="https://tjballard.com/blog/hours-gap-predictions.html">
+  <link rel="stylesheet" href="../style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV1PJNMRFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KV1PJNMRFT');
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Working Hours</span>
+        <span class="tag">Job Satisfaction</span>
+        <span class="tag">Mental Health</span>
+      </div>
+      <h1>What Happens When You Work More or Fewer Hours Than You'd Prefer?</h1>
+      <div class="post-meta">7 April 2026 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>If you could choose the number of hours you work each week, taking into account how that would affect your income, how many hours would you prefer to work?</p>
+    <p>This is one of my favourite items in the HILDA survey. I love it because it requires the person to think carefully not only about how they want to spend their time, but also the financial implications of any change in working hours.</p>
+    <p>Turns out, about 61% of people asked this question say they'd prefer for their hours to stay the same. About 24% say they want to work fewer hours even if it means reduced income, and 15% would prefer to work more hours and earn more money.</p>
+    <p>Among the nearly 40% of people who aren't happy with their working hours, there are some interesting effects that working more or less than desired has on stress, mental health, and job satisfaction.</p>
+    <p>To look at this, I used a fixed-effects panel model which tracks what happens when the same person's hours gap changes over time, controlling for the actual number of hours they work and other variables like income, industry, and family composition.</p>
+    <p>Here's what I found (see figure below):</p>
+    <p>1) Overwork is associated with worse outcomes, even after accounting for actual hours worked. When people work more hours than they want to, they tend to report higher stress and lower job satisfaction. Someone working 10 hours more than they'd prefer shows roughly a 0.2 standard deviation increase in stress and a 0.25 SD drop in job satisfaction compared to when their hours are matched. There's also a small but reliable association with reduced mental health.</p>
+    <p>2) Underwork is associated with similar reductions in job satisfaction. Someone who wants to work 10 more hours than they currently do shows a similar drop in job satisfaction to someone working 10 hours more than they'd like. The association with stress was smaller, and the mental health effect was not even statistically reliable.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/hours_gap_predictions.png" alt="Predicted effects of the gap between actual and preferred working hours on stress, mental health, and job satisfaction"></div>
+    <p>So a substantial proportion of Australian workers are unhappy with their hours, and the gap between actual and preferred hours is associated with meaningful reductions in wellbeing. Overwork is linked to higher stress and reduced job satisfaction, likely reflecting the strain and exhaustion of working beyond what you want to. Underwork has an impact primarily through lower job satisfaction, likely reflecting the frustration of wanting more work and the financial pressure that comes with it. The findings suggest that giving people enough choice over their hours to meet their needs can make a real difference in how they experience work. It can also improve retention, since <a href="/blog/bayes-turnover.html">low job satisfaction often drives turnover</a>.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog.html">← All posts</a>
+    <a href="/blog/copsoq-gender-differences.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
