@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Does It Matter When We Work? — Tim Ballard, PhD</title>
+  <meta name="description" content="Using HILDA Survey data, weekend work hours are associated with reduced work-life balance even when total hours are modest.">
+  <meta property="og:title" content="Does It Matter When We Work?">
+  <meta property="og:description" content="Using HILDA Survey data, weekend work hours are associated with reduced work-life balance even when total hours are modest.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/35_weekend_surface_hours.png">
+  <meta property="og:url" content="https://tjballard.com/blog/does-it-matter-when-we-work.html">
+  <link rel="stylesheet" href="../style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV1PJNMRFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KV1PJNMRFT');
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Working Hours</span>
+        <span class="tag">Flexible Work</span>
+      </div>
+      <h1>Does It Matter When We Work?</h1>
+      <div class="post-meta">28 April 2026 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>We've got more flexibility than ever in when we work. For many of us, the boundaries between weekday and weekend have blurred.</p>
+    <p>But once you account for total hours worked, does it really matter if some of those hours happen to fall on Saturday or Sunday?</p>
+    <p>To answer this question, I used data from the HILDA Survey, which has tracked over 23,000 people living in Australia since 2001. I used a fixed-effects model (where each person serves as their own baseline) to examine how working on weekends affects how people feel about the hours they work, their work-life balance, and their work-related stress.</p>
+    <p>Here's how to read the figure below. The x-axis is total hours worked per week. The y-axis is how many of those hours are worked on the weekend. So the bottom-left of each panel represents someone working 35 hours, none of them on weekends. Top-right is someone working 65 hours with 25 of them on weekends. The colours show the predicted effect on each wellbeing outcome, relative to the average worker in the sample.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/35_weekend_surface_hours.png" alt="Surface plots showing the predicted effects of total hours and weekend hours on satisfaction with hours, work-life balance, and work-related stress"></div>
+    <p>Here's what I found:</p>
+    <p>1) Total hours and weekend hours both matter. For work-life balance satisfaction especially, the contour lines run diagonally, which means moving up the y-axis (more weekend hours) is associated with a similar wellbeing shift as moving across the x-axis (more total hours). Someone working just 35 hours a week but with 20-25 of them on weekends reports about the same work-life balance as someone working 55-60 hours entirely on weekdays. In other words, weekend hours can be associated with relatively poor work-life balance even when total hours are modest.</p>
+    <p>2) That said, there's a ceiling effect at high hours. Once you're working 55-60+ hours a week, the damage is already done. Working some of those hours on weekends isn't associated with much further reduction in work-life balance. So the cost of working weekends is most visible at lower total hours.</p>
+    <p>3) For satisfaction with working hours and work-related stress, weekend hours still matter. But they matter less. The lines here are closer to vertical, meaning total hours has a stronger relative influence.</p>
+    <p>One thing I'm thinking about now is how much the reason for working weekends shapes these outcomes. We controlled for income, age, number of children, marital status, occupation, and industry, so this isn't just about hospitality workers doing weekend shifts and reporting lower satisfaction than everyone else.</p>
+    <p>But is there a difference between choosing to shift some hours to Saturday because you're studying during the week versus being required to work weekends because the job demands it? Both could plausibly reduce work-life balance satisfaction, but perhaps for different reasons.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/how-much-is-good-job-design-worth.html">← Previous post</a>
+    <a href="/blog/flexible-work-entitlements.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
