@@ -1,0 +1,111 @@
+
+12 May 2026
+
+📊 How do big career transitions affect mental health?
+
+A lot of organisational research (including my own) tends to focus on how features of the job, workplace, or psychosocial environment produce gradual changes in mental health over time. But sometimes that change is accelerated by single events that produce non-linear effects.
+ 
+I used the HILDA panel (24 years of Australian data, ~17,000 people per wave) to look at how four career-related transitions shape mental health: getting promoted, getting fired/made redundant, changing jobs, and retiring. 
+ 
+To do this, I conducted an event study. For each person who experienced one of these events, I examined how their mental health changed in the 3 years before and the 5 years after.
+ 
+The graph below shows the average mental health trajectory (relative to where the person was 2.5 years prior to the event). Interestingly, none of these events had permanent effects. By 5 years post-transition, mental health was largely back to baseline.
+
+The real differences were in what happened from 3 years prior to 3 years after the event. Here’s what the results showed:
+
+1️⃣ Promotion. Mental health was already improving in the lead-up. This probably reflects the sustained engagement that gets people promoted in the first place. But the improvement faded within about 18 months.
+
+2️⃣ Changing jobs. Mental health dropped in the lead-up, suggesting unhappiness with the current role. Then the year of the change produced the biggest immediate improvement of any event in this analysis.
+
+3️⃣ Retirement. Mental health declined noticeably before the event, which could reflect decreasing engagement. Interestingly, there was no immediate post-event change, just a steady recovery from year 2 onwards.
+
+4️⃣ Fired or made redundant. This produced the biggest single-year drop of any event. But the decline started well before the redundancy itself, with people showing reduced mental health 2 to 3 years out. By the time the redundancy landed, they had been struggling for a while. They improved quickly though, and were back to baseline within 2 years. 
+ 
+A note on effect sizes: You can get an idea of the strength of these effects by comparing them to other life events captured in the HILDA data. Turns out, the negative impact of being fired/made redundant is about on par with the death of a close friend. So these effects aren’t trivial.
+
+What’s also interesting is that most of these "events" behave more like processes. The data shows that the change can start years before the event occurs. For events like layoffs that have a negative impact on both individuals and organisations, the findings suggest there’s a window for support well before the event occurs.
+
+
+Figure file: 36.1_career_transitions_event_study.png
+
+
+
+
+
+
+
+2 June 2026
+
+
+📊 How do different types of job changes affect mental health?
+
+A few weeks ago, I shared some findings from the HILDA panel on how career transitions shape mental health. One of the more interesting results was that mental health declined in the years leading up to a voluntary job change, but rebounded sharply once the change happened.
+
+A few people asked a good follow-up question: does the kind of job change matter? Is it different if you move to a similar role versus jumping into something completely new?
+ 
+To answer this question, I ran a follow-up analysis. Using the 24 years of data from the HILDA panel (around 17,000 Australians per wave), I identified everyone who reported a voluntary job change (excluding anyone who was fired or made redundant in the same year). I then split them into two groups based on whether they stayed in the same industry or moved to a new one. For each group, the analysis tracked their mental health from 3 years before the job change to 5 years after, comparing them to people who didn't change jobs over the same period.
+ 
+The findings:
+
+1️⃣ The mental health boost following a job change is almost entirely driven by people who changed industries. For people who stayed in the same industry, the change was minimal.
+
+2️⃣ The boost following an industry change persists for several years. Industry switchers were still above baseline three to four years after the change. But there are signs that by year five, mental health begins drifting back toward where it started.
+ 
+A couple of caveats worth flagging. This isn't causal. People who choose to change industries may differ from those who don't in ways that also affect mental health. The boost may reflect people exiting industries that are a poor fit, in which case someone already happy in their role wouldn't expect to see the same benefit.
+ 
+Also the post-change part of the trajectory is based on the smaller subset of people who stay in the same job for that long. The mental health estimate can be inflated if those with poorer mental health exit the industry sooner (though this likely applies to non-switchers too).
+ 
+Still, the pattern suggests that for those dissatisfied with their current industry, a change might have a positive effect on wellbeing.
+
+
+Figure file: 36.2_job_change_event_study.png
+
+
+
+
+
+
+9 June 2025
+
+
+📊Where do people go when they change industries?
+
+I've shared some research over the last few weeks showing that people experience a bump up in mental health after changing industries, but not when changing jobs within the same industry. And the elevated mental health among these industry-switchers remains for the next several years. 
+
+One follow-up question I received was, 'What do those industry transitions look like?' What industries do people transition from, and where do they move to?
+
+The figure below maps this out, using more than 13,000 industry changes from more than 7,000 people working in Australia between 2001 and 2024. I've kept the top 10 industries by volume of inter-industry movement and grouped the rest into "Other Industries”. The ribbon thickness reflects the number of transitions between each pair of industries.
+
+Here are a few interesting findings:
+
+1️⃣ 𝗧𝗼𝗽 𝟯 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗲𝘀 𝗯𝘆 𝗲𝘅𝗶𝘁 𝗿𝗮𝘁𝗲 (per 1,000 person-years worked in that industry):
+
+Accommodation & Food — 118
+Arts & Recreation — 112
+Administrative Services — 107
+
+This means about 1 in 9 people working in Accommodation & Food leave the industry each year. This makes sense, as hospitality often leans on casual work and entry-level roles, which many people eventually move away from.
+
+2️⃣ 𝗧𝗼𝗽 𝟯 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗲𝘀 𝗯𝘆 𝗲𝗻𝘁𝗿𝘆 𝗿𝗮𝘁𝗲 (per 1,000 person-years):
+ 
+Administrative Services — 112
+Rental & Real Estate — 93
+Mining — 91
+
+Interestingly, Administrative Services shows up on both lists, which suggests that there’s a lot of churn in this industry overall. The high exit and high entry rates imply that many people rotate through it rather than building careers in it. The presence of Mining and Rental & Real Estate on this list likely reflects the fact that both have experienced periods of growth in the last two decades.
+
+3️⃣ 𝗧𝗼𝗽 𝟯 𝗼𝘃𝗲𝗿-𝗿𝗲𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗲𝗱 𝘁𝗿𝗮𝗻𝘀𝗶𝘁𝗶𝗼𝗻𝘀 (how much more often the move happens than industry sizes alone would predict.):
+
+Health Care → Education — 3.3×
+Mining → Construction — 3.3×
+Construction → Mining — 3.1×
+
+The Mining–Construction loop makes intuitive sense. These industries have overlapping skill requirements and similar work environments. The Health Care → Education flow is more interesting and may reflect clinicians moving into teaching, training, or academic roles.
+
+
+Figure file: 36.3_industry_transition_sankey.png
+
+
+
+
+
