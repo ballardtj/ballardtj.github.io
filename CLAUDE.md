@@ -27,7 +27,8 @@ Follow these steps each time a new blog post is added. The post text should be k
 - Content formatting notes:
   - Do **not** change any wording. Do not rephrase, rewrite, or edit the provided text.
   - If the user says "link in comments" or similar social-media-specific language, ask which post to link to and replace that phrase with a hyperlink.
-  - Numbered lists in the text (e.g. "1)", "2)", "3)") should stay as separate `<p>` tags with the numbers as-is — do not convert emoji numbers (1️⃣) to plain numbers unless told to.
+  - **Remove all emojis** from the provided text. This includes leading emojis on the title (e.g. 📊) and emoji numbers in numbered lists (1️⃣, 2️⃣, 3️⃣...). Convert emoji numbers to plain `1)`, `2)`, `3)` etc. and keep them as separate `<p>` tags.
+  - Convert Unicode "mathematical bold" / "sans-serif bold" characters (the LinkedIn-style bolding trick, e.g. 𝗧𝗼𝗽 𝟯) to normal text wrapped in `<strong>` tags.
   - The first line of the provided text is typically the post title — do not repeat it as a `<p>` in the post content unless it serves as an introductory sentence distinct from the `<h1>`.
 
 ## 3. Update the previous newest post's navigation
