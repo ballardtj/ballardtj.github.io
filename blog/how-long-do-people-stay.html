@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Long Do People Stay in the Same Job? — Tim Ballard, PhD</title>
+  <meta name="description" content="A survival analysis of 25 years of HILDA data on how long Australians stay in the same job, and how early-career tenure has shortened over time.">
+  <meta property="og:title" content="How Long Do People Stay in the Same Job?">
+  <meta property="og:description" content="A survival analysis of 25 years of HILDA data on how long Australians stay in the same job, and how early-career tenure has shortened over time.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/retention_interaction_by_cohort.png">
+  <meta property="og:url" content="https://tjballard.com/blog/how-long-do-people-stay.html">
+  <link rel="stylesheet" href="../style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV1PJNMRFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KV1PJNMRFT');
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Retention</span>
+        <span class="tag">Turnover</span>
+      </div>
+      <h1>How Long Do People Stay in the Same Job?</h1>
+      <div class="post-meta">30 June 2026 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>I've seen (and contributed to) a lot of discussion about <a href="/blog/job-hopping.html">job-hopping</a> lately. And there seems to be this sense that job-hopping is becoming more common. But what does the data actually say about how long people stay in the same job, and whether that's changed over time?</p>
+    <p>To find out, I used data from the HILDA survey, which has tracked tens of thousands of people working in Australia for the past two and a half decades. I ran a survival analysis looking at the rate people leave their jobs as a function of the year they started and how old they were when they started.</p>
+    <p>The results are in the figure below. The main findings:</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/retention_interaction_by_cohort.png" alt="Survival curves showing the share of workers still in the same job over time, split by age at entry and by whether they started their job in 2000 or 2010"></div>
+    <p>1) A decade in the same job is rare. On average, only about 24% of people were still in the same job after five years, and less than 10% were still there after ten years.</p>
+    <p>2) This trend has shifted for some groups. Among people who started a new job at 20 in 2000, 28% were still in it after five years and 11% after ten. For 20-year-olds starting new jobs in 2010, that fell to 19% after five years and under 6% after ten. The share of young workers lasting more than a decade roughly halved.</p>
+    <p>3) Not every age group has changed. The gap between the 2000 and 2010 cohorts shrank steadily with age at entry. It was smaller for people who started at 30 (29% of those starting in 2010 still there after five years, vs 36% among those starting in 2000), smaller still at 40 (33% vs 36%), and virtually gone by 50 (30% vs 29%).</p>
+    <p>4) It's not as simple as "older people stay longer." Retention actually peaks in the middle. The workers who last longest are those who start a job in their 30s and early 40s. People who start at 50 leave sooner, in many cases due to retirement.</p>
+    <p>The obvious follow-up question is “have these trends continued?” Early signs suggest that it’s possible. For 20-year-olds who started a job in 2020, just 9% are projected to still be there after five years, less than half the 2010 figure. But I deliberately left this cohort out of the figure, and I'd treat it with caution. These workers started jobs right as COVID upended the labour market, which makes retention from this period hard to interpret.</p>
+    <p>So what does this mean for organisations? There’s an argument for doubling down on retention efforts by investing in selecting the right people, and building jobs and a culture people don't want to leave. But the other half of the story is that rising early-career mobility may be a structural shift that has less to do with the employer. For younger hires especially, it might be worth planning for shorter tenures instead of fighting them.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/mental-health-recovery-gap.html">← Previous post</a>
+    <a href="/blog/psychosocial-environment-matters.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
