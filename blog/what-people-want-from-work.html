@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What do people want from work and how has it changed over time? — Tim Ballard, PhD</title>
+  <meta name="description" content="Forty years of US General Social Survey data on what people want from a job. Meaningful work still leads, but high income has been closing on it since 1973.">
+  <meta property="og:title" content="What do people want from work and how has it changed over time?">
+  <meta property="og:description" content="Forty years of US General Social Survey data on what people want from a job. Meaningful work still leads, but high income has been closing on it since 1973.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/want_from_work_utilities.png">
+  <meta property="og:url" content="https://tjballard.com/blog/what-people-want-from-work.html">
+  <link rel="stylesheet" href="../style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV1PJNMRFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KV1PJNMRFT');
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Job Satisfaction</span>
+        <span class="tag">Methods &amp; Stats</span>
+      </div>
+      <h1>What do people want from work and how has it changed over time?</h1>
+      <div class="post-meta">3 August 2026 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>The US General Social Survey is a nationally representative survey of American adults that's been running since 1972. Many of its items have changed since it began, with new ones added and others dropped. But a handful have been asked again and again.</p>
+    <p>One of them gives people a card listing five things they might want from a job, and asks them to rank all five from most to least preferred: high income, job security, short working hours, chances for advancement, and work that is meaningful.</p>
+    <p>Ranking data can be tricky to analyse. It's easy enough to just examine which item people rank highest, but doing that throws away most of what people told you. It can also be tempting to treat the rankings as if they were separate Likert ratings, but this violates a number of statistical assumptions, because the ranking of one option depends on the ranking of the others.</p>
+    <p>So here I use the awesomely-named exploded logit model. It estimates the probability of a given option being ranked first, then the conditional probability of each remaining option being ranked second, and so on down the list. It uses all of the data, and it respects the ranking process that generated it.</p>
+    <p>The analysis produces estimates of "utilities", which reflect the relative importance of each attribute. Their absolute value isn't important. What matters is how they compare to each other.</p>
+    <p>The results are shown in the figure below. Here's what I found:</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/want_from_work_utilities.png" alt="Line chart of the relative importance of five job attributes in the US General Social Survey from 1973 to 2014, estimated with an exploded logit model. Meaningful work is highest throughout, high income rises from the middle of the pack to a close second, chances for advancement falls, and job security and short working hours stay below the average of the five."></div>
+    <p>1) The ordering has been remarkably stable. Meaningful work sits on top in every single wave. Short working hours and job security sit at the bottom throughout, which doesn't mean people don't care about them, only that people choose other attributes when forced to decide. The one change in the order came in the early 1990s, when high income overtook chances for advancement. It hasn't given the position back since.</p>
+    <p>2) What has changed is the level of consensus. From the early 1990s to the mid 2000s the lines move in toward zero, and the gap between the most and least valued attribute narrowed. You can see the same thing in the raw first-place votes. Across the waves up to 1994, 49 per cent of respondents put meaningful work first, seven per cent job security and four per cent short working hours. Since 2006 that's 42, 10 and six per cent. People are spread more evenly across the options than they used to be, though the lines do fan out again a little by 2014.</p>
+    <p>3) The exception to that is high income. It started in the middle of the pack in the 1970s and has climbed ever since. In 1973, 18 per cent of people ranked a high income first and 42 per cent put it in their top two. By 2014 that was 28 per cent and 55 per cent. It is now a close second to meaningful work, and the two are nearly tied.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog.html">← All posts</a>
+    <a href="/blog/who-shapes-job-satisfaction.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
