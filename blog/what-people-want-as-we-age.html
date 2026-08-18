@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do people want different things from work as they get older? — Tim Ballard, PhD</title>
+  <meta name="description" content="US General Social Survey data separates age from birth cohort. What people want from work barely shifts over a career, but it has shifted a lot between generations.">
+  <meta property="og:title" content="Do people want different things from work as they get older?">
+  <meta property="og:description" content="US General Social Survey data separates age from birth cohort. What people want from work barely shifts over a career, but it has shifted a lot between generations.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/want_from_work_lifespan.png">
+  <meta property="og:url" content="https://tjballard.com/blog/what-people-want-as-we-age.html">
+  <link rel="stylesheet" href="../style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV1PJNMRFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KV1PJNMRFT');
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Job Satisfaction</span>
+        <span class="tag">Methods &amp; Stats</span>
+      </div>
+      <h1>Do people want different things from work as they get older?</h1>
+      <div class="post-meta">10 August 2026 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>Last week I shared <a href="/blog/what-people-want-from-work.html">some data from the US General Social Survey</a> showing subtle changes in what Americans said they wanted from work between 1973 and 2014. The importance of meaningful work fell a little over that period, while high income and job security rose.</p>
+    <p>Changes like that can be produced by two very different processes. They might reflect shifts that happen to people as they move through their working lives. Or they might be generational, with each new cohort arriving with different priorities and the older ones gradually leaving.</p>
+    <p>I ran a follow-up analysis to tease the two apart. It's the same exploded logit as last week, but instead of estimating the utilities wave by wave, age and year of birth are both fitted as smooth curves. The left panel of the figure isolates the age-related changes by simulating the working lifespan of a hypothetical worker born in 1950, about the median of the sample. The right panel shows the same five attributes across birth years for a worker aged 40, isolating the cohort effect.</p>
+    <div class="post-figure"><img loading="lazy" src="../assets/images/want_from_work_lifespan.png" alt="Two panel chart of the relative importance of five job attributes from the US General Social Survey, estimated with an exploded logit model. The left panel plots importance against age from 20 to 60 for a worker born in 1950, where meaningful work stays highest throughout, chances for advancement falls steadily, and job security and short working hours rise gently from the bottom. The right panel plots importance against year of birth from 1920 to 1985 for a worker aged 40, where meaningful work falls steeply, high income rises to overtake it, and job security climbs sharply."></div>
+    <p>Here's what the findings suggest:</p>
+    <p>1) The decline in the importance of meaningful work is a cohort effect, not an age effect. Meaningful work barely moves across the lifespan. A worker of 25 and a worker of 60 rank it about equally highly, and it sits comfortably at the top of the list for both. Across birth years it moves a great deal. It was far and away the most important attribute for people born in the 1920s and 1930s, and by the 1980s cohorts it had dropped to roughly the level of high income.</p>
+    <p>2) The importance of high income shows a similar pattern, though it moves in the opposite direction. It hardly shifts at all over the lifespan. People want money about as much at 60 as they did at 20. But it climbs steadily across cohorts, from the bottom of the top three for the earliest birth years to the top of the list for the most recent ones. Later cohorts arrived wanting money more, and kept wanting it.</p>
+    <p>3) Advancement and job security move on both dimensions. Advancement sits second only to meaningful work for workers in their twenties and falls steadily from there, dropping below the average of the five somewhere around the mid-fifties. It also falls across birth cohorts, though less steeply. Job security climbs slowly across the working lifespan and much more sharply across birth years, so later cohorts start from a higher base and then add to it as they age. Short working hours does something similar, though it stays firmly at the bottom of the list throughout.</p>
+    <p>A lot has been written about what each generation wants from work, and most of it starts from the premise that younger workers want more meaning and less money than their parents did. At least in this data, it runs the other way. There does appear to be a generational shift, but it's away from meaning and toward income and security.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog/claim-cause-time-off.html">← Previous post</a>
+    <a href="/blog/what-people-want-from-work.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
