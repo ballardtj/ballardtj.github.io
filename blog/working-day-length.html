@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How has the length of the working day changed over time? — Tim Ballard, PhD</title>
+  <meta name="description" content="American Time Use Survey diaries from 2003 to 2025 show the working day starting and finishing at the same times it always has.">
+  <meta property="og:title" content="How has the length of the working day changed over time?">
+  <meta property="og:description" content="American Time Use Survey diaries from 2003 to 2025 show the working day starting and finishing at the same times it always has.">
+  <meta property="og:image" content="https://tjballard.com/assets/images/working_day_density.png">
+  <meta property="og:url" content="https://tjballard.com/blog/working-day-length.html">
+  <link rel="stylesheet" href="../style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV1PJNMRFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KV1PJNMRFT');
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Tim Ballard, PhD</a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog.html" class="active">Blog</a>
+      <a href="/research.html">Research</a>
+      <a href="/consulting.html">Consulting</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-page">
+  <div class="post-header">
+    <div class="post-header-inner">
+      <a href="/blog.html" class="post-back">← Back to blog</a>
+      <div class="post-tags">
+        <span class="tag">Working Hours</span>
+        <span class="tag">Flexible Work</span>
+        <span class="tag">Methods &amp; Stats</span>
+      </div>
+      <h1>How has the length of the working day changed over time?</h1>
+      <div class="post-meta">21 September 2026 · 2 min read</div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>For a while now, there's been a general sense that work is creeping further into the evening. Notifications, emails, and other work-related messages coming in after hours have contributed to this feeling of always being "on". In Australia, this issue is big enough to have sparked legislative action in the form of the "right to disconnect".</p>
+    <p>But what do the data say about this?</p>
+    <p>To find out, I used the American Time Use Survey, which has collected time-use diaries from thousands of working Americans every year since 2003. Each diary records what a person did and when, so I can analyse when paid work started and when it finished.</p>
+    <p>This turned out to be a trickier visualisation problem than it looked.</p>
+    <p>I started simple, with the trend in average start and finish times. But what if work has bled into the evening for one type of worker and barely changed for everyone else? The average would hide this effect.</p>
+    <p>So I plotted the quantiles instead to see how the distributions themselves had shifted. Turns out that was misleading too, because the two distributions are not independent. The people who finish at 10pm are usually not the people who started at 6am.</p>
+    <p>So then I tried the figure below, which shows the proportion of people with each combination of start and finish times. The x-axis is the finish time, the y-axis the start time, and the darker the cloud, the more people have that working day. The shaded patch at the bottom right shows the long days, when people started by 9am and were still working past 7pm.</p>
+    <p>That's one year. But the whole point was to see how the working day has changed over time. So I animated it, and represented time as, well, time.</p>
+    <div class="post-figure"><video src="../assets/images/working_day_density.mp4" poster="../assets/images/working_day_density.png" autoplay loop muted playsinline controls width="100%" aria-label="Animated density map of American Time Use Survey diaries from 2003 to 2025. Finish time runs along the horizontal axis and start time up the vertical axis, with darker shading where more of the workforce sits at that combination. The dense cloud stays centred on a start around 8am and a finish around 5pm across every year."></video></div>
+    <p>The result surprised me. According to this analysis, the working day hasn't changed much since 2003. The median start time has remained between 7:50 and 7:55am, and the median finish time has been 5:00pm each year. The averages have barely moved either, by 11 minutes for start times and less than one minute for finish times. And the proportion of workers starting by 9am and working past 7pm has consistently been around one in 10.</p>
+    <p>I then got a little fancy and computed a Gunel-Dickey Bayes factor, which weighs the evidence that the 2003 and 2025 distributions are the same against the evidence that they differ. The answer depends a little on the prior, but it always favoured equivalence. The most conservative version I ran put the evidence for no change at roughly 270,000 to one.</p>
+    <p>This leaves an interesting question. If the working day has not lengthened, why does the "always on" story feel so real? One possibility is that people do not count those evening fragments as work, so they never make it into the diary. Another possibility is that the need to stay responsive after hours, should something arise, is itself draining, even if something rarely does.</p>
+  </div>
+
+  <div class="post-nav">
+    <a href="/blog.html">← All posts</a>
+    <a href="/blog/work-satisfaction-50-years.html">Next post →</a>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 Tim Ballard</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/timballardphd/" target="_blank">LinkedIn</a>
+    <a href="https://scholar.google.com.au/citations?user=czmZu04AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    <a href="https://github.com/ballardtj" target="_blank">GitHub</a>
+    <a href="mailto:t.ballard@uq.edu.au">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
