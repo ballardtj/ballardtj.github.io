@@ -54,4 +54,4 @@ Follow these steps each time a new blog post is added. The post text should be k
 
 ## Reference: available `data-tags` for filtering
 
-These are the current filter categories in `blog.html`: `mental-health`, `working-hours`, `job-satisfaction`, `psychosocial-safety`, `retention`, `flexible-work`, `methods`.
+These are the current filter categories in `blog.html`: `mental-health`, `working-hours`, `job-satisfaction`, `psychosocial-safety`, `retention`, `flexible-work`, `caring`, `methods`.
